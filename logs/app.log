@@ -6,3 +6,11 @@
 2025-10-22 20:04:34,999 INFO Accessing home endpoint
 2025-10-22 20:04:35,000 INFO 127.0.0.1 - - [22/Oct/2025 20:04:35] "GET / HTTP/1.1" 200 -
 2025-10-22 20:04:36,006 INFO 127.0.0.1 - - [22/Oct/2025 20:04:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-22 20:08:53,955 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.136.231:5000
+2025-10-22 20:08:53,962 INFO [33mPress CTRL+C to quit[0m
+2025-10-22 20:09:01,728 INFO Accessing home endpoint
+2025-10-22 20:09:01,729 INFO 127.0.0.1 - - [22/Oct/2025 20:09:01] "GET / HTTP/1.1" 200 -
+2025-10-22 20:09:01,816 INFO 127.0.0.1 - - [22/Oct/2025 20:09:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
