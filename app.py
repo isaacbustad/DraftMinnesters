@@ -5,11 +5,17 @@ import subprocess
 import json
 import requests
 import logging
+import os
 
 app = Flask(__name__)
 
+# Create logs directory if it doesn't exist
+log_dir = 'logs'
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+
 # Configure logging
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s', handlers=[logging.FileHandler('/var/log/app.log'), logging.StreamHandler()])
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s', handlers=[logging.FileHandler(os.path.join(log_dir, 'app.log')), logging.StreamHandler()])
 
 @app.route('/')
 def home():
