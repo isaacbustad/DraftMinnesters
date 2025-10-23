@@ -6,3 +6,13 @@
 2025-10-22 20:04:34,999 INFO Accessing home endpoint
 2025-10-22 20:04:35,000 INFO 127.0.0.1 - - [22/Oct/2025 20:04:35] "GET / HTTP/1.1" 200 -
 2025-10-22 20:04:36,006 INFO 127.0.0.1 - - [22/Oct/2025 20:04:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-22 20:24:22,188 INFO Database connected successfully.
+2025-10-22 20:24:23,511 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.153.128:5000
+2025-10-22 20:24:23,513 INFO [33mPress CTRL+C to quit[0m
+2025-10-22 20:24:37,690 INFO Accessing home endpoint
+2025-10-22 20:24:37,691 INFO 127.0.0.1 - - [22/Oct/2025 20:24:37] "GET / HTTP/1.1" 200 -
+2025-10-22 20:24:42,568 INFO Fetching all teams from DB
+2025-10-22 20:24:42,570 INFO 127.0.0.1 - - [22/Oct/2025 20:24:42] "GET /teams HTTP/1.1" 200 -

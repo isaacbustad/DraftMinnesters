@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, render_template_string
-import mysql.connector
+import sqlite3
 from kafka import KafkaProducer
 import subprocess
 import json
@@ -18,95 +18,48 @@ if not os.path.exists(log_dir):
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s', handlers=[logging.FileHandler(os.path.join(log_dir, 'app.log')), logging.StreamHandler()])
 
 def init_db():
-    db_config = {
-        'host': 'localhost',
-        'user': 'appuser',
-        'password': 'password',
-    }
-    db_name = 'draft_ministers_db'
+    db_file = 'draft_ministers.db'
     
     try:
-        conn = mysql.connector.connect(**db_config, database=db_name)
+        conn = sqlite3.connect(db_file)
         logging.info("Database connected successfully.")
         # Create tables if they don't exist
         cursor = conn.cursor()
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS soccer_teams (
-                id INT AUTO_INCREMENT PRIMARY KEY,
-                name VARCHAR(255) UNIQUE,
-                code VARCHAR(10),
-                country VARCHAR(255),
-                founded INT,
-                national BOOLEAN,
-                logo VARCHAR(255),
-                venue_id INT,
-                venue_name VARCHAR(255),
-                venue_address VARCHAR(255),
-                venue_city VARCHAR(255),
-                venue_capacity INT,
-                venue_surface VARCHAR(50),
-                venue_image VARCHAR(255),
-                league VARCHAR(255)
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                name TEXT UNIQUE,
+                code TEXT,
+                country TEXT,
+                founded INTEGER,
+                national INTEGER,
+                logo TEXT,
+                venue_id INTEGER,
+                venue_name TEXT,
+                venue_address TEXT,
+                venue_city TEXT,
+                venue_capacity INTEGER,
+                venue_surface TEXT,
+                venue_image TEXT,
+                league TEXT
             )
         """)
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS soccer_players (
-                id INT AUTO_INCREMENT PRIMARY KEY,
-                name VARCHAR(255),
-                position VARCHAR(255),
-                team_id INT,
-                age INT,
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                name TEXT,
+                position TEXT,
+                team_id INTEGER,
+                age INTEGER,
                 FOREIGN KEY (team_id) REFERENCES soccer_teams(id)
             )
         """)
         conn.commit()
         cursor.close()
         conn.close()
-    except mysql.connector.Error as err:
-        if err.errno == mysql.connector.errorcode.ER_BAD_DB_ERROR:
-            logging.info("Database does not exist. Creating...")
-            conn = mysql.connector.connect(**db_config)  # Connect without database
-            cursor = conn.cursor()
-            cursor.execute(f"CREATE DATABASE {db_name}")
-            conn.commit()
-            conn.database = db_name  # Switch to the new database
-            # Create tables
-            cursor.execute("""
-                CREATE TABLE soccer_teams (
-                    id INT AUTO_INCREMENT PRIMARY KEY,
-                    name VARCHAR(255) UNIQUE,
-                    code VARCHAR(10),
-                    country VARCHAR(255),
-                    founded INT,
-                    national BOOLEAN,
-                    logo VARCHAR(255),
-                    venue_id INT,
-                    venue_name VARCHAR(255),
-                    venue_address VARCHAR(255),
-                    venue_city VARCHAR(255),
-                    venue_capacity INT,
-                    venue_surface VARCHAR(50),
-                    venue_image VARCHAR(255),
-                    league VARCHAR(255)
-                )
-            """)
-            cursor.execute("""
-                CREATE TABLE soccer_players (
-                    id INT AUTO_INCREMENT PRIMARY KEY,
-                    name VARCHAR(255),
-                    position VARCHAR(255),
-                    team_id INT,
-                    age INT,
-                    FOREIGN KEY (team_id) REFERENCES soccer_teams(id)
-                )
-            """)
-            conn.commit()
-            cursor.close()
-            conn.close()
-            logging.info("Database and tables created successfully.")
-        else:
-            logging.error(f"Database connection error: {err}")
-            raise err
+    except Exception as e:
+        logging.error(f"Database connection error: {e}")
+        raise e
 
 @app.route('/')
 def home():
@@ -117,7 +70,7 @@ def home():
 def get_teams():
     logging.info("Fetching all teams from DB")
     try:
-        conn = mysql.connector.connect(host='localhost', user='appuser', password='password', database='draft_ministers_db')
+        conn = sqlite3.connect('draft_ministers.db')
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM soccer_teams")
         results = cursor.fetchall()
@@ -157,7 +110,7 @@ def fetch_teams():
 
     inserted_teams = []
     try:
-        conn = mysql.connector.connect(host='localhost', user='appuser', password='password', database='draft_ministers_db')
+        conn = sqlite3.connect('draft_ministers.db')
         cursor = conn.cursor()
 
         for item in teams:
@@ -167,7 +120,7 @@ def fetch_teams():
             code = team.get('code', 'Unknown')
             country = team.get('country', 'Unknown')
             founded = team.get('founded')
-            national = team.get('national', False)
+            national = 1 if team.get('national', False) else 0
             logo = team.get('logo')
             venue_id = venue.get('id')
             venue_name = venue.get('name')
@@ -179,7 +132,7 @@ def fetch_teams():
             league_name = 'Unknown'  # League is from param, but can fetch if needed
 
             try:
-                cursor.execute("INSERT IGNORE INTO soccer_teams (name, code, country, founded, national, logo, venue_id, venue_name, venue_address, venue_city, venue_capacity, venue_surface, venue_image, league) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)", 
+                cursor.execute("INSERT OR IGNORE INTO soccer_teams (name, code, country, founded, national, logo, venue_id, venue_name, venue_address, venue_city, venue_capacity, venue_surface, venue_image, league) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", 
                                (name, code, country, founded, national, logo, venue_id, venue_name, venue_address, venue_city, venue_capacity, venue_surface, venue_image, league_name))
                 conn.commit()
                 if cursor.rowcount > 0:
@@ -191,7 +144,7 @@ def fetch_teams():
         cursor.close()
         conn.close()
     except Exception as e:
-        logging.error(f"Error connecting to MySQL: {str(e)}")
+        logging.error(f"Error connecting to SQLite: {str(e)}")
         return jsonify({"error": "Database error"}), 500
 
     try:
@@ -217,17 +170,17 @@ def insert_team():
         return jsonify({"error": "Missing required fields: name, country, league"}), 400
 
     try:
-        conn = mysql.connector.connect(host='localhost', user='appuser', password='password', database='draft_ministers_db')
+        conn = sqlite3.connect('draft_ministers.db')
         cursor = conn.cursor()
-        cursor.execute("INSERT INTO soccer_teams (name, country, league) VALUES (%s, %s, %s)", 
+        cursor.execute("INSERT INTO soccer_teams (name, country, league) VALUES (?, ?, ?)", 
                        (data['name'], data['country'], data['league']))
         conn.commit()
         team_id = cursor.lastrowid
-        cursor.execute("SELECT * FROM soccer_teams WHERE id = %s", (team_id,))
+        cursor.execute("SELECT * FROM soccer_teams WHERE id = ?", (team_id,))
         result = cursor.fetchone()
         cursor.close()
         conn.close()
-    except mysql.connector.IntegrityError:
+    except sqlite3.IntegrityError:
         logging.error("Team name already exists")
         return jsonify({"error": "Team name already exists"}), 400
     except Exception as e:
@@ -263,17 +216,17 @@ def insert_player():
         return jsonify({"error": "Missing required fields: name, position, team_id, age"}), 400
 
     try:
-        conn = mysql.connector.connect(host='localhost', user='appuser', password='password', database='draft_ministers_db')
+        conn = sqlite3.connect('draft_ministers.db')
         cursor = conn.cursor()
-        cursor.execute("INSERT INTO soccer_players (name, position, team_id, age) VALUES (%s, %s, %s, %s)", 
+        cursor.execute("INSERT INTO soccer_players (name, position, team_id, age) VALUES (?, ?, ?, ?)", 
                        (data['name'], data['position'], data['team_id'], data['age']))
         conn.commit()
         player_id = cursor.lastrowid
-        cursor.execute("SELECT * FROM soccer_players WHERE id = %s", (player_id,))
+        cursor.execute("SELECT * FROM soccer_players WHERE id = ?", (player_id,))
         result = cursor.fetchone()
         cursor.close()
         conn.close()
-    except mysql.connector.IntegrityError:
+    except sqlite3.IntegrityError:
         logging.error("Invalid team_id or duplicate entry")
         return jsonify({"error": "Invalid team_id or duplicate entry"}), 400
     except Exception as e:
@@ -304,9 +257,9 @@ def insert_player():
 def team_details(team_id):
     logging.info(f"Fetching details for team ID {team_id}")
     try:
-        conn = mysql.connector.connect(host='localhost', user='appuser', password='password', database='draft_ministers_db')
+        conn = sqlite3.connect('draft_ministers.db')
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM soccer_teams WHERE id = %s", (team_id,))
+        cursor.execute("SELECT * FROM soccer_teams WHERE id = ?", (team_id,))
         result = cursor.fetchone()
         cursor.close()
         conn.close()
