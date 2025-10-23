@@ -2,3 +2,7 @@ flask
 mysql-connector-python
 kafka-python
 requests
+numpy
+scikit-learn
+matplotlib
+jsonify
