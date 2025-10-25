@@ -7,6 +7,7 @@ import requests
 import logging
 import os
 from routes.predict import predict_bp
+from routes.index import generate_index
 
 app = Flask(__name__)
 app.register_blueprint(predict_bp)
@@ -65,6 +66,7 @@ def init_db():
 
 @app.route('/')
 def home():
+    generate_index.GenerateIndex()
     logging.info("Accessing home endpoint")
     return jsonify({"message": "Welcome to Draft Ministers App - Soccer Prediction!"})
 
