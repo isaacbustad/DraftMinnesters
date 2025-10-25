@@ -1453,3 +1453,166 @@
 2025-10-22 20:51:34,200 INFO 127.0.0.1 - - [22/Oct/2025 20:51:34] "GET / HTTP/1.1" 200 -
 2025-10-22 20:51:37,318 INFO Accessing home endpoint
 2025-10-22 20:51:37,319 INFO 127.0.0.1 - - [22/Oct/2025 20:51:37] "GET / HTTP/1.1" 200 -
+2025-10-22 20:52:03,978 INFO Database connected successfully.
+2025-10-22 20:52:04,006 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-22 20:52:04,006 INFO [33mPress CTRL+C to quit[0m
+2025-10-22 20:52:49,485 INFO Accessing home endpoint
+2025-10-22 20:52:49,487 INFO 127.0.0.1 - - [22/Oct/2025 20:52:49] "GET / HTTP/1.1" 200 -
+2025-10-22 20:52:49,621 INFO 127.0.0.1 - - [22/Oct/2025 20:52:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-25 12:27:43,596 INFO Database connected successfully.
+2025-10-25 12:27:43,655 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-25 12:27:43,656 INFO [33mPress CTRL+C to quit[0m
+2025-10-25 12:27:51,557 INFO Accessing home endpoint
+2025-10-25 12:27:51,563 INFO 127.0.0.1 - - [25/Oct/2025 12:27:51] "GET / HTTP/1.1" 200 -
+2025-10-25 12:30:00,034 INFO Accessing home endpoint
+2025-10-25 12:30:00,038 INFO 127.0.0.1 - - [25/Oct/2025 12:30:00] "GET / HTTP/1.1" 200 -
+2025-10-25 12:30:01,008 INFO Accessing home endpoint
+2025-10-25 12:30:01,009 INFO 127.0.0.1 - - [25/Oct/2025 12:30:01] "GET / HTTP/1.1" 200 -
+2025-10-25 12:30:13,315 INFO Database connected successfully.
+2025-10-25 12:30:13,354 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-25 12:30:13,357 INFO [33mPress CTRL+C to quit[0m
+2025-10-25 12:30:15,294 INFO Accessing home endpoint
+2025-10-25 12:30:15,298 INFO 127.0.0.1 - - [25/Oct/2025 12:30:15] "GET / HTTP/1.1" 200 -
+2025-10-25 12:30:16,698 INFO Starting fetch_teams endpoint
+2025-10-25 12:30:16,701 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-10-25 12:30:17,314 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-10-25 12:30:17,317 DEBUG API response status: 200
+2025-10-25 12:30:17,412 DEBUG <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Starting Kafka producer
+2025-10-25 12:30:17,415 DEBUG Added sensor with name connections-closed
+2025-10-25 12:30:17,415 DEBUG Added sensor with name connections-created
+2025-10-25 12:30:17,416 DEBUG Added sensor with name select-time
+2025-10-25 12:30:17,416 DEBUG Added sensor with name io-time
+2025-10-25 12:30:17,417 DEBUG Attempting to check version with node bootstrap-0
+2025-10-25 12:30:17,417 DEBUG Initiating connection to node bootstrap-0 at localhost:9092
+2025-10-25 12:30:17,417 DEBUG Added sensor with name bytes-sent-received
+2025-10-25 12:30:17,419 DEBUG Added sensor with name bytes-sent
+2025-10-25 12:30:17,419 DEBUG Added sensor with name bytes-received
+2025-10-25 12:30:17,419 DEBUG Added sensor with name request-latency
+2025-10-25 12:30:17,420 DEBUG Added sensor with name throttle-time
+2025-10-25 12:30:17,420 DEBUG Added sensor with name node-bootstrap-0.bytes-sent
+2025-10-25 12:30:17,420 DEBUG Added sensor with name node-bootstrap-0.bytes-received
+2025-10-25 12:30:17,424 DEBUG Added sensor with name node-bootstrap-0.latency
+2025-10-25 12:30:17,426 DEBUG Added sensor with name node-bootstrap-0.throttle
+2025-10-25 12:30:17,427 DEBUG <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [unspecified None]>: creating new socket
+2025-10-25 12:30:17,428 DEBUG <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: setting socket option (6, 1, 1)
+2025-10-25 12:30:17,428 INFO <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-25 12:30:17,429 DEBUG Timeouts: user 200.000000, metadata inf, idle connection inf, request inf
+2025-10-25 12:30:17,633 DEBUG Timeouts: user 200.000000, metadata inf, idle connection inf, request inf
+2025-10-25 12:30:17,835 DEBUG Timeouts: user 200.000000, metadata inf, idle connection inf, request inf
+2025-10-25 12:30:18,040 DEBUG Timeouts: user 200.000000, metadata inf, idle connection inf, request inf
+2025-10-25 12:30:18,255 DEBUG Timeouts: user 200.000000, metadata inf, idle connection inf, request inf
+2025-10-25 12:30:18,460 DEBUG Timeouts: user 200.000000, metadata inf, idle connection inf, request inf
+2025-10-25 12:30:18,662 DEBUG Timeouts: user 200.000000, metadata inf, idle connection inf, request inf
+2025-10-25 12:30:18,864 DEBUG Timeouts: user 200.000000, metadata inf, idle connection inf, request inf
+2025-10-25 12:30:19,065 DEBUG Timeouts: user 200.000000, metadata inf, idle connection inf, request inf
+2025-10-25 12:30:19,280 DEBUG Timeouts: user 137.000000, metadata inf, idle connection inf, request inf
+2025-10-25 12:30:19,419 DEBUG Failed to identify api_version after connection attempt to <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>
+2025-10-25 12:30:19,419 ERROR Error sending to Kafka: NoBrokersAvailable
+2025-10-25 12:30:19,421 INFO 127.0.0.1 - - [25/Oct/2025 12:30:19] "[35m[1mGET /fetch_teams HTTP/1.1[0m" 500 -
+2025-10-25 12:49:47,718 INFO Database connected successfully.
+2025-10-25 12:49:47,752 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-25 12:49:47,753 INFO [33mPress CTRL+C to quit[0m
+2025-10-25 12:49:51,783 INFO Accessing home endpoint
+2025-10-25 12:49:51,789 INFO 127.0.0.1 - - [25/Oct/2025 12:49:51] "GET / HTTP/1.1" 200 -
+2025-10-25 12:54:49,541 INFO Database connected successfully.
+2025-10-25 12:54:49,578 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-25 12:54:49,580 INFO [33mPress CTRL+C to quit[0m
+2025-10-25 12:54:51,129 INFO Accessing home endpoint
+2025-10-25 12:54:51,131 INFO 127.0.0.1 - - [25/Oct/2025 12:54:51] "GET / HTTP/1.1" 200 -
+2025-10-25 12:54:58,277 INFO Accessing home endpoint
+2025-10-25 12:54:58,281 INFO 127.0.0.1 - - [25/Oct/2025 12:54:58] "GET / HTTP/1.1" 200 -
+2025-10-25 12:54:59,230 INFO Accessing home endpoint
+2025-10-25 12:54:59,234 INFO 127.0.0.1 - - [25/Oct/2025 12:54:59] "GET / HTTP/1.1" 200 -
+2025-10-25 12:55:18,385 INFO Database connected successfully.
+2025-10-25 12:55:18,417 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-25 12:55:18,418 INFO [33mPress CTRL+C to quit[0m
+2025-10-25 12:55:19,995 INFO Accessing home endpoint
+2025-10-25 12:55:19,998 INFO 127.0.0.1 - - [25/Oct/2025 12:55:19] "GET / HTTP/1.1" 200 -
+2025-10-25 12:55:20,016 INFO 127.0.0.1 - - [25/Oct/2025 12:55:20] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-10-25 12:55:22,267 INFO Accessing home endpoint
+2025-10-25 12:55:22,268 INFO 127.0.0.1 - - [25/Oct/2025 12:55:22] "GET / HTTP/1.1" 200 -
+2025-10-25 12:55:22,295 INFO 127.0.0.1 - - [25/Oct/2025 12:55:22] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:04:16,127 INFO Database connected successfully.
+2025-10-25 13:04:16,158 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-25 13:04:16,159 INFO [33mPress CTRL+C to quit[0m
+2025-10-25 13:04:20,613 INFO Accessing home endpoint
+2025-10-25 13:04:20,616 INFO 127.0.0.1 - - [25/Oct/2025 13:04:20] "GET / HTTP/1.1" 200 -
+2025-10-25 13:04:20,635 INFO 127.0.0.1 - - [25/Oct/2025 13:04:20] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:04:22,467 INFO Accessing home endpoint
+2025-10-25 13:04:22,469 INFO 127.0.0.1 - - [25/Oct/2025 13:04:22] "GET / HTTP/1.1" 200 -
+2025-10-25 13:04:22,482 INFO 127.0.0.1 - - [25/Oct/2025 13:04:22] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:04:22,915 INFO Accessing home endpoint
+2025-10-25 13:04:22,915 INFO 127.0.0.1 - - [25/Oct/2025 13:04:22] "GET / HTTP/1.1" 200 -
+2025-10-25 13:04:22,928 INFO 127.0.0.1 - - [25/Oct/2025 13:04:22] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:04:23,094 INFO Accessing home endpoint
+2025-10-25 13:04:23,096 INFO 127.0.0.1 - - [25/Oct/2025 13:04:23] "GET / HTTP/1.1" 200 -
+2025-10-25 13:04:23,114 INFO 127.0.0.1 - - [25/Oct/2025 13:04:23] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:04:52,380 INFO Database connected successfully.
+2025-10-25 13:04:52,394 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-25 13:04:52,394 INFO [33mPress CTRL+C to quit[0m
+2025-10-25 13:04:56,088 INFO Accessing home endpoint
+2025-10-25 13:04:56,092 INFO 127.0.0.1 - - [25/Oct/2025 13:04:56] "GET / HTTP/1.1" 200 -
+2025-10-25 13:04:56,106 INFO 127.0.0.1 - - [25/Oct/2025 13:04:56] "[33mGET /public/styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:06:45,039 INFO Database connected successfully.
+2025-10-25 13:06:45,062 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-25 13:06:45,063 INFO [33mPress CTRL+C to quit[0m
+2025-10-25 13:06:49,044 INFO Accessing home endpoint
+2025-10-25 13:06:49,047 INFO 127.0.0.1 - - [25/Oct/2025 13:06:49] "GET / HTTP/1.1" 200 -
+2025-10-25 13:06:49,073 INFO 127.0.0.1 - - [25/Oct/2025 13:06:49] "[33mGET /public/styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:10:00,343 INFO Database connected successfully.
+2025-10-25 13:10:00,359 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-25 13:10:00,360 INFO [33mPress CTRL+C to quit[0m
+2025-10-25 13:10:02,998 INFO Accessing home endpoint
+2025-10-25 13:10:03,001 INFO 127.0.0.1 - - [25/Oct/2025 13:10:03] "GET / HTTP/1.1" 200 -
+2025-10-25 13:10:03,026 INFO 127.0.0.1 - - [25/Oct/2025 13:10:03] "[33mGET /public/styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:10:04,013 INFO Accessing home endpoint
+2025-10-25 13:10:04,015 INFO 127.0.0.1 - - [25/Oct/2025 13:10:04] "GET / HTTP/1.1" 200 -
+2025-10-25 13:10:04,035 INFO 127.0.0.1 - - [25/Oct/2025 13:10:04] "[33mGET /public/styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:10:04,229 INFO Accessing home endpoint
+2025-10-25 13:10:04,231 INFO 127.0.0.1 - - [25/Oct/2025 13:10:04] "GET / HTTP/1.1" 200 -
+2025-10-25 13:10:04,256 INFO 127.0.0.1 - - [25/Oct/2025 13:10:04] "[33mGET /public/styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:10:04,408 INFO Accessing home endpoint
+2025-10-25 13:10:04,410 INFO 127.0.0.1 - - [25/Oct/2025 13:10:04] "GET / HTTP/1.1" 200 -
+2025-10-25 13:10:04,429 INFO 127.0.0.1 - - [25/Oct/2025 13:10:04] "[33mGET /public/styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:10:04,592 INFO Accessing home endpoint
+2025-10-25 13:10:04,594 INFO 127.0.0.1 - - [25/Oct/2025 13:10:04] "GET / HTTP/1.1" 200 -
+2025-10-25 13:10:04,606 INFO 127.0.0.1 - - [25/Oct/2025 13:10:04] "[33mGET /public/styles.css HTTP/1.1[0m" 404 -
+2025-10-25 13:10:25,382 INFO Database connected successfully.
+2025-10-25 13:10:25,398 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-10-25 13:10:25,398 INFO [33mPress CTRL+C to quit[0m
+2025-10-25 13:10:30,917 INFO Accessing home endpoint
+2025-10-25 13:10:30,920 INFO 127.0.0.1 - - [25/Oct/2025 13:10:30] "GET / HTTP/1.1" 200 -
+2025-10-25 13:10:31,018 INFO 127.0.0.1 - - [25/Oct/2025 13:10:31] "GET /static/styles.css HTTP/1.1" 200 -
