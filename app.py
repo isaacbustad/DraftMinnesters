@@ -80,6 +80,10 @@ def home():
             <p>Follow us on <a href="#" style="color: #1DA1F2;">Twitter</a> and <a href="#" style="color: #1DA1F2;">Facebook</a></p>
         </header>
         <main>
+            <img src="{{ url_for('static', filename='images/soccer_banner.jpg') }}" alt="Most Likely to Win" style="width:auto; height:auto; ">
+            <div class="banner-container">Underdogs</div>
+            <div class="banner-container">Upcoming Matches</div>
+            <div class="banner-container">Most Likely to Win</div>
             <nav class="navigation">
                 <button role="tab" class="nav-links active" onclick="toggleNav(event, 'upcoming-matches-container')" aria-selected="true">Upcoming Matches</button>
                 <button role="tab" class="nav-links" onclick="toggleNav(event, 'most-likely-to-win-container')">Most Likely to Win</button>

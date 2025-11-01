@@ -3794,3 +3794,88 @@
 2025-11-01 13:11:59,130 INFO 127.0.0.1 - - [01/Nov/2025 13:11:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
 2025-11-01 13:11:59,186 INFO 127.0.0.1 - - [01/Nov/2025 13:11:59] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
 2025-11-01 13:11:59,187 INFO 127.0.0.1 - - [01/Nov/2025 13:11:59] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-01 13:18:16,633 INFO Database connected successfully.
+2025-11-01 13:18:16,671 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-11-01 13:18:16,672 INFO [33mPress CTRL+C to quit[0m
+2025-11-01 13:18:17,441 INFO Accessing home endpoint
+2025-11-01 13:18:17,461 INFO 127.0.0.1 - - [01/Nov/2025 13:18:17] "GET / HTTP/1.1" 200 -
+2025-11-01 13:18:17,575 INFO 127.0.0.1 - - [01/Nov/2025 13:18:17] "GET /static/js/nav.js HTTP/1.1" 200 -
+2025-11-01 13:18:17,604 INFO 127.0.0.1 - - [01/Nov/2025 13:18:17] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-01 13:19:38,785 INFO Accessing home endpoint
+2025-11-01 13:19:38,793 INFO 127.0.0.1 - - [01/Nov/2025 13:19:38] "GET / HTTP/1.1" 200 -
+2025-11-01 13:19:40,016 INFO 127.0.0.1 - - [01/Nov/2025 13:19:40] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-01 13:19:40,016 INFO 127.0.0.1 - - [01/Nov/2025 13:19:40] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-01 13:24:57,270 INFO Database connected successfully.
+2025-11-01 13:24:57,300 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-11-01 13:24:57,300 INFO [33mPress CTRL+C to quit[0m
+2025-11-01 13:25:01,791 INFO Accessing home endpoint
+2025-11-01 13:25:01,815 INFO 127.0.0.1 - - [01/Nov/2025 13:25:01] "GET / HTTP/1.1" 200 -
+2025-11-01 13:25:01,849 INFO 127.0.0.1 - - [01/Nov/2025 13:25:01] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:25:01,988 INFO 127.0.0.1 - - [01/Nov/2025 13:25:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-01 13:25:01,990 INFO 127.0.0.1 - - [01/Nov/2025 13:25:01] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-01 13:25:01,999 INFO 127.0.0.1 - - [01/Nov/2025 13:25:01] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:25:37,786 INFO Accessing home endpoint
+2025-11-01 13:25:37,796 INFO 127.0.0.1 - - [01/Nov/2025 13:25:37] "GET / HTTP/1.1" 200 -
+2025-11-01 13:25:37,812 INFO 127.0.0.1 - - [01/Nov/2025 13:25:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-01 13:25:37,814 INFO 127.0.0.1 - - [01/Nov/2025 13:25:37] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:25:37,815 INFO 127.0.0.1 - - [01/Nov/2025 13:25:37] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-01 13:25:37,827 INFO 127.0.0.1 - - [01/Nov/2025 13:25:37] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:27:42,232 INFO Accessing home endpoint
+2025-11-01 13:27:42,240 INFO 127.0.0.1 - - [01/Nov/2025 13:27:42] "GET / HTTP/1.1" 200 -
+2025-11-01 13:27:42,258 INFO 127.0.0.1 - - [01/Nov/2025 13:27:42] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-01 13:27:42,260 INFO 127.0.0.1 - - [01/Nov/2025 13:27:42] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:27:42,261 INFO 127.0.0.1 - - [01/Nov/2025 13:27:42] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-01 13:27:42,269 INFO 127.0.0.1 - - [01/Nov/2025 13:27:42] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:27:47,314 INFO Database connected successfully.
+2025-11-01 13:27:47,332 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-11-01 13:27:47,332 INFO [33mPress CTRL+C to quit[0m
+2025-11-01 13:27:49,218 INFO Accessing home endpoint
+2025-11-01 13:27:49,232 INFO 127.0.0.1 - - [01/Nov/2025 13:27:49] "GET / HTTP/1.1" 200 -
+2025-11-01 13:27:49,252 INFO 127.0.0.1 - - [01/Nov/2025 13:27:49] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:27:49,307 INFO 127.0.0.1 - - [01/Nov/2025 13:27:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-01 13:27:49,309 INFO 127.0.0.1 - - [01/Nov/2025 13:27:49] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-01 13:27:49,316 INFO 127.0.0.1 - - [01/Nov/2025 13:27:49] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:28:20,208 INFO Accessing home endpoint
+2025-11-01 13:28:20,208 INFO 127.0.0.1 - - [01/Nov/2025 13:28:20] "GET / HTTP/1.1" 200 -
+2025-11-01 13:28:20,225 INFO 127.0.0.1 - - [01/Nov/2025 13:28:20] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-01 13:28:20,231 INFO 127.0.0.1 - - [01/Nov/2025 13:28:20] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:28:20,231 INFO 127.0.0.1 - - [01/Nov/2025 13:28:20] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-01 13:28:20,240 INFO 127.0.0.1 - - [01/Nov/2025 13:28:20] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:28:27,580 INFO Database connected successfully.
+2025-11-01 13:28:27,600 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-11-01 13:28:27,600 INFO [33mPress CTRL+C to quit[0m
+2025-11-01 13:28:29,998 INFO Accessing home endpoint
+2025-11-01 13:28:30,009 INFO 127.0.0.1 - - [01/Nov/2025 13:28:30] "GET / HTTP/1.1" 200 -
+2025-11-01 13:28:30,029 INFO 127.0.0.1 - - [01/Nov/2025 13:28:30] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:28:30,111 INFO 127.0.0.1 - - [01/Nov/2025 13:28:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-01 13:28:30,111 INFO 127.0.0.1 - - [01/Nov/2025 13:28:30] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-01 13:28:30,118 INFO 127.0.0.1 - - [01/Nov/2025 13:28:30] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:28:31,870 INFO Accessing home endpoint
+2025-11-01 13:28:31,876 INFO 127.0.0.1 - - [01/Nov/2025 13:28:31] "GET / HTTP/1.1" 200 -
+2025-11-01 13:28:31,891 INFO 127.0.0.1 - - [01/Nov/2025 13:28:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-01 13:28:31,895 INFO 127.0.0.1 - - [01/Nov/2025 13:28:31] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:28:31,897 INFO 127.0.0.1 - - [01/Nov/2025 13:28:31] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-01 13:28:31,904 INFO 127.0.0.1 - - [01/Nov/2025 13:28:31] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:33:17,869 INFO Database connected successfully.
+2025-11-01 13:33:17,885 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-11-01 13:33:17,885 INFO [33mPress CTRL+C to quit[0m
+2025-11-01 13:33:22,952 INFO Accessing home endpoint
+2025-11-01 13:33:22,962 INFO 127.0.0.1 - - [01/Nov/2025 13:33:22] "GET / HTTP/1.1" 200 -
+2025-11-01 13:33:22,979 INFO 127.0.0.1 - - [01/Nov/2025 13:33:22] "[33mGET /static/images/soccer_banner.jpg HTTP/1.1[0m" 404 -
+2025-11-01 13:33:23,036 INFO 127.0.0.1 - - [01/Nov/2025 13:33:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-01 13:33:23,037 INFO 127.0.0.1 - - [01/Nov/2025 13:33:23] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
