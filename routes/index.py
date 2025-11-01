@@ -1,3 +1,5 @@
+# Placeholder currently.
+
 def GenerateIndex(team_id):
     logging.info(f"Fetching details for team ID {team_id}")
     try:

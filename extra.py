@@ -1,3 +1,6 @@
+# We need to refactor this code , this code below used to belong to the app.py however we do not want to have SQL queries in Flask directly..
+# Placeholder currently. 
+
 def init_db():
     db_file = 'draft_ministers.db'
     
