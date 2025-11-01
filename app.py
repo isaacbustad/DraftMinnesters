@@ -71,7 +71,8 @@ def home():
     <html>
     <head>
         <title>Draft Ministers App - Soccer Prediction</title>
-        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <script src="{{ url_for('static', filename='js/nav.js') }}"></script>
     </head>
     <body>
         <header>
@@ -79,14 +80,28 @@ def home():
             <p>Follow us on <a href="#" style="color: #1DA1F2;">Twitter</a> and <a href="#" style="color: #1DA1F2;">Facebook</a></p>
         </header>
         <main>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="/predict">Upcoming Matches</a></li>
-                    <li><a href="/docs">Most Likely to Win</a></li>
-                    <li><a href="/stats">Most Likely to Lose</a></li>
-                    <li><a href="/about">Starred</a></li>
-                </ul>
+            <nav class="navigation">
+                <button role="tab" class="nav-links active" onclick="toggleNav(event, 'upcoming-matches-container')" aria-selected="true">Upcoming Matches</button>
+                <button role="tab" class="nav-links" onclick="toggleNav(event, 'most-likely-to-win-container')">Most Likely to Win</button>
+                <button role="tab" class="nav-links" onclick="toggleNav(event, 'most-likely-to-lose-container')">Most Likely to Lose</button>
+                <button role="tab" class="nav-links" onclick="toggleNav(event, 'starred-container')">Starred</button>
             </nav>
+            <div id="upcoming-matches-container" class="nav-content" style="display: block;" aria-labelledby="tab-upcoming">
+                <h2>Welcome to the Draft Ministers App</h2>
+                <p>Your one-stop solution for soccer match predictions.</p>
+            </div>
+            <div id="most-likely-to-win-container" class="nav-content" aria-labelledby="tab-most-likely">
+                <h2>Most Likely to Win</h2>
+                <p>Discover the teams with the highest chances of winning their upcoming matches.</p>
+            </div>
+            <div id="most-likely-to-lose-container" class="nav-content" aria-labelledby="tab-least-likely">
+                <h2>Most Likely to Lose</h2>
+                <p>Find out which teams are predicted to face tough challenges in their next games.</p>
+            </div>
+            <div id="starred-container" class="nav-content" aria-labelledby="tab-starred">
+                <h2>Starred Players</h2>
+                <p>Highlighting the standout players to watch in the upcoming matches.</p>
+            </div>
         </main>
         <footer>
             <p>&copy; 2025 Draft Ministers</p>

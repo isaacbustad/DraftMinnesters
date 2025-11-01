@@ -11,10 +11,19 @@ header {
     padding: 10px 0; 
     text-align: center;
 }
-nav-links {
-    display: flex; 
+.nav-links {
+    display: inline-block; 
     align-items: center;
     justify-content: center;
     text-align: center;
     gap: 20px;
+}
+nav {
+    background-color: #f4f4f4; 
+    padding: 10px; 
+    text-align: center;
+}
+.nav-content {
+    display: none; 
+    padding: 20px; 
 }
