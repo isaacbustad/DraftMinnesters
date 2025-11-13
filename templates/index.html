@@ -45,28 +45,215 @@
                     <p>Winners to Watch</p>
                 </div>
             </div>
-            <nav class="navigation">
-                <button role="tab" class="nav-links active" onclick="toggleNav(event, 'upcoming-matches-container')" aria-selected="true">Upcoming Matches</button>
-                <button role="tab" class="nav-links" onclick="toggleNav(event, 'most-likely-to-win-container')">Most Likely to Win</button>
-                <button role="tab" class="nav-links" onclick="toggleNav(event, 'most-likely-to-lose-container')">Most Likely to Lose</button>
-                <button role="tab" class="nav-links" onclick="toggleNav(event, 'starred-container')">Starred</button>
-            </nav>
-            <div id="upcoming-matches-container" class="nav-content" style="display: block;" aria-labelledby="tab-upcoming">
-                <h2>Welcome to the Draft Ministers App</h2>
-                <p>Your one-stop solution for soccer match predictions.</p>
-            </div>
-            <div id="most-likely-to-win-container" class="nav-content" aria-labelledby="tab-most-likely">
-                <h2>Most Likely to Win</h2>
-                <p>Discover the teams with the highest chances of winning their upcoming matches.</p>
-            </div>
-            <div id="most-likely-to-lose-container" class="nav-content" aria-labelledby="tab-least-likely">
-                <h2>Most Likely to Lose</h2>
-                <p>Find out which teams are predicted to face tough challenges in their next games.</p>
-            </div>
-            <div id="starred-container" class="nav-content" aria-labelledby="tab-starred">
-                <h2>Starred Players</h2>
-                <p>Highlighting the standout players to watch in the upcoming matches.</p>
-            </div>
+            
+
+<!-- TABS -->
+<nav class="navigation" role="tablist" aria-label="Match filters">
+  <button role="tab" class="nav-links active" aria-selected="true"
+          onclick="toggleNav(event, 'upcoming-matches-container')">
+    Upcoming Matches
+  </button>
+  <button role="tab" class="nav-links"
+          onclick="toggleNav(event, 'most-likely-to-win-container')">
+    Most Likely to Win
+  </button>
+  <button role="tab" class="nav-links"
+          onclick="toggleNav(event, 'most-likely-to-lose-container')">
+    Most Likely to Lose
+  </button>
+  <button role="tab" class="nav-links"
+          onclick="toggleNav(event, 'starred-container')">
+    Starred
+  </button>
+</nav>
+
+<!-- PANELS -->
+<div id="upcoming-matches-container" class="nav-content" style="display:block" aria-labelledby="tab-upcoming">
+  <h2>Upcoming Matches</h2>
+  <p>Your one-stop solution for soccer match predictions.</p>
+
+  <div class="matches-grid">
+    <!-- Card 1 -->
+    <article class="match-card">
+      <header>
+        <div>ARS vs EVE</div>
+        <span class="badge">Upcoming</span>
+      </header>
+      <div class="card-body">
+        <div class="row">
+          <div class="team"><div class="crest">A</div><div>Arsenal</div></div>
+          <div>58%</div>
+        </div>
+        <div class="row">
+          <div class="team"><div class="crest">E</div><div>Everton</div></div>
+          <div>24%</div>
+        </div>
+        <div class="row note"><div>Draw</div><div>18%</div></div>
+      </div>
+      <div class="meta">
+        <div>2025-11-12 14:00</div>
+        <button class="star-btn" aria-label="Star match">☆</button>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="match-card">
+      <header>
+        <div>MIL vs NAP</div>
+        <span class="badge">Upcoming</span>
+      </header>
+      <div class="card-body">
+        <div class="row">
+          <div class="team"><div class="crest">M</div><div>Milan</div></div>
+          <div>49%</div>
+        </div>
+        <div class="row">
+          <div class="team"><div class="crest">N</div><div>Napoli</div></div>
+          <div>35%</div>
+        </div>
+        <div class="row note"><div>Draw</div><div>16%</div></div>
+      </div>
+      <div class="meta">
+        <div>2025-11-13 09:30</div>
+        <button class="star-btn" aria-label="Star match">☆</button>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="match-card">
+      <header>
+        <div>RMA vs CAD</div>
+        <span class="badge">Upcoming</span>
+      </header>
+      <div class="card-body">
+        <div class="row">
+          <div class="team"><div class="crest">R</div><div>Real Madrid</div></div>
+          <div>61%</div>
+        </div>
+        <div class="row">
+          <div class="team"><div class="crest">C</div><div>Cádiz</div></div>
+          <div>22%</div>
+        </div>
+        <div class="row note"><div>Draw</div><div>17%</div></div>
+      </div>
+      <div class="meta">
+        <div>2025-11-14 18:45</div>
+        <button class="star-btn" aria-label="Star match">☆</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<div id="most-likely-to-win-container" class="nav-content" aria-labelledby="tab-most-likely">
+  <h2>Most Likely to Win</h2>
+  <p>Discover the teams with the highest chances of winning their upcoming matches.</p>
+
+  <div class="matches-grid">
+    <article class="match-card">
+      <header>
+        <div>FCB vs FCU</div>
+        <span class="badge win">Likely win</span>
+      </header>
+      <div class="card-body">
+        <div class="row">
+          <div class="team"><div class="crest">F</div><div>Bayern</div></div>
+          <div>72%</div>
+        </div>
+        <div class="row">
+          <div class="team"><div class="crest">U</div><div>Union Berlin</div></div>
+          <div>15%</div>
+        </div>
+        <div class="row note"><div>Draw</div><div>13%</div></div>
+      </div>
+      <div class="meta">
+        <div>2025-11-15 12:00</div>
+        <button class="star-btn" aria-label="Star match">☆</button>
+      </div>
+    </article>
+
+    <article class="match-card">
+      <header>
+        <div>MNC vs LNR</div>
+        <span class="badge win">Likely win</span>
+      </header>
+      <div class="card-body">
+        <div class="row">
+          <div class="team"><div class="crest">M</div><div>Manchester Blues</div></div>
+          <div>68%</div>
+        </div>
+        <div class="row">
+          <div class="team"><div class="crest">L</div><div>London Reds</div></div>
+          <div>18%</div>
+        </div>
+        <div class="row note"><div>Draw</div><div>14%</div></div>
+      </div>
+      <div class="meta">
+        <div>2025-11-17 16:00</div>
+        <button class="star-btn" aria-label="Star match">☆</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<div id="most-likely-to-lose-container" class="nav-content" aria-labelledby="tab-least-likely">
+  <h2>Most Likely to Lose</h2>
+  <p>Find out which teams are predicted to face tough challenges in their next games.</p>
+
+  <div class="matches-grid">
+    <article class="match-card">
+      <header>
+        <div>TRN vs NAP</div>
+        <span class="badge lose">Likely lose</span>
+      </header>
+      <div class="card-body">
+        <div class="row">
+          <div class="team"><div class="crest">T</div><div>Turin Bulls</div></div>
+          <div>31%</div>
+        </div>
+        <div class="row">
+          <div class="team"><div class="crest">N</div><div>Napoli Seas</div></div>
+          <div>54%</div>
+        </div>
+        <div class="row note"><div>Draw</div><div>15%</div></div>
+      </div>
+      <div class="meta">
+        <div>2025-11-18 19:30</div>
+        <button class="star-btn" aria-label="Star match">☆</button>
+      </div>
+    </article>
+
+    <article class="match-card">
+      <header>
+        <div>FCP vs SCB</div>
+        <span class="badge lose">Likely lose</span>
+      </header>
+      <div class="card-body">
+        <div class="row">
+          <div class="team"><div class="crest">F</div><div>Porto</div></div>
+          <div>42%</div>
+        </div>
+        <div class="row">
+          <div class="team"><div class="crest">B</div><div>Braga</div></div>
+          <div>45%</div>
+        </div>
+        <div class="row note"><div>Draw</div><div>13%</div></div>
+      </div>
+      <div class="meta">
+        <div>2025-11-19 20:00</div>
+        <button class="star-btn" aria-label="Star match">☆</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<div id="starred-container" class="nav-content" aria-labelledby="tab-starred">
+  <h2>Starred</h2>
+  <p>Matches you’ve saved.</p>
+  <div class="matches-grid">
+    <div class="empty-note">No matches starred yet.</div>
+  </div>
+</div>
+
         </main>
         <footer>
             <p>&copy; 2025 Draft Ministers</p>
@@ -101,5 +288,68 @@
                 },
             });
         </script>
+        <script>
+            // ---- Star system for cards ----
+            (function(){
+            const STAR_KEY = 'dm-stars';
+            const starredSet = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || '[]'));
+
+            const cards = Array.from(document.querySelectorAll('.match-card'));
+            const starButtons = Array.from(document.querySelectorAll('.match-card .star-btn'));
+            const starredGrid = document.querySelector('#starred-container .matches-grid');
+
+            // Assign stable ids to buttons if missing
+            starButtons.forEach((btn, i) => {
+                if (!btn.dataset.id) btn.dataset.id = `static-${i}`;
+            });
+
+            // Reflect current state on buttons
+            function paintButtons(){
+                starButtons.forEach(btn => {
+                btn.textContent = starredSet.has(btn.dataset.id) ? '★' : '☆';
+                btn.setAttribute('aria-pressed', starredSet.has(btn.dataset.id) ? 'true' : 'false');
+                btn.title = starredSet.has(btn.dataset.id) ? 'Unstar' : 'Star';
+                });
+            }
+
+            // Render the Starred tab grid
+            function renderStarred(){
+                if (!starredGrid) return;
+                const ids = [...starredSet];
+                if (!ids.length){
+                starredGrid.innerHTML = '<div class="empty-note">No matches starred yet.</div>';
+                return;
+                }
+                // pick matching cards and clone them
+                const clones = ids.map(id => {
+                const btn = starButtons.find(b => b.dataset.id === id);
+                return btn ? btn.closest('.match-card').cloneNode(true) : null;
+                }).filter(Boolean);
+
+                starredGrid.innerHTML = '';
+                clones.forEach(node => {
+                // In the starred view, show filled star and disable toggling (optional)
+                const b = node.querySelector('.star-btn');
+                if (b){ b.textContent = '★'; b.disabled = true; b.style.opacity = 0.6; }
+                starredGrid.appendChild(node);
+                });
+            }
+
+            function save(){ localStorage.setItem(STAR_KEY, JSON.stringify([...starredSet])); }
+
+            function toggle(id){
+                if (starredSet.has(id)) starredSet.delete(id); else starredSet.add(id);
+                save(); paintButtons(); renderStarred();
+            }
+
+            // Hook clicks
+            starButtons.forEach(btn => btn.addEventListener('click', () => toggle(btn.dataset.id)));
+
+            // Initial paint
+            paintButtons();
+            renderStarred();
+            })();
+        </script>
+
     </body>
     </html>

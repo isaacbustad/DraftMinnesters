@@ -169,23 +169,124 @@ header .logo h1 {
   --swiper-navigation-size: 88px;
 }
 
-/* Navigation bar styles */
-.nav-links {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 20px;
-  border-radius: 5px;
-  padding: 0.5rem 2rem;
-  cursor: pointer;
-}
+/* ========================================
+   NAVIGATION - ROUNDED TABS (Fixed!)
+   ======================================== */
+
 nav {
   background-color: #f4f4f4;
   padding: 10px;
   text-align: center;
 }
+
 .nav-content {
   display: none;
-  padding: 20px;
 }
+
+/* Rounded Tab Navigation */
+nav.navigation {
+  display: flex;
+  background: #fff7f7;
+  padding: 0;
+  border-radius: 24px 24px 0 0;
+  overflow: hidden;
+  max-width: auto;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.nav-links {
+  background: transparent;
+  border: none;
+  padding: 14px 24px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #000;
+  border-radius: 24px 24px 0 0;
+  transition: all 0.25s ease;
+  font-weight: 500;
+  flex: 1;
+  text-align: center;
+}
+
+.nav-links:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.nav-links.active {
+  background: #000;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  position: relative;
+  z-index: 2;
+}
+
+.nav-links:focus {
+  outline: 2px solid #000;
+  outline-offset: -2px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 640px) {
+  .nav-links {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+  
+  header .logo h1 {
+    font-size: 2.5rem;
+  }
+  
+  .swiper-slide {
+    width: 250px !important;
+    height: 250px !important;
+  }
+}
+
+
+/* === Match grid & cards === */
+.matches-grid{
+  display:grid;
+  grid-template-columns:repeat(12,1fr);
+  gap:14px;
+  margin:14px 0 24px;
+}
+@media (max-width:1100px){ .matches-grid{grid-template-columns:repeat(8,1fr);} }
+@media (max-width:720px){ .matches-grid{grid-template-columns:repeat(4,1fr);} }
+
+.match-card{
+  grid-column:span 4;                 
+  background:#ffffff;
+  color:#0f172a;
+  border:1px solid #e6e6e6;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 10px 24px rgba(0,0,0,.10);
+  font-family:"Libre Baskerville", serif;
+}
+.match-card header{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:10px 12px;background:#000;color:#fff;
+  font-weight:700;letter-spacing:.2px;
+}
+.badge{
+  font-size:.75rem;padding:4px 8px;border-radius:999px;background:#fff;color:#000
+}
+.badge.win{background:#e6f7ec;color:#127a3a;border:1px solid #bfe8cc}
+.badge.lose{background:#fdeaea;color:#a12424;border:1px solid #f3c1c1}
+
+.card-body{padding:12px}
+.row{display:flex;justify-content:space-between;align-items:center;margin:6px 0}
+.team{display:flex;align-items:center;gap:10px}
+.crest{
+  width:26px;height:26px;border-radius:8px;
+  background:#f4f4f4;border:1px solid #dedede;
+  display:grid;place-items:center;font-weight:800
+}
+.row.note{color:#666}
+.meta{
+  padding:10px 12px;border-top:1px dashed #e6e6e6;
+  display:flex;align-items:center;justify-content:space-between;gap:8px
+}
+.star-btn{cursor:pointer;border:none;background:transparent;font-size:18px;line-height:1}
+.empty-note{color:#666;padding:10px}

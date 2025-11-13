@@ -1,21 +1,19 @@
-function toggleNav(event, elementId) { 
-  console.log("Toggling navigation to element ID:", elementId);
-  // Hide all elements with class="nav-content"
-  const element = document.getElementsByClassName("nav-content");
-  for (let i = 0; i < element.length; i++) {
-    element[i].style.display = "none";
-  }
-  
-  // Remove the class "active" from all elements with class="nav-links"
-  const tabs = document.getElementsByClassName("nav-links");
-  for (let i = 0; i < tabs.length; i++) {
-    tabs[i].className = tabs[i].className.replace(" active", "");
-  }
+// tabs behavior (ADDED)
+function toggleNav(e, targetId) {
+  // deactivate all tabs
+  document.querySelectorAll('.nav-links').forEach(btn => {
+    btn.classList.remove('active');
+    btn.setAttribute('aria-selected', 'false');
+  });
 
-  const activeElement = document.getElementById(elementId);
-  if (activeElement) {
-    activeElement.style.display = "block";
-  }
-  // Add the "active" class to the button that opened the tab
-  event.currentTarget.className += " active";
+  // activate clicked tab
+  e.currentTarget.classList.add('active');
+  e.currentTarget.setAttribute('aria-selected', 'true');
+
+  // hide all panels
+  document.querySelectorAll('.nav-content').forEach(p => p.style.display = 'none');
+
+  // show target panel
+  const target = document.getElementById(targetId);
+  if (target) target.style.display = 'block';
 }
