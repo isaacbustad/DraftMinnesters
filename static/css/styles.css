@@ -12,7 +12,7 @@ header {
     padding: 10px 0; 
     text-align: center;
 }
-#banner-container {
+.banner-container {
     display: flex;
     overflow: hidden;
     position: relative;
