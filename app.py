@@ -30,7 +30,7 @@ def init_db():
         cursor = conn.cursor()
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS soccer_teams (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                id INTEGER PRIMARY KEY,
                 name TEXT UNIQUE,
                 code TEXT,
                 country TEXT,
@@ -55,6 +55,30 @@ def init_db():
                 team_id INTEGER,
                 age INTEGER,
                 FOREIGN KEY (team_id) REFERENCES soccer_teams(id)
+            )
+        """)
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS soccer_fixtures (
+                fixture_id INTEGER PRIMARY KEY,
+                date TEXT,
+                timestamp INTEGER,
+                status_long TEXT,
+                status_short TEXT,
+                home_team_id INTEGER,
+                away_team_id INTEGER,
+                league_id INTEGER,
+                league_name TEXT,
+                season INTEGER,
+                round TEXT,
+                venue_id INTEGER,
+                venue_name TEXT,
+                venue_city TEXT,
+                referee TEXT,
+                home_goals INTEGER,
+                away_goals INTEGER,
+                home_winner INTEGER,
+                away_winner INTEGER,
+                raw_data TEXT
             )
         """)
         conn.commit()

@@ -9267,3 +9267,433 @@
 2025-11-15 12:51:00,378 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
 2025-11-15 12:51:00,521 INFO 127.0.0.1 - - [15/Nov/2025 12:51:00] "GET /api/matches HTTP/1.1" 200 -
 2025-11-15 12:51:00,540 INFO 127.0.0.1 - - [15/Nov/2025 12:51:00] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:52:59,850 INFO Accessing home endpoint
+2025-11-15 12:52:59,875 INFO 127.0.0.1 - - [15/Nov/2025 12:52:59] "GET / HTTP/1.1" 200 -
+2025-11-15 12:53:00,007 INFO 127.0.0.1 - - [15/Nov/2025 12:53:00] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 12:53:00,026 INFO 127.0.0.1 - - [15/Nov/2025 12:53:00] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 12:53:00,075 INFO 127.0.0.1 - - [15/Nov/2025 12:53:00] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-15 12:53:01,276 INFO 127.0.0.1 - - [15/Nov/2025 12:53:01] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 12:53:01,287 INFO 127.0.0.1 - - [15/Nov/2025 12:53:01] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:53:01,293 INFO 127.0.0.1 - - [15/Nov/2025 12:53:01] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:53:01,324 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:53:01,330 INFO 127.0.0.1 - - [15/Nov/2025 12:53:01] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:53:01,859 INFO 127.0.0.1 - - [15/Nov/2025 12:53:01] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:53:01,868 INFO 127.0.0.1 - - [15/Nov/2025 12:53:01] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 12:53:02,408 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:53:02,419 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:53:03,179 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:53:03,344 INFO 127.0.0.1 - - [15/Nov/2025 12:53:03] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:53:03,356 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:53:04,066 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:53:04,082 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:53:04,660 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:53:04,809 INFO 127.0.0.1 - - [15/Nov/2025 12:53:04] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:53:04,836 INFO 127.0.0.1 - - [15/Nov/2025 12:53:04] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:54:21,646 INFO Accessing home endpoint
+2025-11-15 12:54:21,663 INFO 127.0.0.1 - - [15/Nov/2025 12:54:21] "GET / HTTP/1.1" 200 -
+2025-11-15 12:54:21,816 INFO 127.0.0.1 - - [15/Nov/2025 12:54:21] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-15 12:54:21,824 INFO 127.0.0.1 - - [15/Nov/2025 12:54:21] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 12:54:21,825 INFO 127.0.0.1 - - [15/Nov/2025 12:54:21] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 12:54:22,385 INFO 127.0.0.1 - - [15/Nov/2025 12:54:22] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:54:22,387 INFO 127.0.0.1 - - [15/Nov/2025 12:54:22] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 12:54:22,392 INFO 127.0.0.1 - - [15/Nov/2025 12:54:22] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:54:22,409 INFO 127.0.0.1 - - [15/Nov/2025 12:54:22] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:54:22,416 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:54:22,575 INFO 127.0.0.1 - - [15/Nov/2025 12:54:22] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:54:22,585 INFO 127.0.0.1 - - [15/Nov/2025 12:54:22] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 12:54:23,248 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:54:23,252 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:54:23,943 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:54:23,978 INFO 127.0.0.1 - - [15/Nov/2025 12:54:23] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:54:23,989 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:54:24,548 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:54:24,557 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:54:25,230 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:54:25,403 INFO 127.0.0.1 - - [15/Nov/2025 12:54:25] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:54:25,441 INFO 127.0.0.1 - - [15/Nov/2025 12:54:25] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:55:11,575 INFO Accessing home endpoint
+2025-11-15 12:55:11,579 INFO 127.0.0.1 - - [15/Nov/2025 12:55:11] "GET / HTTP/1.1" 200 -
+2025-11-15 12:55:11,688 INFO 127.0.0.1 - - [15/Nov/2025 12:55:11] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-15 12:55:11,805 INFO 127.0.0.1 - - [15/Nov/2025 12:55:11] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 12:55:11,807 INFO 127.0.0.1 - - [15/Nov/2025 12:55:11] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 12:55:12,692 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:55:12,723 INFO 127.0.0.1 - - [15/Nov/2025 12:55:12] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 12:55:12,728 INFO 127.0.0.1 - - [15/Nov/2025 12:55:12] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:55:12,770 INFO 127.0.0.1 - - [15/Nov/2025 12:55:12] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:55:12,784 INFO 127.0.0.1 - - [15/Nov/2025 12:55:12] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:55:13,083 INFO 127.0.0.1 - - [15/Nov/2025 12:55:13] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 12:55:13,083 INFO 127.0.0.1 - - [15/Nov/2025 12:55:13] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:55:13,652 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:55:13,671 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:55:14,404 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:55:14,557 INFO 127.0.0.1 - - [15/Nov/2025 12:55:14] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:55:14,573 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:55:15,411 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:55:15,420 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:55:16,894 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:55:17,069 INFO 127.0.0.1 - - [15/Nov/2025 12:55:17] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:55:17,114 INFO 127.0.0.1 - - [15/Nov/2025 12:55:17] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:55:26,613 INFO 127.0.0.1 - - [15/Nov/2025 12:55:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-15 12:55:26,613 INFO 127.0.0.1 - - [15/Nov/2025 12:55:26] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:55:26,642 INFO 127.0.0.1 - - [15/Nov/2025 12:55:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-15 12:56:31,327 INFO Accessing home endpoint
+2025-11-15 12:56:31,332 INFO 127.0.0.1 - - [15/Nov/2025 12:56:31] "GET / HTTP/1.1" 200 -
+2025-11-15 12:56:31,600 INFO 127.0.0.1 - - [15/Nov/2025 12:56:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-15 12:56:31,735 INFO 127.0.0.1 - - [15/Nov/2025 12:56:31] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 12:56:31,764 INFO 127.0.0.1 - - [15/Nov/2025 12:56:31] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-15 12:56:31,783 INFO 127.0.0.1 - - [15/Nov/2025 12:56:31] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 12:56:32,824 INFO 127.0.0.1 - - [15/Nov/2025 12:56:32] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 12:56:32,839 INFO 127.0.0.1 - - [15/Nov/2025 12:56:32] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:56:32,865 INFO 127.0.0.1 - - [15/Nov/2025 12:56:32] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:56:32,932 INFO 127.0.0.1 - - [15/Nov/2025 12:56:32] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:56:32,938 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:56:33,379 INFO 127.0.0.1 - - [15/Nov/2025 12:56:33] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:56:33,436 INFO 127.0.0.1 - - [15/Nov/2025 12:56:33] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 12:56:34,102 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:56:34,111 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:56:34,823 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:56:34,958 INFO 127.0.0.1 - - [15/Nov/2025 12:56:34] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:56:34,969 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:56:35,728 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:56:35,738 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:56:36,616 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:56:36,782 INFO 127.0.0.1 - - [15/Nov/2025 12:56:36] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:56:36,893 INFO 127.0.0.1 - - [15/Nov/2025 12:56:36] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:57:40,321 INFO Accessing home endpoint
+2025-11-15 12:57:40,330 INFO 127.0.0.1 - - [15/Nov/2025 12:57:40] "GET / HTTP/1.1" 200 -
+2025-11-15 12:57:40,580 INFO 127.0.0.1 - - [15/Nov/2025 12:57:40] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-15 12:57:40,600 INFO 127.0.0.1 - - [15/Nov/2025 12:57:40] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 12:57:40,614 INFO 127.0.0.1 - - [15/Nov/2025 12:57:40] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 12:57:40,662 INFO 127.0.0.1 - - [15/Nov/2025 12:57:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-15 12:57:42,014 INFO 127.0.0.1 - - [15/Nov/2025 12:57:42] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:57:42,037 INFO 127.0.0.1 - - [15/Nov/2025 12:57:42] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 12:57:42,043 INFO 127.0.0.1 - - [15/Nov/2025 12:57:42] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:57:42,077 INFO 127.0.0.1 - - [15/Nov/2025 12:57:42] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:57:42,110 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:57:42,871 INFO 127.0.0.1 - - [15/Nov/2025 12:57:42] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:57:42,871 INFO 127.0.0.1 - - [15/Nov/2025 12:57:42] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 12:57:43,649 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:57:43,660 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:57:44,485 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:57:44,634 INFO 127.0.0.1 - - [15/Nov/2025 12:57:44] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:57:44,649 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:57:45,673 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:57:45,680 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:57:47,103 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:57:47,314 INFO 127.0.0.1 - - [15/Nov/2025 12:57:47] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:57:47,404 INFO 127.0.0.1 - - [15/Nov/2025 12:57:47] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:57:51,565 INFO 127.0.0.1 - - [15/Nov/2025 12:57:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-15 12:57:51,567 INFO 127.0.0.1 - - [15/Nov/2025 12:57:51] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:57:51,596 INFO 127.0.0.1 - - [15/Nov/2025 12:57:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-15 12:59:06,633 INFO Accessing home endpoint
+2025-11-15 12:59:06,677 INFO 127.0.0.1 - - [15/Nov/2025 12:59:06] "GET / HTTP/1.1" 200 -
+2025-11-15 12:59:06,830 INFO 127.0.0.1 - - [15/Nov/2025 12:59:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-15 12:59:06,867 INFO 127.0.0.1 - - [15/Nov/2025 12:59:06] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-15 12:59:06,877 INFO 127.0.0.1 - - [15/Nov/2025 12:59:06] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:06,901 INFO 127.0.0.1 - - [15/Nov/2025 12:59:06] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 12:59:08,294 INFO 127.0.0.1 - - [15/Nov/2025 12:59:08] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:08,308 INFO 127.0.0.1 - - [15/Nov/2025 12:59:08] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:08,315 INFO 127.0.0.1 - - [15/Nov/2025 12:59:08] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:08,332 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:08,343 INFO 127.0.0.1 - - [15/Nov/2025 12:59:08] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:59:08,589 INFO 127.0.0.1 - - [15/Nov/2025 12:59:08] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:59:08,628 INFO 127.0.0.1 - - [15/Nov/2025 12:59:08] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:09,776 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:09,788 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:10,551 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:10,554 INFO 127.0.0.1 - - [15/Nov/2025 12:59:10] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:59:10,566 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:11,242 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:11,261 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:11,881 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:11,884 INFO 127.0.0.1 - - [15/Nov/2025 12:59:11] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:59:14,524 INFO Accessing home endpoint
+2025-11-15 12:59:14,525 INFO 127.0.0.1 - - [15/Nov/2025 12:59:14] "GET / HTTP/1.1" 200 -
+2025-11-15 12:59:14,577 INFO 127.0.0.1 - - [15/Nov/2025 12:59:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-15 12:59:14,578 INFO 127.0.0.1 - - [15/Nov/2025 12:59:14] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:14,581 INFO 127.0.0.1 - - [15/Nov/2025 12:59:14] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 12:59:15,448 INFO 127.0.0.1 - - [15/Nov/2025 12:59:15] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:15,461 INFO 127.0.0.1 - - [15/Nov/2025 12:59:15] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:15,478 INFO 127.0.0.1 - - [15/Nov/2025 12:59:15] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:15,484 INFO 127.0.0.1 - - [15/Nov/2025 12:59:15] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:59:15,508 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:16,089 INFO 127.0.0.1 - - [15/Nov/2025 12:59:16] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:59:16,096 INFO 127.0.0.1 - - [15/Nov/2025 12:59:16] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:17,481 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:17,502 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:19,331 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:19,333 INFO 127.0.0.1 - - [15/Nov/2025 12:59:19] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:59:19,355 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:20,807 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:20,826 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:21,575 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:21,577 INFO 127.0.0.1 - - [15/Nov/2025 12:59:21] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:59:34,753 INFO Database connected successfully.
+2025-11-15 12:59:36,042 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.153.128:5000
+2025-11-15 12:59:36,042 INFO [33mPress CTRL+C to quit[0m
+2025-11-15 12:59:36,043 INFO  * Restarting with stat
+2025-11-15 12:59:40,763 INFO Database connected successfully.
+2025-11-15 12:59:40,784 WARNING  * Debugger is active!
+2025-11-15 12:59:40,798 INFO  * Debugger PIN: 572-975-031
+2025-11-15 12:59:40,916 INFO Accessing home endpoint
+2025-11-15 12:59:40,959 INFO 127.0.0.1 - - [15/Nov/2025 12:59:40] "GET / HTTP/1.1" 200 -
+2025-11-15 12:59:41,514 INFO 127.0.0.1 - - [15/Nov/2025 12:59:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-15 12:59:41,522 INFO 127.0.0.1 - - [15/Nov/2025 12:59:41] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:41,533 INFO 127.0.0.1 - - [15/Nov/2025 12:59:41] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 12:59:41,746 INFO 127.0.0.1 - - [15/Nov/2025 12:59:41] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:41,779 INFO 127.0.0.1 - - [15/Nov/2025 12:59:41] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:41,810 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:41,827 INFO 127.0.0.1 - - [15/Nov/2025 12:59:41] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:59:41,829 INFO 127.0.0.1 - - [15/Nov/2025 12:59:41] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:42,164 INFO 127.0.0.1 - - [15/Nov/2025 12:59:42] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:59:42,168 INFO 127.0.0.1 - - [15/Nov/2025 12:59:42] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:42,863 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:42,872 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:43,508 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:43,509 INFO 127.0.0.1 - - [15/Nov/2025 12:59:43] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:59:43,518 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:44,320 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:44,333 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:45,243 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 12:59:45,245 INFO 127.0.0.1 - - [15/Nov/2025 12:59:45] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 12:59:58,086 INFO Accessing home endpoint
+2025-11-15 12:59:58,107 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "GET / HTTP/1.1" 200 -
+2025-11-15 12:59:58,169 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-15 12:59:58,177 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,183 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/slide1.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,712 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/slide2.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,723 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/slide3.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,773 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/slide4.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,851 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,862 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/slide5.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,862 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/slide6.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,869 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,887 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,897 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,904 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,917 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/slide7.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:58,934 INFO 127.0.0.1 - - [15/Nov/2025 12:59:58] "[36mGET /static/images/slide8.jpg HTTP/1.1[0m" 304 -
+2025-11-15 12:59:59,405 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 12:59:59,966 INFO 127.0.0.1 - - [15/Nov/2025 12:59:59] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 12:59:59,970 INFO 127.0.0.1 - - [15/Nov/2025 12:59:59] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 13:00:00,592 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:00:00,606 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:00:01,358 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:00:01,359 INFO 127.0.0.1 - - [15/Nov/2025 13:00:01] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 13:00:52,846 INFO Database connected successfully.
+2025-11-15 13:00:54,151 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.153.128:5000
+2025-11-15 13:00:54,153 INFO [33mPress CTRL+C to quit[0m
+2025-11-15 13:00:54,155 INFO  * Restarting with stat
+2025-11-15 13:00:55,471 INFO Database connected successfully.
+2025-11-15 13:00:55,498 WARNING  * Debugger is active!
+2025-11-15 13:00:55,505 INFO  * Debugger PIN: 631-575-870
+2025-11-15 13:00:57,187 INFO Accessing home endpoint
+2025-11-15 13:00:57,198 INFO 127.0.0.1 - - [15/Nov/2025 13:00:57] "GET / HTTP/1.1" 200 -
+2025-11-15 13:00:57,618 INFO 127.0.0.1 - - [15/Nov/2025 13:00:57] "GET /static/images/DM_Logo_W.png HTTP/1.1" 200 -
+2025-11-15 13:00:57,620 INFO 127.0.0.1 - - [15/Nov/2025 13:00:57] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-15 13:00:57,632 INFO 127.0.0.1 - - [15/Nov/2025 13:00:57] "GET /static/images/slide1.jpg HTTP/1.1" 200 -
+2025-11-15 13:00:57,957 INFO 127.0.0.1 - - [15/Nov/2025 13:00:57] "GET /static/js/nav.js HTTP/1.1" 200 -
+2025-11-15 13:00:57,966 INFO 127.0.0.1 - - [15/Nov/2025 13:00:57] "GET /static/images/slide2.jpg HTTP/1.1" 200 -
+2025-11-15 13:00:57,981 INFO 127.0.0.1 - - [15/Nov/2025 13:00:57] "GET /static/images/slide3.jpg HTTP/1.1" 200 -
+2025-11-15 13:00:58,049 INFO 127.0.0.1 - - [15/Nov/2025 13:00:58] "GET /static/images/slide4.jpg HTTP/1.1" 200 -
+2025-11-15 13:00:58,062 INFO 127.0.0.1 - - [15/Nov/2025 13:00:58] "GET /static/images/slide5.jpg HTTP/1.1" 200 -
+2025-11-15 13:00:58,134 INFO 127.0.0.1 - - [15/Nov/2025 13:00:58] "GET /static/images/slide6.jpg HTTP/1.1" 200 -
+2025-11-15 13:00:58,152 INFO 127.0.0.1 - - [15/Nov/2025 13:00:58] "GET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1" 200 -
+2025-11-15 13:00:58,166 INFO 127.0.0.1 - - [15/Nov/2025 13:00:58] "GET /static/images/ClearField.png HTTP/1.1" 200 -
+2025-11-15 13:00:58,181 INFO 127.0.0.1 - - [15/Nov/2025 13:00:58] "GET /static/images/underdogs.jpg HTTP/1.1" 200 -
+2025-11-15 13:00:58,192 INFO 127.0.0.1 - - [15/Nov/2025 13:00:58] "GET /static/images/money.jpg HTTP/1.1" 200 -
+2025-11-15 13:00:58,231 INFO 127.0.0.1 - - [15/Nov/2025 13:00:58] "GET /static/images/slide7.jpg HTTP/1.1" 200 -
+2025-11-15 13:00:58,255 INFO 127.0.0.1 - - [15/Nov/2025 13:00:58] "GET /static/images/slide8.jpg HTTP/1.1" 200 -
+2025-11-15 13:00:59,257 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:00:59,285 INFO 127.0.0.1 - - [15/Nov/2025 13:00:59] "GET /static/favicon_io/site.webmanifest HTTP/1.1" 200 -
+2025-11-15 13:00:59,347 INFO 127.0.0.1 - - [15/Nov/2025 13:00:59] "GET /static/favicon_io/favicon-32x32.png HTTP/1.1" 200 -
+2025-11-15 13:01:00,205 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:01:00,214 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:01:00,948 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:01:01,083 INFO 127.0.0.1 - - [15/Nov/2025 13:01:01] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 13:01:01,113 INFO 127.0.0.1 - - [15/Nov/2025 13:01:01] "GET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1" 200 -
+2025-11-15 13:01:32,009 INFO 127.0.0.1 - - [15/Nov/2025 13:01:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-15 13:01:32,011 INFO 127.0.0.1 - - [15/Nov/2025 13:01:32] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 13:01:32,062 INFO 127.0.0.1 - - [15/Nov/2025 13:01:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-15 13:03:13,224 INFO  * Detected change in 'c:\\Users\\user\\Desktop\\CIS 641\\flaskapp\\DraftMinnesters\\app.py', reloading
+2025-11-15 13:03:13,396 INFO  * Restarting with stat
+2025-11-15 13:03:14,469 INFO Database connected successfully.
+2025-11-15 13:03:14,511 WARNING  * Debugger is active!
+2025-11-15 13:03:14,516 INFO  * Debugger PIN: 631-575-870
+2025-11-15 13:03:17,742 INFO  * Detected change in 'c:\\Users\\user\\Desktop\\CIS 641\\flaskapp\\DraftMinnesters\\routes\\matches.py', reloading
+2025-11-15 13:03:17,909 INFO  * Restarting with stat
+2025-11-15 13:03:19,234 INFO Database connected successfully.
+2025-11-15 13:03:19,259 WARNING  * Debugger is active!
+2025-11-15 13:03:19,265 INFO  * Debugger PIN: 631-575-870
+2025-11-15 13:03:30,791 INFO  * Detected change in 'c:\\Users\\user\\Desktop\\CIS 641\\flaskapp\\DraftMinnesters\\routes\\matches.py', reloading
+2025-11-15 13:03:30,949 INFO  * Restarting with stat
+2025-11-15 13:03:32,089 INFO Database connected successfully.
+2025-11-15 13:03:32,110 WARNING  * Debugger is active!
+2025-11-15 13:03:32,115 INFO  * Debugger PIN: 631-575-870
+2025-11-15 13:03:33,329 INFO  * Detected change in 'c:\\Users\\user\\Desktop\\CIS 641\\flaskapp\\DraftMinnesters\\routes\\matches.py', reloading
+2025-11-15 13:03:34,073 INFO  * Restarting with stat
+2025-11-15 13:03:37,437 INFO Database connected successfully.
+2025-11-15 13:03:37,460 WARNING  * Debugger is active!
+2025-11-15 13:03:37,466 INFO  * Debugger PIN: 631-575-870
+2025-11-15 13:03:53,388 INFO  * Detected change in 'c:\\Users\\user\\Desktop\\CIS 641\\flaskapp\\DraftMinnesters\\app.py', reloading
+2025-11-15 13:03:53,507 INFO  * Restarting with stat
+2025-11-15 13:03:54,668 INFO Database connected successfully.
+2025-11-15 13:03:54,687 WARNING  * Debugger is active!
+2025-11-15 13:03:54,694 INFO  * Debugger PIN: 631-575-870
+2025-11-15 13:04:03,235 INFO  * Detected change in 'c:\\Users\\user\\Desktop\\CIS 641\\flaskapp\\DraftMinnesters\\app.py', reloading
+2025-11-15 13:04:03,402 INFO  * Restarting with stat
+2025-11-15 13:04:05,354 INFO Database connected successfully.
+2025-11-15 13:04:05,376 WARNING  * Debugger is active!
+2025-11-15 13:04:05,386 INFO  * Debugger PIN: 631-575-870
+2025-11-15 13:04:19,219 INFO  * Detected change in 'c:\\Users\\user\\Desktop\\CIS 641\\flaskapp\\DraftMinnesters\\app.py', reloading
+2025-11-15 13:04:19,565 INFO  * Restarting with stat
+2025-11-15 13:04:21,559 INFO Database connected successfully.
+2025-11-15 13:04:21,608 WARNING  * Debugger is active!
+2025-11-15 13:04:21,624 INFO  * Debugger PIN: 631-575-870
+2025-11-15 13:04:25,020 INFO Accessing home endpoint
+2025-11-15 13:04:25,049 INFO 127.0.0.1 - - [15/Nov/2025 13:04:25] "GET / HTTP/1.1" 200 -
+2025-11-15 13:04:25,168 INFO 127.0.0.1 - - [15/Nov/2025 13:04:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-15 13:04:25,739 INFO 127.0.0.1 - - [15/Nov/2025 13:04:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-15 13:04:25,750 INFO 127.0.0.1 - - [15/Nov/2025 13:04:25] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 13:04:25,751 INFO 127.0.0.1 - - [15/Nov/2025 13:04:25] "[36mGET /static/images/slide1.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,301 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/images/slide2.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,304 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/images/slide3.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,313 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/images/slide4.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,320 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,321 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/images/slide5.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,355 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/images/slide6.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,371 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,371 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,384 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,392 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,400 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/images/slide7.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:26,411 INFO 127.0.0.1 - - [15/Nov/2025 13:04:26] "[36mGET /static/images/slide8.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:27,706 INFO Loaded 20 teams from database
+2025-11-15 13:04:27,708 INFO Database empty, fetching from API
+2025-11-15 13:04:27,718 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:04:27,916 INFO 127.0.0.1 - - [15/Nov/2025 13:04:27] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 13:04:27,921 INFO 127.0.0.1 - - [15/Nov/2025 13:04:27] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 13:04:28,920 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:04:28,923 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:04:29,440 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:04:29,442 INFO Teams saved to database successfully
+2025-11-15 13:04:29,443 INFO Fixtures saved to database successfully
+2025-11-15 13:04:29,443 INFO 127.0.0.1 - - [15/Nov/2025 13:04:29] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 13:04:33,985 INFO Database cleared successfully
+2025-11-15 13:04:33,987 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:04:34,544 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:04:34,549 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:04:35,057 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:04:35,058 INFO Teams saved to database successfully
+2025-11-15 13:04:35,059 INFO Fixtures saved to database successfully
+2025-11-15 13:04:35,059 INFO 127.0.0.1 - - [15/Nov/2025 13:04:35] "POST /api/refresh-data HTTP/1.1" 200 -
+2025-11-15 13:04:38,468 INFO Database empty, fetching from API
+2025-11-15 13:04:38,470 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:04:39,029 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:04:39,036 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:04:39,550 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:04:39,552 INFO Teams saved to database successfully
+2025-11-15 13:04:39,553 INFO Fixtures saved to database successfully
+2025-11-15 13:04:39,553 INFO 127.0.0.1 - - [15/Nov/2025 13:04:39] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 13:04:40,294 INFO Accessing home endpoint
+2025-11-15 13:04:40,295 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "GET / HTTP/1.1" 200 -
+2025-11-15 13:04:40,339 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,340 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,345 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/slide1.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,937 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/slide2.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,940 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/slide3.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,952 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,952 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/slide4.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,956 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/slide5.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,966 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/slide6.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,971 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,972 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,974 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:40,998 INFO 127.0.0.1 - - [15/Nov/2025 13:04:40] "[36mGET /static/images/slide7.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:41,003 INFO 127.0.0.1 - - [15/Nov/2025 13:04:41] "[36mGET /static/images/slide8.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:04:41,044 INFO 127.0.0.1 - - [15/Nov/2025 13:04:41] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 13:04:41,376 INFO Database empty, fetching from API
+2025-11-15 13:04:41,378 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:04:41,623 INFO 127.0.0.1 - - [15/Nov/2025 13:04:41] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 13:04:41,624 INFO 127.0.0.1 - - [15/Nov/2025 13:04:41] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 13:04:41,953 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:04:41,974 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:04:42,539 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:04:42,545 INFO Teams saved to database successfully
+2025-11-15 13:04:42,547 INFO Fixtures saved to database successfully
+2025-11-15 13:04:42,548 INFO 127.0.0.1 - - [15/Nov/2025 13:04:42] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 13:04:55,916 INFO Database connected successfully.
+2025-11-15 13:04:57,259 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.153.128:5000
+2025-11-15 13:04:57,259 INFO [33mPress CTRL+C to quit[0m
+2025-11-15 13:04:57,264 INFO  * Restarting with stat
+2025-11-15 13:04:58,384 INFO Database connected successfully.
+2025-11-15 13:04:58,405 WARNING  * Debugger is active!
+2025-11-15 13:04:58,411 INFO  * Debugger PIN: 631-575-870
+2025-11-15 13:05:03,866 INFO Accessing home endpoint
+2025-11-15 13:05:03,897 INFO 127.0.0.1 - - [15/Nov/2025 13:05:03] "GET / HTTP/1.1" 200 -
+2025-11-15 13:05:04,553 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,565 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,577 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/slide1.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,790 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/slide2.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,799 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/slide3.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,804 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/slide4.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,818 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,851 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/slide5.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,871 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/slide6.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,888 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,933 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,940 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,948 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,954 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/slide7.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:05:04,968 INFO 127.0.0.1 - - [15/Nov/2025 13:05:04] "[36mGET /static/images/slide8.jpg HTTP/1.1[0m" 304 -
+2025-11-15 13:05:05,710 INFO Database empty, fetching from API
+2025-11-15 13:05:05,720 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:05:05,787 INFO 127.0.0.1 - - [15/Nov/2025 13:05:05] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-15 13:05:05,799 INFO 127.0.0.1 - - [15/Nov/2025 13:05:05] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-15 13:05:06,717 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:05:06,721 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:05:07,424 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:05:07,429 INFO Teams saved to database successfully
+2025-11-15 13:05:07,430 INFO Fixtures saved to database successfully
+2025-11-15 13:05:07,431 INFO 127.0.0.1 - - [15/Nov/2025 13:05:07] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 13:05:09,952 INFO Database cleared successfully
+2025-11-15 13:05:09,953 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:05:10,640 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:05:10,645 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:05:11,319 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:05:11,324 INFO Teams saved to database successfully
+2025-11-15 13:05:11,325 INFO Fixtures saved to database successfully
+2025-11-15 13:05:11,327 INFO 127.0.0.1 - - [15/Nov/2025 13:05:11] "POST /api/refresh-data HTTP/1.1" 200 -
+2025-11-15 13:05:13,908 INFO Database empty, fetching from API
+2025-11-15 13:05:13,910 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:05:14,418 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:05:14,423 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:05:15,014 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:05:15,024 INFO Teams saved to database successfully
+2025-11-15 13:05:15,027 INFO Fixtures saved to database successfully
+2025-11-15 13:05:15,028 INFO 127.0.0.1 - - [15/Nov/2025 13:05:15] "GET /api/matches HTTP/1.1" 200 -
+2025-11-15 13:09:24,273 INFO Database cleared successfully
+2025-11-15 13:09:24,276 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:09:24,979 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:09:24,983 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:09:25,748 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:09:25,751 INFO Teams saved to database successfully
+2025-11-15 13:09:25,752 INFO Fixtures saved to database successfully
+2025-11-15 13:09:25,752 INFO 127.0.0.1 - - [15/Nov/2025 13:09:25] "POST /api/refresh-data HTTP/1.1" 200 -
+2025-11-15 13:09:27,085 INFO Database empty, fetching from API
+2025-11-15 13:09:27,086 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:09:27,932 DEBUG https://v3.football.api-sports.io:443 "GET /teams?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:09:27,948 DEBUG Starting new HTTPS connection (1): v3.football.api-sports.io:443
+2025-11-15 13:09:28,794 DEBUG https://v3.football.api-sports.io:443 "GET /fixtures?league=39&season=2023 HTTP/1.1" 200 None
+2025-11-15 13:09:28,799 INFO Teams saved to database successfully
+2025-11-15 13:09:28,800 INFO Fixtures saved to database successfully
+2025-11-15 13:09:28,801 INFO 127.0.0.1 - - [15/Nov/2025 13:09:28] "GET /api/matches HTTP/1.1" 200 -

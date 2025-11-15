@@ -17,7 +17,7 @@
     <body>
         <header>
             <div class="logo" aria-label="Draft Ministers Logo">
-                <img src="{{ url_for('static', filename='images/DM_Logo_W.png') }}" alt="Draft Ministers Logo">
+                <img src="{{ url_for('static', filename='images/DM_Logo_W.png') }}" alt="Draft Ministers Logo" class="DM_logo_w" style="cursor: pointer;" title="Click to refresh data">
                 <h1>Draft Ministers</h1>
             </div>
         </header>
@@ -348,6 +348,48 @@
                     document.getElementById('most-likely-to-lose-grid').innerHTML = '<div class="empty-note">Failed to load matches. Please try again later.</div>';
                 }
             })();
+
+            // Secret button functionality - refresh data
+            document.querySelector('.DM_logo_w')?.addEventListener('click', async function() {
+                if (!confirm('This will clear the database and fetch fresh data from the API. Continue?')) {
+                    return;
+                }
+                
+                const button = this;
+                const originalTitle = button.title;
+                button.style.opacity = '0.6';
+                button.title = 'Refreshing...';
+                
+                try {
+                    const response = await fetch('/api/refresh-data', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
+                    
+                    const data = await response.json();
+                    
+                    if (response.ok) {
+                        alert(`Data refreshed successfully!\nTeams: ${data.teams_count}\nFixtures: ${data.fixtures_count}`);
+                        // Reload matches
+                        const matchesData = await fetchMatches();
+                        if (matchesData) {
+                            renderMatches('upcoming-matches-grid', matchesData.upcoming, '', 'Upcoming');
+                            renderMatches('most-likely-to-win-grid', matchesData.most_likely_to_win, 'win', 'Likely win');
+                            renderMatches('most-likely-to-lose-grid', matchesData.most_likely_to_lose, 'lose', 'Likely lose');
+                        }
+                    } else {
+                        alert(`Error: ${data.error || 'Failed to refresh data'}`);
+                    }
+                } catch (error) {
+                    console.error('Error refreshing data:', error);
+                    alert('Failed to refresh data. Please try again.');
+                } finally {
+                    button.style.opacity = '1';
+                    button.title = originalTitle;
+                }
+            });
         </script>
 
     </body>
