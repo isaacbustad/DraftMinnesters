@@ -1,3 +1,4 @@
 .venv
 logs/app.log
 secret_tunnel
+logs/app.log
