@@ -23,26 +23,47 @@
         </header>
         <main>
             <div id ="banner">
-                <div class="underdogs-banner">
-                    <p>Underdogs to Watch</p>
+                <div class="underdogs-banner card-glass">
+                    <p class="card-header">Underdogs to Watch</p>
+                    {% if underdog %}
+                    <div class="card-content">
+                        <img src="{{ underdog.logo }}" alt="{{ underdog.name }}" class="card-logo">
+                        <h3 style="margin: 0;">{{ underdog.name }}</h3>
+                        <p style="margin: 0.2rem 0;">vs {{ underdog.match_vs }}</p>
+                        <small>{{ underdog.match_date }}</small>
+                    </div>
+                    {% endif %}
                 </div>
                 <div class="swiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="{{ url_for('static', filename='images/slide1.jpg') }}" alt="Slide 1"><p class="swiper-slide-title">Upcoming Match 1</p></div>
-                        <div class="swiper-slide"><img src="{{ url_for('static', filename='images/slide2.jpg') }}" alt="Slide 2"><p class="swiper-slide-title">Upcoming Match 2</p></div>
-                        <div class="swiper-slide"><img src="{{ url_for('static', filename='images/slide3.jpg') }}" alt="Slide 3"><p class="swiper-slide-title">Upcoming Match 3</p></div>
-                        <div class="swiper-slide"><img src="{{ url_for('static', filename='images/slide4.jpg') }}" alt="Slide 4"><p class="swiper-slide-title">Upcoming Match 4</p></div>
-                        <div class="swiper-slide"><img src="{{ url_for('static', filename='images/slide5.jpg') }}" alt="Slide 5"><p class="swiper-slide-title">Upcoming Match 5</p></div>
-                        <div class="swiper-slide"><img src="{{ url_for('static', filename='images/slide6.jpg') }}" alt="Slide 6"><p class="swiper-slide-title">Upcoming Match 6</p></div>
-                        <div class="swiper-slide"><img src="{{ url_for('static', filename='images/slide7.jpg') }}" alt="Slide 7"><p class="swiper-slide-title">Upcoming Match 7</p></div>
-                        <div class="swiper-slide"><img src="{{ url_for('static', filename='images/slide8.jpg') }}" alt="Slide 8"><p class="swiper-slide-title">Upcoming Match 8</p></div>
+                        {% if matches %}
+                            {% for match in matches[:10] %}
+                            <div class="swiper-slide card-glass">
+                                <img src="{{ match.home_team.logo }}" alt="{{ match.home_team.name }}" class="swiper-logo" onerror="this.src='{{ url_for('static', filename='images/slide1.jpg') }}'">
+                                <div class="swiper-slide-title">
+                                    {{ match.home_team.name }} vs {{ match.away_team.name }}<br>
+                                    <span style="font-size: 0.8em; font-weight: normal;">{{ match.date }}</span>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        {% else %}
+                            <div class="swiper-slide card-glass"><img src="{{ url_for('static', filename='images/slide1.jpg') }}" alt="Slide 1"><p class="swiper-slide-title">Loading Matches...</p></div>
+                        {% endif %}
                     </div>
                     <div class="swiper-pagination"></div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
                 </div>
-                <div class="winners-banner">
-                    <p>Winners to Watch</p>
+                <div class="winners-banner card-glass">
+                    <p class="card-header">Winners to Watch</p>
+                    {% if winner %}
+                    <div class="card-content">
+                        <img src="{{ winner.logo }}" alt="{{ winner.name }}" class="card-logo">
+                        <h3 style="margin: 0;">{{ winner.name }}</h3>
+                        <p style="margin: 0.2rem 0;">vs {{ winner.match_vs }}</p>
+                        <small>{{ winner.match_date }}</small>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
             

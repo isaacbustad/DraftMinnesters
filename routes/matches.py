@@ -5,6 +5,7 @@ from datetime import datetime
 import logging
 import sqlite3
 import json
+import os
 
 matches_bp = Blueprint('matches', __name__)
 
@@ -18,27 +19,23 @@ HEADERS = {
 DB_FILE = 'draft_ministers.db'
 
 def fetch_teams() -> dict:
-    """Fetch teams from the API."""
+    """Load teams from local JSON file for MVP demo."""
     try:
-        url = f"{API_BASE_URL}/teams"
-        params = {"league": "39", "season": "2023"}
-        response = requests.get(url, headers=HEADERS, params=params, timeout=10)
-        response.raise_for_status()
-        return response.json()
+        json_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'teams_response.json')
+        with open(json_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
     except Exception as e:
-        logging.error(f"Error fetching teams: {e}")
+        logging.error(f"Error loading teams from JSON: {e}")
         return None
 
 def fetch_fixtures() -> dict:
-    """Fetch fixtures from the API."""
+    """Load fixtures from local JSON file for MVP demo."""
     try:
-        url = f"{API_BASE_URL}/fixtures"
-        params = {"league": "39", "season": "2023"}
-        response = requests.get(url, headers=HEADERS, params=params, timeout=10)
-        response.raise_for_status()
-        return response.json()
+        json_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'fixtures_response.json')
+        with open(json_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
     except Exception as e:
-        logging.error(f"Error fetching fixtures: {e}")
+        logging.error(f"Error loading fixtures from JSON: {e}")
         return None
 
 def generate_win_percentages():
@@ -329,9 +326,8 @@ def format_match_data(fixture: dict, teams_map: dict) -> dict:
         "is_upcoming": is_upcoming
     }
 
-@matches_bp.route('/api/matches', methods=['GET'])
-def get_matches():
-    """Fetch and return match data with predictions. Checks database first."""
+def get_match_data_internal():
+    """Internal helper to get match data."""
     # Try to load from database first
     teams_data = load_teams_from_db()
     fixtures_data = load_fixtures_from_db()
@@ -343,7 +339,7 @@ def get_matches():
         fixtures_data = fetch_fixtures()
         
         if not teams_data or not fixtures_data:
-            return jsonify({"error": "Failed to fetch data from API"}), 500
+            return {"error": "Failed to fetch data from API"}
         
         # Save to database for next time
         save_teams_to_db(teams_data)
@@ -386,11 +382,19 @@ def get_matches():
         key=lambda x: min(x["home_team"]["win_percentage"], x["away_team"]["win_percentage"])
     )[:10]
     
-    return jsonify({
+    return {
         "upcoming": upcoming_matches,  # Show all 2023 fixtures as upcoming
         "most_likely_to_win": most_likely_to_win,
         "most_likely_to_lose": most_likely_to_lose
-    })
+    }
+
+@matches_bp.route('/api/matches', methods=['GET'])
+def get_matches():
+    """Fetch and return match data with predictions. Checks database first."""
+    data = get_match_data_internal()
+    if "error" in data:
+        return jsonify(data), 500
+    return jsonify(data)
 
 @matches_bp.route('/api/refresh-data', methods=['POST'])
 def refresh_data():
@@ -419,4 +423,3 @@ def refresh_data():
     except Exception as e:
         logging.error(f"Error refreshing data: {e}")
         return jsonify({"error": str(e)}), 500
-
