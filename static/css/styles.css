@@ -91,83 +91,127 @@ header .logo h1 {
   background-repeat: no-repeat;
   display: flex;
   width: 100%;
+  height: 60vh;
+  min-height: 500px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Consistent Modern Card Design */
+.card-glass {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header {
+  padding: 0.75rem;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  width: 100%;
   box-sizing: border-box;
 }
 
-.underdogs-banner {
-  margin: 3rem 1rem;
-  min-height: 100%;
-  background-image: url("/static/images/underdogs.jpg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.underdogs-banner p {
-  position: relative;
-  top: 75%;
+.card-content {
   padding: 1rem;
-  color: #ffffff;
-  background-color: #000000;
-  font-size: 1.25rem;
-  margin: auto;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.card-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+/* Specific Banner Adjustments */
+.underdogs-banner,
 .winners-banner {
-  margin: 3rem 1rem;
-  min-height: 100%;
-  background-image: url("/static/images/money.jpg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 18%; /* Explicit width */
+  height: 70%; /* 70% of banner div height */
+  min-height: 0;
+  margin: 0 1rem;
+  z-index: 10; /* Ensure they stay above swiper if needed, or just manage space */
 }
 
-.winners-banner p {
+.swiper-container-wrapper {
+  width: 40%; /* Reduced from 50% to prevent overlap */
+  height: 70%; /* 70% of banner div height */
+  padding: 0 1rem;
   position: relative;
-  top: 75%;
-  padding: 1rem;
-  color: #ffffff;
-  background-color: #000000;
-  font-size: 1.25rem;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .swiper {
-  width: 60%;
-  height: 30%;
-  padding: 2rem;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #000000;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 30%;
+  width: 100%;
   height: 100%;
+  overflow: hidden !important; /* Clip the cards at the edges */
+  padding: 1rem 0; /* Add some vertical padding for shadow/transform space inside if needed, or remove if clips too much */
+  box-sizing: border-box;
+}
+
+.swiper-pagination {
+  bottom: -70px !important; /* Move further down below the swiper card */
+  position: absolute;
+  width: 100%;
+}
+
+/* Swiper Slide Adjustments */
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.9); /* Match card glass */
+}
+
+.swiper-logo {
+  width: 100%;
+  height: 75%; /* Increased to reduce grey space */
+  object-fit: contain;
+  padding: 0.5rem;
+  box-sizing: border-box;
 }
 
 .swiper-slide-title {
   text-align: center;
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
+  font-size: 0.9rem;
   font-weight: bold;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #ffffff;
-  padding: 0.2rem;
-}
-.swiper-slide img {
-  display: block;
-  object-fit: cover;
-  width: 100%;
+  padding: 0.5rem;
+  height: 25%; /* Reduced grey space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
 }
 
-.swiper-slide img:hover {
-  opacity: 0.8;
-  transition: opacity 0.3s;
-}
+/* Remove old specific banner styles that conflict */
+/* .underdogs-banner { ... } replaced above */
+/* .winners-banner { ... } replaced above */
+/* .underdogs-banner p { ... } replaced by .card-header */
+/* .winners-banner p { ... } replaced by .card-header */
+
 
 .swiper-pagination {
   bottom: 10px !important;

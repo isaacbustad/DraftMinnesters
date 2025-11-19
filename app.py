@@ -5,8 +5,9 @@ import json
 import logging
 import os
 from routes.predict import predict_bp
-from routes.matches import matches_bp
+from routes.matches import matches_bp, get_match_data_internal
 import secret_tunnel as secret 
+import random
 
 app = Flask(__name__)
 app.register_blueprint(predict_bp)
@@ -91,7 +92,35 @@ def init_db():
 @app.route('/')
 def home():
     logging.info("Accessing home endpoint")
-    return render_template('index.html')
+    
+    data = get_match_data_internal()
+    upcoming = []
+    winner_team = None
+    underdog_team = None
+
+    if "error" not in data:
+        upcoming = data.get("upcoming", [])
+        
+        # Winner: Team with highest win % (already sorted in most_likely_to_win)
+        winners_list = data.get("most_likely_to_win", [])
+        winner_match = winners_list[0] if winners_list else None
+        
+        if winner_match:
+            home = winner_match["home_team"]
+            away = winner_match["away_team"]
+            winner_team = home if home["win_percentage"] >= away["win_percentage"] else away
+            winner_team["match_vs"] = away["name"] if winner_team == home else home["name"]
+            winner_team["match_date"] = winner_match["date"]
+        
+        # Underdog: Select a team at random
+        if upcoming:
+            random_match = random.choice(upcoming)
+            teams = [random_match["home_team"], random_match["away_team"]]
+            underdog_team = random.choice(teams)
+            underdog_team["match_vs"] = random_match["away_team"]["name"] if underdog_team == random_match["home_team"] else random_match["home_team"]["name"]
+            underdog_team["match_date"] = random_match["date"]
+
+    return render_template('index.html', matches=upcoming, winner=winner_team, underdog=underdog_team)
 
 if __name__ == '__main__':
     init_db()
