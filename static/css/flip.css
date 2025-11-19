@@ -1,0 +1,75 @@
+
+/* Card Flip Animation */
+.match-card {
+  perspective: 1000px; /* Enable 3D space */
+  cursor: pointer;
+}
+
+.match-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.match-card.flipped .match-card-inner {
+  transform: rotateY(180deg);
+}
+
+.match-card-front, .match-card-back {
+  position: relative; /* Stack them via JS or CSS, but absolute is better for pure overlay */
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure front content takes space properly */
+.match-card-front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+/* Back content style */
+.match-card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-y: auto; /* Allow scrolling for details */
+  background: #f8f9fa;
+  text-align: left;
+  padding: 0;
+}
+
+.card-back-header {
+  background: #000;
+  color: #fff;
+  padding: 10px 12px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-back-content {
+  padding: 12px;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.card-back-content p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.card-back-content strong {
+  color: #000;
+}
+

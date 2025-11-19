@@ -13,6 +13,7 @@
         <link rel="manifest" href="{{ url_for('static', filename='favicon_io/site.webmanifest') }}">
         
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/flip.css') }}">
     </head>
     <body>
         <header>
@@ -20,7 +21,14 @@
                 <img src="{{ url_for('static', filename='images/DM_Logo_W.png') }}" alt="Draft Ministers Logo" class="DM_logo_w" style="cursor: pointer;" title="Click to refresh data">
                 <h1>Draft Ministers</h1>
             </div>
+            <span class="hamburger" onclick="openNav()">&#9776;</span>
         </header>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/">Home</a>
+            <a href="/profile">Profile</a>
+        </div>
         <main>
             <div id ="banner">
                 <div class="underdogs-banner card-glass">
@@ -90,6 +98,32 @@
   </button>
 </nav>
 
+  <!-- Filter Controls -->
+  <div class="filters-container" style="background: #ffffff; padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin: 0 1.5rem 1.5rem 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: end;">
+    <div style="flex: 1; min-width: 200px;">
+        <label for="filter-home" style="display: block; font-size: 0.9rem; margin-bottom: 0.5rem; font-weight: bold;">Home Team</label>
+        <input type="text" id="filter-home" placeholder="Search home team..." style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box;">
+    </div>
+    <div style="flex: 1; min-width: 200px;">
+        <label for="filter-away" style="display: block; font-size: 0.9rem; margin-bottom: 0.5rem; font-weight: bold;">Away Team</label>
+        <input type="text" id="filter-away" placeholder="Search away team..." style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box;">
+    </div>
+    <div style="flex: 1; min-width: 150px;">
+        <label for="filter-date" style="display: block; font-size: 0.9rem; margin-bottom: 0.5rem; font-weight: bold;">Date</label>
+        <input type="date" id="filter-date" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box;">
+    </div>
+    <div style="flex: 1; min-width: 150px;">
+        <label for="filter-chance" style="display: block; font-size: 0.9rem; margin-bottom: 0.5rem; font-weight: bold;">Min Win Chance %</label>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <input type="range" id="filter-chance" min="0" max="100" value="0" style="flex: 1;">
+            <span id="filter-chance-val" style="font-weight: bold; min-width: 2.5rem;">0%</span>
+        </div>
+    </div>
+    <div style="flex: 0 0 auto;">
+        <button onclick="clearFilters()" style="padding: 0.75rem 1.5rem; background: #f4f4f4; border: 1px solid #ddd; border-radius: 8px; cursor: pointer; font-weight: bold;">Clear</button>
+    </div>
+  </div>
+
 <!-- PANELS -->
 <div id="upcoming-matches-container" class="nav-content" style="display:block" aria-labelledby="tab-upcoming">
   <h2>Upcoming Matches</h2>
@@ -121,7 +155,7 @@
 <div id="starred-container" class="nav-content" aria-labelledby="tab-starred">
   <h2>Starred</h2>
   <p>Matches you’ve saved.</p>
-  <div class="matches-grid">
+  <div class="matches-grid" id="starred-grid">
     <div class="empty-note">No matches starred yet.</div>
   </div>
 </div>
@@ -166,6 +200,17 @@
                 try {
                     const response = await fetch('/api/matches');
                     const data = await response.json();
+                    
+                    // Populate global map
+                    if (data) {
+                        const allLists = [
+                            ...(data.upcoming || []), 
+                            ...(data.most_likely_to_win || []), 
+                            ...(data.most_likely_to_lose || [])
+                        ];
+                        allLists.forEach(m => allMatchesMap.set(String(m.id), m));
+                    }
+                    
                     return data;
                 } catch (error) {
                     console.error('Error fetching matches:', error);
@@ -178,37 +223,68 @@
                 const homeCode = match.home_team.code || match.home_team.name.substring(0, 3).toUpperCase();
                 const awayCode = match.away_team.code || match.away_team.name.substring(0, 3).toUpperCase();
                 
+                // Prepare details for the back of the card
+                const venue = match.venue_name || 'Unknown Venue';
+                const city = match.venue_city || '';
+                const referee = match.referee || 'TBD';
+                const round = match.round || 'Regular Season';
+                const league = match.league_name || 'League';
+                const season = match.season || 'Current';
+                
                 return `
-                    <article class="match-card" data-match-id="${match.id}">
-                        <header>
-                            <div>${homeCode} vs ${awayCode}</div>
-                            <span class="badge ${badgeClass}">${badgeText}</span>
-                        </header>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="team">
-                                    <img src="${match.home_team.logo}" alt="${match.home_team.name}" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                                    <div class="crest" style="display:none;">${homeCode[0]}</div>
-                                    <div>${match.home_team.name}</div>
+                    <article class="match-card" data-match-id="${match.id}" onclick="this.classList.toggle('flipped')">
+                        <div class="match-card-inner">
+                            <div class="match-card-front">
+                                <header>
+                                    <div>${homeCode} vs ${awayCode}</div>
+                                    <span class="badge ${badgeClass}">${badgeText}</span>
+                                </header>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="team">
+                                            <img src="${match.home_team.logo}" alt="${match.home_team.name}" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                            <div class="crest" style="display:none;">${homeCode[0]}</div>
+                                            <div>${match.home_team.name}</div>
+                                        </div>
+                                        <div>${match.home_team.win_percentage}%</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="team">
+                                            <img src="${match.away_team.logo}" alt="${match.away_team.name}" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                            <div class="crest" style="display:none;">${awayCode[0]}</div>
+                                            <div>${match.away_team.name}</div>
+                                        </div>
+                                        <div>${match.away_team.win_percentage}%</div>
+                                    </div>
+                                    <div class="row note">
+                                        <div>Draw</div>
+                                        <div>${match.draw_percentage}%</div>
+                                    </div>
                                 </div>
-                                <div>${match.home_team.win_percentage}%</div>
-                            </div>
-                            <div class="row">
-                                <div class="team">
-                                    <img src="${match.away_team.logo}" alt="${match.away_team.name}" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                                    <div class="crest" style="display:none;">${awayCode[0]}</div>
-                                    <div>${match.away_team.name}</div>
+                                <div class="meta">
+                                    <div>${match.date || 'TBD'}</div>
+                                    <button class="star-btn" data-id="${matchId}" aria-label="Star match" onclick="event.stopPropagation()">☆</button>
                                 </div>
-                                <div>${match.away_team.win_percentage}%</div>
                             </div>
-                            <div class="row note">
-                                <div>Draw</div>
-                                <div>${match.draw_percentage}%</div>
+                            <div class="match-card-back">
+                                <div class="card-back-header">
+                                    <span>Match Details</span>
+                                    <span style="font-size: 1.2em; cursor: pointer;" onclick="event.stopPropagation(); this.closest('.match-card').classList.remove('flipped')">&times;</span>
+                                </div>
+                                <div class="card-back-content">
+                                    <p><strong>League:</strong> ${league} (${season})</p>
+                                    <p><strong>Round:</strong> ${round}</p>
+                                    <p><strong>Venue:</strong> ${venue}${city ? ', ' + city : ''}</p>
+                                    <p><strong>Referee:</strong> ${referee}</p>
+                                    <p><strong>Status:</strong> ${match.status_long || 'Scheduled'}</p>
+                                    <hr style="border: 0; border-top: 1px solid #ddd; margin: 8px 0;">
+                                    <p><strong>Home Form:</strong> ${match.home_team.name}</p>
+                                    <p><strong>Away Form:</strong> ${match.away_team.name}</p>
+                                </div>
+                                <div class="meta" style="margin-top: auto;">
+                                    <div>ID: ${match.id}</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="meta">
-                            <div>${match.date || 'TBD'}</div>
-                            <button class="star-btn" data-id="${matchId}" aria-label="Star match">☆</button>
                         </div>
                     </article>
                 `;
@@ -216,10 +292,14 @@
 
             // Store all matches data for pagination
             const matchesData = {
-                'upcoming-matches-grid': { all: [], displayed: 0, badgeClass: '', badgeText: 'Upcoming' },
-                'most-likely-to-win-grid': { all: [], displayed: 0, badgeClass: 'win', badgeText: 'Likely win' },
-                'most-likely-to-lose-grid': { all: [], displayed: 0, badgeClass: 'lose', badgeText: 'Likely lose' }
+                'upcoming-matches-grid': { all: [], filtered: [], displayed: 0, badgeClass: '', badgeText: 'Upcoming' },
+                'most-likely-to-win-grid': { all: [], filtered: [], displayed: 0, badgeClass: 'win', badgeText: 'Likely win' },
+                'most-likely-to-lose-grid': { all: [], filtered: [], displayed: 0, badgeClass: 'lose', badgeText: 'Likely lose' },
+                'starred-grid': { all: [], filtered: [], displayed: 0, badgeClass: 'star', badgeText: 'Starred' }
             };
+            
+            // Global map for quick lookup
+            const allMatchesMap = new Map();
 
             const CARDS_PER_ROW = 3;
             const INITIAL_ROWS = 3;
@@ -232,13 +312,14 @@
 
                 if (!matches || matches.length === 0) {
                     container.innerHTML = '<div class="empty-note">No matches available.</div>';
-                    matchesData[containerId] = { all: [], displayed: 0, badgeClass, badgeText };
+                    matchesData[containerId] = { all: [], filtered: [], displayed: 0, badgeClass, badgeText };
                     return;
                 }
 
                 // Store all matches
                 matchesData[containerId] = {
                     all: matches,
+                    filtered: matches, // Initially filtered is same as all
                     displayed: Math.min(INITIAL_CARDS, matches.length),
                     badgeClass,
                     badgeText
@@ -250,10 +331,19 @@
 
             function renderMatchesPage(containerId) {
                 const data = matchesData[containerId];
-                if (!data || !data.all.length) return;
+                // Use filtered data
+                if (!data || !data.filtered.length) {
+                    const container = document.getElementById(containerId);
+                    container.innerHTML = '<div class="empty-note">No matches found.</div>';
+                    // Remove load more button if exists
+                    const parentContainer = container.closest('.nav-content');
+                    const loadMoreBtn = parentContainer?.querySelector('.load-more-btn');
+                    if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+                    return;
+                }
 
                 const container = document.getElementById(containerId);
-                const cardsToShow = data.all.slice(0, data.displayed);
+                const cardsToShow = data.filtered.slice(0, data.displayed);
                 
                 container.innerHTML = cardsToShow.map(match => 
                     createMatchCard(match, data.badgeClass, data.badgeText)
@@ -264,7 +354,7 @@
                 if (parentContainer) {
                     let loadMoreBtn = parentContainer.querySelector('.load-more-btn');
                     
-                    if (data.displayed < data.all.length) {
+                    if (data.displayed < data.filtered.length) {
                         if (!loadMoreBtn) {
                             loadMoreBtn = document.createElement('button');
                             loadMoreBtn.className = 'load-more-btn';
@@ -288,75 +378,141 @@
                 const data = matchesData[containerId];
                 if (!data) return;
 
-                data.displayed = Math.min(data.displayed + CARDS_PER_LOAD, data.all.length);
+                data.displayed = Math.min(data.displayed + CARDS_PER_LOAD, data.filtered.length);
                 renderMatchesPage(containerId);
             }
 
-            // ---- Star system for cards ----
-            function initializeStarSystem() {
-                const STAR_KEY = 'dm-stars';
-                const starredSet = new Set(JSON.parse(localStorage.getItem(STAR_KEY) || '[]'));
-                const starButtons = Array.from(document.querySelectorAll('.match-card .star-btn'));
-                const starredGrid = document.querySelector('#starred-container .matches-grid');
+            // ---- Filtering Logic ----
+            // Attach event listeners to inputs
+            const filterInputs = ['filter-home', 'filter-away', 'filter-date', 'filter-chance'];
+            filterInputs.forEach(id => {
+                document.getElementById(id)?.addEventListener('input', applyFilters);
+            });
 
-                // Reflect current state on buttons
-                function paintButtons() {
-                    starButtons.forEach(btn => {
-                        btn.textContent = starredSet.has(btn.dataset.id) ? '★' : '☆';
-                        btn.setAttribute('aria-pressed', starredSet.has(btn.dataset.id) ? 'true' : 'false');
-                        btn.title = starredSet.has(btn.dataset.id) ? 'Unstar' : 'Star';
+            function applyFilters() {
+                const homeQuery = document.getElementById('filter-home').value.toLowerCase();
+                const awayQuery = document.getElementById('filter-away').value.toLowerCase();
+                const dateQuery = document.getElementById('filter-date').value;
+                const chanceQuery = parseInt(document.getElementById('filter-chance').value) || 0;
+
+                // Update chance display
+                document.getElementById('filter-chance-val').textContent = chanceQuery + '%';
+
+                // Apply to ALL grids
+                Object.keys(matchesData).forEach(containerId => {
+                    const data = matchesData[containerId];
+                    if (!data || !data.all.length) return;
+
+                    data.filtered = data.all.filter(match => {
+                        const homeName = match.home_team.name.toLowerCase();
+                        const awayName = match.away_team.name.toLowerCase();
+                        const matchDate = match.date.split(' ')[0]; // Assuming YYYY-MM-DD HH:MM
+                        // Max win percentage between home and away
+                        const maxChance = Math.max(match.home_team.win_percentage, match.away_team.win_percentage);
+
+                        const matchHome = !homeQuery || homeName.includes(homeQuery);
+                        const matchAway = !awayQuery || awayName.includes(awayQuery);
+                        const matchDateFilter = !dateQuery || matchDate === dateQuery;
+                        const matchChance = maxChance >= chanceQuery;
+
+                        return matchHome && matchAway && matchDateFilter && matchChance;
                     });
-                }
 
-                // Render the Starred tab grid
-                function renderStarred() {
-                    if (!starredGrid) return;
-                    const ids = [...starredSet];
-                    if (!ids.length) {
-                        starredGrid.innerHTML = '<div class="empty-note">No matches starred yet.</div>';
-                        return;
-                    }
-                    // Find matching cards and clone them
-                    const clones = ids.map(id => {
-                        const btn = starButtons.find(b => b.dataset.id === id);
-                        return btn ? btn.closest('.match-card').cloneNode(true) : null;
-                    }).filter(Boolean);
-
-                    starredGrid.innerHTML = '';
-                    clones.forEach(node => {
-                        const b = node.querySelector('.star-btn');
-                        if (b) { 
-                            b.textContent = '★'; 
-                            b.disabled = true; 
-                            b.style.opacity = 0.6; 
-                        }
-                        starredGrid.appendChild(node);
-                    });
-                }
-
-                function save() { 
-                    localStorage.setItem(STAR_KEY, JSON.stringify([...starredSet])); 
-                }
-
-                function toggle(id) {
-                    if (starredSet.has(id)) starredSet.delete(id); 
-                    else starredSet.add(id);
-                    save(); 
-                    paintButtons(); 
-                    renderStarred();
-                }
-
-                // Hook clicks
-                starButtons.forEach(btn => {
-                    btn.removeEventListener('click', btn._clickHandler);
-                    btn._clickHandler = () => toggle(btn.dataset.id);
-                    btn.addEventListener('click', btn._clickHandler);
+                    // Reset display count and re-render
+                    data.displayed = Math.min(INITIAL_CARDS, data.filtered.length);
+                    renderMatchesPage(containerId);
                 });
-
-                // Initial paint
-                paintButtons();
-                renderStarred();
             }
+
+            function clearFilters() {
+                document.getElementById('filter-home').value = '';
+                document.getElementById('filter-away').value = '';
+                document.getElementById('filter-date').value = '';
+                document.getElementById('filter-chance').value = 0;
+                applyFilters(); // Re-apply (which will reset to all)
+            }
+
+            // ---- Star system functions ----
+            const STAR_KEY = 'dm-stars';
+
+            function getStarredSet() {
+                return new Set(JSON.parse(localStorage.getItem(STAR_KEY) || '[]'));
+            }
+
+            function saveStarredSet(set) {
+                localStorage.setItem(STAR_KEY, JSON.stringify([...set]));
+            }
+
+            // Updates the Starred Grid based on current starred set
+            function updateStarredGrid() {
+                const starredSet = getStarredSet();
+                const starredMatches = [];
+                
+                starredSet.forEach(idStr => {
+                    const id = idStr.replace('match-', '');
+                    const match = allMatchesMap.get(id);
+                    if (match) starredMatches.push(match);
+                });
+                
+                matchesData['starred-grid'].all = starredMatches;
+                
+                // Apply filters if active, otherwise just show
+                const hasFilter = document.getElementById('filter-home').value || 
+                                  document.getElementById('filter-away').value || 
+                                  document.getElementById('filter-date').value || 
+                                  parseInt(document.getElementById('filter-chance').value) > 0;
+                
+                if (hasFilter) {
+                    // Re-run applyFilters which covers all grids including starred
+                    applyFilters();
+                } else {
+                    matchesData['starred-grid'].filtered = starredMatches;
+                    matchesData['starred-grid'].displayed = Math.min(INITIAL_CARDS, starredMatches.length);
+                    renderMatchesPage('starred-grid');
+                }
+            }
+
+            // Toggle star status
+            function toggleStar(id) {
+                const starredSet = getStarredSet();
+                if (starredSet.has(id)) starredSet.delete(id); 
+                else starredSet.add(id);
+                
+                saveStarredSet(starredSet);
+                
+                // Update ALL star buttons in UI immediately
+                bindStarButtons(); 
+                
+                // Update the starred grid content
+                updateStarredGrid();
+            }
+
+            // Bind click events and update visual state of star buttons
+            function bindStarButtons() {
+                const starredSet = getStarredSet();
+                const starButtons = Array.from(document.querySelectorAll('.match-card .star-btn'));
+                
+                starButtons.forEach(btn => {
+                    // Update visual state
+                    const isStarred = starredSet.has(btn.dataset.id);
+                    btn.textContent = isStarred ? '★' : '☆';
+                    btn.setAttribute('aria-pressed', isStarred ? 'true' : 'false');
+                    btn.title = isStarred ? 'Unstar' : 'Star';
+                    
+                    // Update listener
+                    btn.onclick = (e) => {
+                        e.stopPropagation(); // Prevent card flip
+                        toggleStar(btn.dataset.id);
+                    };
+                });
+            }
+
+            // Hook into renderMatchesPage to ensure buttons are bound after render
+            const originalRenderMatchesPage = renderMatchesPage;
+            renderMatchesPage = function(containerId) {
+                originalRenderMatchesPage(containerId);
+                bindStarButtons();
+            };
 
             // Load matches on page load
             (async function() {
@@ -365,10 +521,14 @@
                     renderMatches('upcoming-matches-grid', data.upcoming, '', 'Upcoming');
                     renderMatches('most-likely-to-win-grid', data.most_likely_to_win, 'win', 'Likely win');
                     renderMatches('most-likely-to-lose-grid', data.most_likely_to_lose, 'lose', 'Likely lose');
+                    
+                    // Initial load of starred matches
+                    updateStarredGrid();
                 } else {
-                    document.getElementById('upcoming-matches-grid').innerHTML = '<div class="empty-note">Failed to load matches. Please try again later.</div>';
-                    document.getElementById('most-likely-to-win-grid').innerHTML = '<div class="empty-note">Failed to load matches. Please try again later.</div>';
-                    document.getElementById('most-likely-to-lose-grid').innerHTML = '<div class="empty-note">Failed to load matches. Please try again later.</div>';
+                    ['upcoming-matches-grid', 'most-likely-to-win-grid', 'most-likely-to-lose-grid', 'starred-grid'].forEach(id => {
+                         const el = document.getElementById(id);
+                         if(el) el.innerHTML = '<div class="empty-note">Failed to load matches. Please try again later.</div>';
+                    });
                 }
             })();
 
@@ -396,11 +556,12 @@
                     if (response.ok) {
                         alert(`Data refreshed successfully!\nTeams: ${data.teams_count}\nFixtures: ${data.fixtures_count}`);
                         // Reload matches
-                        const matchesData = await fetchMatches();
-                        if (matchesData) {
-                            renderMatches('upcoming-matches-grid', matchesData.upcoming, '', 'Upcoming');
-                            renderMatches('most-likely-to-win-grid', matchesData.most_likely_to_win, 'win', 'Likely win');
-                            renderMatches('most-likely-to-lose-grid', matchesData.most_likely_to_lose, 'lose', 'Likely lose');
+                        const matchesDataRes = await fetchMatches();
+                        if (matchesDataRes) {
+                            renderMatches('upcoming-matches-grid', matchesDataRes.upcoming, '', 'Upcoming');
+                            renderMatches('most-likely-to-win-grid', matchesDataRes.most_likely_to_win, 'win', 'Likely win');
+                            renderMatches('most-likely-to-lose-grid', matchesDataRes.most_likely_to_lose, 'lose', 'Likely lose');
+                            updateStarredGrid();
                         }
                     } else {
                         alert(`Error: ${data.error || 'Failed to refresh data'}`);

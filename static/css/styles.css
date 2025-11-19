@@ -60,7 +60,7 @@ header {
   background-color: #000000;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between; /* Changed from flex-start to space-between */
   color: white;
   padding: 0.5rem 1.5rem;
   font-family: "Libre Baskerville", serif;
@@ -81,6 +81,47 @@ header .logo h1 {
   align-items: center;
   gap: 0.75rem;
   justify-content: flex-start;
+}
+
+/* Sidebar Navigation Styles */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
 }
 
 /* Swiper styles */

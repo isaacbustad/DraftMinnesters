@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Profile - Draft Ministers</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <style>
+            /* Profile specific styles */
+            .profile-container {
+                max-width: 1200px;
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+            
+            .profile-header {
+                background-color: #fff;
+                padding: 2rem;
+                border-radius: 20px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                margin-bottom: 2rem;
+            }
+            
+            .profile-avatar {
+                width: 100px;
+                height: 100px;
+                background-color: #000;
+                color: #fff;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 3rem;
+                font-family: "Libre Baskerville", serif;
+            }
+            
+            .profile-info h1 {
+                margin: 0;
+                font-size: 2rem;
+            }
+            
+            .profile-stats {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 1.5rem;
+                margin-bottom: 2rem;
+            }
+            
+            .stat-card {
+                background: #fff;
+                padding: 1.5rem;
+                border-radius: 16px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            }
+            
+            .stat-label {
+                color: #666;
+                font-size: 0.9rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .stat-value {
+                font-size: 2rem;
+                font-weight: bold;
+                color: #000;
+            }
+            
+            .stat-value.positive { color: #127a3a; }
+            .stat-value.negative { color: #a12424; }
+            
+            .portfolio-section {
+                background: #fff;
+                border-radius: 20px;
+                padding: 2rem;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            }
+            
+            .bets-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 1rem;
+            }
+            
+            .bets-table th {
+                text-align: left;
+                padding: 1rem;
+                border-bottom: 2px solid #f0f0f0;
+                color: #666;
+            }
+            
+            .bets-table td {
+                padding: 1rem;
+                border-bottom: 1px solid #f0f0f0;
+            }
+            
+            .bet-status {
+                padding: 4px 12px;
+                border-radius: 999px;
+                font-size: 0.85rem;
+                font-weight: 500;
+            }
+            
+            .status-Active { background: #e3f2fd; color: #1565c0; }
+            .status-Won { background: #e6f7ec; color: #127a3a; }
+            .status-Lost { background: #fdeaea; color: #a12424; }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo" aria-label="Draft Ministers Logo">
+                <a href="/" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.75rem;">
+                    <img src="{{ url_for('static', filename='images/DM_Logo_W.png') }}" alt="Draft Ministers Logo">
+                    <h1>Draft Ministers</h1>
+                </a>
+            </div>
+            <span class="hamburger" onclick="openNav()">&#9776;</span>
+        </header>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/">Home</a>
+            <a href="/profile">Profile</a>
+        </div>
+
+        <main class="profile-container">
+            <!-- User Details Section -->
+            <section class="profile-header">
+                <div class="profile-avatar">
+                    {{ user.username[0] }}
+                </div>
+                <div class="profile-info">
+                    <h1>{{ user.username }}</h1>
+                    <p style="color: #666; margin: 0.5rem 0;">{{ user.email }}</p>
+                    <div style="display: flex; gap: 1rem; margin-top: 0.5rem;">
+                        <span class="badge" style="background: #000; color: #fff;">{{ user.vip_status }} Member</span>
+                        <span class="badge" style="background: #eee;">Joined {{ user.join_date }}</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio/Stats Section -->
+            <section class="profile-stats">
+                <div class="stat-card">
+                    <div class="stat-label">Portfolio Value</div>
+                    <div class="stat-value">${{ "%.2f"|format(portfolio.wallet_balance) }}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Total PnL</div>
+                    <div class="stat-value {{ 'positive' if portfolio.total_profit >= 0 else 'negative' }}">
+                        {{ "+" if portfolio.total_profit >= 0 else "" }}${{ "%.2f"|format(portfolio.total_profit) }}
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Win Rate</div>
+                    <div class="stat-value">{{ portfolio.win_rate }}%</div>
+                </div>
+            </section>
+
+            <!-- Betting History -->
+            <section class="portfolio-section">
+                <h2 style="margin-top: 0;">Recent Bets</h2>
+                <div style="overflow-x: auto;">
+                    <table class="bets-table">
+                        <thead>
+                            <tr>
+                                <th>Match</th>
+                                <th>Selection</th>
+                                <th>Stake</th>
+                                <th>Return/PnL</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for bet in portfolio.placed_bets %}
+                            <tr>
+                                <td>
+                                    <strong>{{ bet.match }}</strong>
+                                </td>
+                                <td>{{ bet.bet }}</td>
+                                <td>${{ bet.amount }}</td>
+                                <td>
+                                    {% if bet.status == 'Active' %}
+                                        <span style="color: #666">Pot: ${{ bet.potential_win }}</span>
+                                    {% else %}
+                                        <span class="{{ 'positive' if bet.pnl > 0 else 'negative' }}">
+                                            {{ "+" if bet.pnl > 0 else "" }}${{ bet.pnl }}
+                                        </span>
+                                    {% endif %}
+                                </td>
+                                <td><span class="bet-status status-{{ bet.status }}">{{ bet.status }}</span></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Draft Ministers</p>
+        </footer>
+        <script src="{{ url_for('static', filename='js/nav.js') }}"></script>
+    </body>
+</html>

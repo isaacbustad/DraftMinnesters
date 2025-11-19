@@ -6,12 +6,14 @@ import logging
 import os
 from routes.predict import predict_bp
 from routes.matches import matches_bp, get_match_data_internal
+from routes.user import user_bp
 import secret_tunnel as secret 
 import random
 
 app = Flask(__name__)
 app.register_blueprint(predict_bp)
 app.register_blueprint(matches_bp)
+app.register_blueprint(user_bp)
 
 # Create logs directory if it doesn't exist
 log_dir = 'logs'

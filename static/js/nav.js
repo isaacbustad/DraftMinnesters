@@ -17,3 +17,12 @@ function toggleNav(e, targetId) {
   const target = document.getElementById(targetId);
   if (target) target.style.display = 'block';
 }
+
+/* Sidebar Navigation */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
