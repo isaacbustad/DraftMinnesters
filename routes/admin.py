@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, jsonify
+from flask import Blueprint, render_template, jsonify, request
 import sqlite3
 import logging
 import threading
@@ -333,4 +333,47 @@ def ml_status():
         'log': ml_run_state['log'],
         'teams_updated': ml_run_state['teams_updated']
     })
+
+@admin_bp.route('/api/admin/cutoff-date', methods=['GET'])
+def get_cutoff_date():
+    """Get the current cutoff date for upcoming matches."""
+    try:
+        conn = sqlite3.connect(DB_FILE)
+        cursor = conn.cursor()
+        cursor.execute("SELECT value FROM app_config WHERE key = 'upcoming_match_cutoff_date'")
+        result = cursor.fetchone()
+        cursor.close()
+        conn.close()
+        
+        cutoff_date = result[0] if result else '2023-12-31'
+        return jsonify({'cutoff_date': cutoff_date})
+    except Exception as e:
+        logging.error(f"Error getting cutoff date: {e}")
+        return jsonify({'error': str(e)}), 500
+
+@admin_bp.route('/api/admin/cutoff-date', methods=['POST'])
+def set_cutoff_date():
+    """Set the cutoff date for upcoming matches."""
+    try:
+        data = request.get_json()
+        cutoff_date = data.get('cutoff_date')
+        
+        if not cutoff_date:
+            return jsonify({'error': 'Cutoff date is required'}), 400
+        
+        conn = sqlite3.connect(DB_FILE)
+        cursor = conn.cursor()
+        cursor.execute("""
+            INSERT OR REPLACE INTO app_config (key, value) 
+            VALUES ('upcoming_match_cutoff_date', ?)
+        """, (cutoff_date,))
+        conn.commit()
+        cursor.close()
+        conn.close()
+        
+        logging.info(f"Cutoff date updated to: {cutoff_date}")
+        return jsonify({'message': 'Cutoff date updated successfully', 'cutoff_date': cutoff_date})
+    except Exception as e:
+        logging.error(f"Error setting cutoff date: {e}")
+        return jsonify({'error': str(e)}), 500
 

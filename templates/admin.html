@@ -302,6 +302,37 @@
                 </div>
             </section>
 
+            <section class="ml-section">
+                <h2 style="margin-top: 0;">Upcoming Match Cutoff Date</h2>
+                <p style="color: #666; margin-bottom: 1rem;">
+                    Set the cutoff date for upcoming matches. Only matches before this date will be considered as upcoming.
+                    Since upcoming match data is only in 2023, set this to a date in 2023 (e.g., 2023-12-31).
+                </p>
+                <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 200px;">
+                        <label for="cutoff-date" style="display: block; margin-bottom: 0.5rem; font-weight: bold; color: #333;">
+                            Cutoff Date:
+                        </label>
+                        <input 
+                            type="date" 
+                            id="cutoff-date" 
+                            style="width: 50%; padding: 0.75rem; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem;"
+                        >
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; align-items: flex-end;">
+                        <button 
+                            id="save-cutoff-btn" 
+                            class="get-dmr-btn" 
+                            onclick="saveCutoffDate()"
+                            style="margin: 0;"
+                        >
+                            Save Cutoff Date
+                        </button>
+                    </div>
+                </div>
+                <div id="cutoff-message" style="margin-top: 1rem; padding: 0.75rem; border-radius: 8px; display: none;"></div>
+            </section>
+
             <section class="teams-section">
                 <h2 style="margin-top: 0;">Teams in Database</h2>
                 
@@ -368,6 +399,77 @@
         <script src="{{ url_for('static', filename='js/nav.js') }}"></script>
         <script>
             let statusPollInterval = null;
+            
+            // Load cutoff date on page load
+            (async function() {
+                try {
+                    const response = await fetch('/api/admin/cutoff-date');
+                    const data = await response.json();
+                    if (data.cutoff_date) {
+                        document.getElementById('cutoff-date').value = data.cutoff_date;
+                    }
+                } catch (error) {
+                    console.error('Error loading cutoff date:', error);
+                }
+            })();
+            
+            function saveCutoffDate() {
+                const cutoffDate = document.getElementById('cutoff-date').value;
+                const messageDiv = document.getElementById('cutoff-message');
+                const btn = document.getElementById('save-cutoff-btn');
+                
+                if (!cutoffDate) {
+                    messageDiv.style.display = 'block';
+                    messageDiv.style.background = '#f8d7da';
+                    messageDiv.style.border = '1px solid #f5c6cb';
+                    messageDiv.style.color = '#721c24';
+                    messageDiv.textContent = 'Please select a cutoff date.';
+                    return;
+                }
+                
+                btn.disabled = true;
+                btn.textContent = 'Saving...';
+                
+                fetch('/api/admin/cutoff-date', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ cutoff_date: cutoffDate })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    messageDiv.style.display = 'block';
+                    if (data.error) {
+                        messageDiv.style.background = '#f8d7da';
+                        messageDiv.style.border = '1px solid #f5c6cb';
+                        messageDiv.style.color = '#721c24';
+                        messageDiv.textContent = 'Error: ' + data.error;
+                    } else {
+                        messageDiv.style.background = '#d4edda';
+                        messageDiv.style.border = '1px solid #c3e6cb';
+                        messageDiv.style.color = '#155724';
+                        messageDiv.textContent = 'Cutoff date saved successfully!';
+                    }
+                    btn.disabled = false;
+                    btn.textContent = 'Save Cutoff Date';
+                    
+                    // Hide message after 3 seconds
+                    setTimeout(() => {
+                        messageDiv.style.display = 'none';
+                    }, 3000);
+                })
+                .catch(error => {
+                    console.error('Error saving cutoff date:', error);
+                    messageDiv.style.display = 'block';
+                    messageDiv.style.background = '#f8d7da';
+                    messageDiv.style.border = '1px solid #f5c6cb';
+                    messageDiv.style.color = '#721c24';
+                    messageDiv.textContent = 'Error saving cutoff date. Please try again.';
+                    btn.disabled = false;
+                    btn.textContent = 'Save Cutoff Date';
+                });
+            }
             
             function startMLProcess() {
                 const btn = document.getElementById('get-dmr-btn');

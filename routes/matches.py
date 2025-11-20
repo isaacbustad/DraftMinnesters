@@ -274,7 +274,7 @@ def load_fixtures_from_db() -> dict:
         logging.error(f"Error loading fixtures from database: {e}")
         return None
 
-def format_match_data(fixture: dict, teams_map: dict, fixture_row: dict = None) -> dict:
+def format_match_data(fixture: dict, teams_map: dict, fixture_row: dict = None, cutoff_date: str = None) -> dict:
     """Format fixture data for frontend display."""
     fixture_data = fixture.get("fixture", {})
     teams_data = fixture.get("teams", {})
@@ -348,9 +348,49 @@ def format_match_data(fixture: dict, teams_map: dict, fixture_row: dict = None) 
     status = fixture_data.get("status", {})
     status_long = status.get("long", "")
     
-    # For demo purposes, treat all 2023 fixtures as upcoming matches
-    # (since we're using free API with 2023 cutoff)
+    # Determine if match is past or upcoming based on cutoff date
+    # Use current date if cutoff_date is empty
     is_upcoming = True
+    match_status = "upcoming"
+    
+    if date_str:
+        try:
+            match_dt = datetime.fromisoformat(date_str.replace("+00:00", ""))
+            match_date_obj = match_dt.date()
+            
+            # Use cutoff date if provided, otherwise use current date
+            if cutoff_date:
+                try:
+                    cutoff_dt = datetime.strptime(cutoff_date, "%Y-%m-%d")
+                    reference_date = cutoff_dt.date()
+                    logging.debug(f"Using cutoff date: {reference_date} (from {cutoff_date})")
+                except (ValueError, AttributeError) as e:
+                    # If cutoff date parsing fails, use current date
+                    logging.warning(f"Failed to parse cutoff date '{cutoff_date}': {e}, using current date")
+                    reference_date = datetime.now().date()
+            else:
+                # If no cutoff date set, use current date
+                logging.debug("No cutoff date set, using current date")
+                reference_date = datetime.now().date()
+            
+            # Match is past if its date is before the reference date
+            # If cutoff is Sep 30, 2023, matches from Aug 2023 should be past
+            if match_date_obj < reference_date:
+                is_upcoming = False
+                match_status = "past match"
+                logging.debug(f"Match {fixture_data.get('id')} on {match_date_obj} is PAST (cutoff: {reference_date})")
+            else:
+                is_upcoming = True
+                match_status = "upcoming"
+                logging.debug(f"Match {fixture_data.get('id')} on {match_date_obj} is UPCOMING (cutoff: {reference_date})")
+        except (ValueError, AttributeError):
+            # If date parsing fails, default to upcoming for backward compatibility
+            is_upcoming = True
+            match_status = "upcoming"
+    else:
+        # If no date, default to upcoming
+        is_upcoming = True
+        match_status = "upcoming"
     
     return {
         "id": fixture_data.get("id"),
@@ -371,7 +411,8 @@ def format_match_data(fixture: dict, teams_map: dict, fixture_row: dict = None) 
         "draw_percentage": draw,
         "date": match_date,
         "status": status_long,
-        "is_upcoming": is_upcoming
+        "is_upcoming": is_upcoming,
+        "match_status": match_status
     }
 
 def get_match_data_internal():
@@ -392,6 +433,28 @@ def get_match_data_internal():
         # Save to database for next time
         save_teams_to_db(teams_data)
         save_fixtures_to_db(fixtures_data)
+    
+    # Get cutoff date from database
+    cutoff_date = None
+    try:
+        conn = sqlite3.connect(DB_FILE)
+        cursor = conn.cursor()
+        cursor.execute("SELECT value FROM app_config WHERE key = 'upcoming_match_cutoff_date'")
+        result = cursor.fetchone()
+        if result and result[0]:
+            cutoff_date = result[0].strip()
+            # If empty string, treat as None
+            if not cutoff_date:
+                cutoff_date = None
+        cursor.close()
+        conn.close()
+        if cutoff_date:
+            logging.info(f"Retrieved cutoff date from DB: {cutoff_date}")
+        else:
+            logging.info("No cutoff date found in DB, will use current date")
+    except Exception as e:
+        logging.error(f"Error getting cutoff date: {e}")
+        cutoff_date = None
     
     # Create teams map for quick lookup with DMR values
     teams_map = {}
@@ -427,11 +490,13 @@ def get_match_data_internal():
             fixture = fixture_item
             fixture_row = None
         
-        match_data = format_match_data(fixture, teams_map, fixture_row)
+        match_data = format_match_data(fixture, teams_map, fixture_row, cutoff_date)
         matches.append(match_data)
     
-    # All 2023 fixtures are treated as upcoming for demo
-    upcoming_matches = matches
+    # Filter matches based on cutoff date - only include matches marked as upcoming
+    upcoming_matches = [m for m in matches if m.get("is_upcoming", True)]
+    past_matches = [m for m in matches if not m.get("is_upcoming", True)]
+    logging.info(f"Total matches: {len(matches)}, Upcoming: {len(upcoming_matches)}, Past: {len(past_matches)}, Cutoff date used: {cutoff_date}")
     
     # Sort by date
     upcoming_matches.sort(key=lambda x: x.get("date", ""))

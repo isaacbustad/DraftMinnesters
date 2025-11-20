@@ -109,6 +109,17 @@ def init_db():
                 teams_updated INTEGER DEFAULT 0
             )
         """)
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS app_config (
+                key TEXT PRIMARY KEY,
+                value TEXT NOT NULL
+            )
+        """)
+        # Set default cutoff date to 2023-12-31 if not exists
+        cursor.execute("""
+            INSERT OR IGNORE INTO app_config (key, value) 
+            VALUES ('upcoming_match_cutoff_date', '2023-12-31')
+        """)
         conn.commit()
         cursor.close()
         conn.close()
