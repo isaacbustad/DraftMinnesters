@@ -8230,3 +8230,32 @@
 2025-11-12 18:15:59,284 INFO 127.0.0.1 - - [12/Nov/2025 18:15:59] "[36mGET /static/images/slide8.jpg HTTP/1.1[0m" 304 -
 2025-11-12 18:16:00,138 INFO 127.0.0.1 - - [12/Nov/2025 18:16:00] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
 2025-11-12 18:16:00,140 INFO 127.0.0.1 - - [12/Nov/2025 18:16:00] "[36mGET /static/favicon_io/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-11-12 18:41:19,684 INFO Database connected successfully.
+2025-11-12 18:41:19,722 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-11-12 18:41:19,722 INFO [33mPress CTRL+C to quit[0m
+2025-11-12 18:41:19,723 INFO  * Restarting with stat
+2025-11-12 18:41:21,884 INFO Database connected successfully.
+2025-11-12 18:41:21,955 WARNING  * Debugger is active!
+2025-11-12 18:41:21,978 INFO  * Debugger PIN: 330-382-994
+2025-11-12 18:41:22,639 INFO Accessing home endpoint
+2025-11-12 18:41:22,685 INFO 127.0.0.1 - - [12/Nov/2025 18:41:22] "GET / HTTP/1.1" 200 -
+2025-11-12 18:41:23,355 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,361 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-12 18:41:23,362 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/slide4.jpg HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,366 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/slide2.jpg HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,382 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/slide3.jpg HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,384 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/slide1.jpg HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,385 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/slide5.jpg HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,385 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "GET /static/js/nav.js HTTP/1.1" 200 -
+2025-11-12 18:41:23,407 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/slide6.jpg HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,408 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/slide7.jpg HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,418 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/slide8.jpg HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,425 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/underdogs.jpg HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,426 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,432 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/images/money.jpg HTTP/1.1[0m" 304 -
+2025-11-12 18:41:23,473 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "GET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1" 200 -
+2025-11-12 18:41:23,475 INFO 127.0.0.1 - - [12/Nov/2025 18:41:23] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-12 18:41:24,345 INFO 127.0.0.1 - - [12/Nov/2025 18:41:24] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
