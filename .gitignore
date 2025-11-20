@@ -2,3 +2,4 @@
 logs/app.log
 secret_tunnel
 logs/app.log
+machine_learning/football_database.sqlite
