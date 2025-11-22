@@ -10557,3 +10557,51 @@
 2025-11-19 18:28:45,726 INFO Loaded 20 teams from database
 2025-11-19 18:28:45,769 INFO Loaded 380 fixtures from database
 2025-11-19 18:28:45,879 INFO 127.0.0.1 - - [19/Nov/2025 18:28:45] "GET /api/matches HTTP/1.1" 200 -
+2025-11-19 18:31:06,113 INFO Database connected successfully.
+2025-11-19 18:31:06,204 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.134.56:5000
+2025-11-19 18:31:06,206 INFO [33mPress CTRL+C to quit[0m
+2025-11-19 18:31:07,746 INFO Accessing home endpoint
+2025-11-19 18:31:07,748 INFO Loaded 20 teams from database
+2025-11-19 18:31:07,767 INFO Loaded 380 fixtures from database
+2025-11-19 18:31:07,804 INFO 127.0.0.1 - - [19/Nov/2025 18:31:07] "GET / HTTP/1.1" 200 -
+2025-11-19 18:31:08,050 INFO 127.0.0.1 - - [19/Nov/2025 18:31:08] "GET /static/css/flip.css HTTP/1.1" 200 -
+2025-11-19 18:31:08,057 INFO 127.0.0.1 - - [19/Nov/2025 18:31:08] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-19 18:31:08,067 INFO 127.0.0.1 - - [19/Nov/2025 18:31:08] "GET /static/js/nav.js HTTP/1.1" 200 -
+2025-11-19 18:31:08,085 INFO 127.0.0.1 - - [19/Nov/2025 18:31:08] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-19 18:31:08,092 INFO 127.0.0.1 - - [19/Nov/2025 18:31:08] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-19 18:31:08,190 INFO 127.0.0.1 - - [19/Nov/2025 18:31:08] "GET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1" 200 -
+2025-11-19 18:31:08,203 INFO 127.0.0.1 - - [19/Nov/2025 18:31:08] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-19 18:31:08,224 INFO Loaded 20 teams from database
+2025-11-19 18:31:08,253 INFO Loaded 380 fixtures from database
+2025-11-19 18:31:08,271 INFO 127.0.0.1 - - [19/Nov/2025 18:31:08] "GET /api/matches HTTP/1.1" 200 -
+2025-11-19 18:31:08,292 INFO 127.0.0.1 - - [19/Nov/2025 18:31:08] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-19 18:31:08,292 INFO 127.0.0.1 - - [19/Nov/2025 18:31:08] "GET /static/favicon_io/favicon-32x32.png HTTP/1.1" 200 -
+2025-11-19 18:33:52,084 INFO 127.0.0.1 - - [19/Nov/2025 18:33:52] "GET /profile HTTP/1.1" 200 -
+2025-11-19 18:33:52,201 INFO 127.0.0.1 - - [19/Nov/2025 18:33:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-19 18:33:52,207 INFO 127.0.0.1 - - [19/Nov/2025 18:33:52] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-19 18:33:52,207 INFO 127.0.0.1 - - [19/Nov/2025 18:33:52] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-19 18:33:52,215 INFO 127.0.0.1 - - [19/Nov/2025 18:33:52] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-19 18:33:52,215 INFO 127.0.0.1 - - [19/Nov/2025 18:33:52] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-11-19 18:33:52,235 INFO 127.0.0.1 - - [19/Nov/2025 18:33:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-19 18:36:40,977 INFO 127.0.0.1 - - [19/Nov/2025 18:36:40] "GET /profile HTTP/1.1" 200 -
+2025-11-19 18:36:40,998 INFO 127.0.0.1 - - [19/Nov/2025 18:36:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-19 18:36:41,004 INFO 127.0.0.1 - - [19/Nov/2025 18:36:41] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-19 18:36:41,005 INFO 127.0.0.1 - - [19/Nov/2025 18:36:41] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-19 18:36:41,012 INFO 127.0.0.1 - - [19/Nov/2025 18:36:41] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-11-19 18:36:41,015 INFO 127.0.0.1 - - [19/Nov/2025 18:36:41] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-11-19 18:36:58,708 INFO Accessing home endpoint
+2025-11-19 18:36:58,711 INFO Loaded 20 teams from database
+2025-11-19 18:36:58,723 INFO Loaded 380 fixtures from database
+2025-11-19 18:36:58,730 INFO 127.0.0.1 - - [19/Nov/2025 18:36:58] "GET / HTTP/1.1" 200 -
+2025-11-19 18:36:58,752 INFO 127.0.0.1 - - [19/Nov/2025 18:36:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-19 18:36:58,756 INFO 127.0.0.1 - - [19/Nov/2025 18:36:58] "[36mGET /static/css/flip.css HTTP/1.1[0m" 304 -
+2025-11-19 18:36:58,758 INFO 127.0.0.1 - - [19/Nov/2025 18:36:58] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-19 18:36:58,759 INFO 127.0.0.1 - - [19/Nov/2025 18:36:58] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-19 18:36:58,780 INFO 127.0.0.1 - - [19/Nov/2025 18:36:58] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-11-19 18:36:58,797 INFO Loaded 20 teams from database
+2025-11-19 18:36:58,799 INFO 127.0.0.1 - - [19/Nov/2025 18:36:58] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-11-19 18:36:58,813 INFO Loaded 380 fixtures from database
+2025-11-19 18:36:58,823 INFO 127.0.0.1 - - [19/Nov/2025 18:36:58] "GET /api/matches HTTP/1.1" 200 -
