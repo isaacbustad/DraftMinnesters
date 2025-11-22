@@ -1,6 +1,12 @@
 # Draft Ministers - Soccer Match Prediction Platform
 <img width="2958" height="1616" alt="image" src="https://github.com/user-attachments/assets/692f3182-b5eb-4eb6-89c3-ab0672183275" />
 
+<img width="2896" height="1498" alt="image" src="https://github.com/user-attachments/assets/875098ac-bce5-4bef-bb11-cb04e3b4f88c" />
+
+<img width="2960" height="1582" alt="image" src="https://github.com/user-attachments/assets/b1743859-42ab-4f5d-b50f-ffdf7b101869" />
+
+
+
 ## Overview
 
 Draft Ministers is a Flask-based web application that provides accurate match win probability predictions for soccer fans and analysts. The platform uses machine learning models to calculate team ratings (DMR - Draft Minister Rating) and predict match outcomes, helping users make informed betting decisions.
