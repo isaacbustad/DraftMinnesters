@@ -1,4 +1,5 @@
 # Draft Ministers - Soccer Match Prediction Platform
+<img width="2958" height="1616" alt="image" src="https://github.com/user-attachments/assets/692f3182-b5eb-4eb6-89c3-ab0672183275" />
 
 ## Overview
 
