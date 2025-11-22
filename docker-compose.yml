@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: draft-ministers-app
+    ports:
+      - "5000:5000"
+    volumes:
+      # Mount database for persistence
+      - ./draft_ministers.db:/app/draft_ministers.db
+      # Mount logs directory
+      - ./logs:/app/logs
+      # Mount ML database if needed
+      - ./machine_learning/football_database.sqlite:/app/machine_learning/football_database.sqlite
+    environment:
+      - FLASK_ENV=production
+      - FLASK_APP=app.py
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:5000/')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+

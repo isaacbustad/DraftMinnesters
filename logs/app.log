@@ -31392,3 +31392,9 @@
  * Running on http://127.0.0.1:5000
  * Running on http://10.0.153.128:5000
 2025-11-22 15:22:00,018 INFO [33mPress CTRL+C to quit[0m
+2025-11-22 15:23:48,840 INFO 127.0.0.1 - - [22/Nov/2025 15:23:48] "GET /profile HTTP/1.1" 200 -
+2025-11-22 15:23:49,163 INFO 127.0.0.1 - - [22/Nov/2025 15:23:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-22 15:23:49,169 INFO 127.0.0.1 - - [22/Nov/2025 15:23:49] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-11-22 15:23:49,172 INFO 127.0.0.1 - - [22/Nov/2025 15:23:49] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-11-22 15:23:49,775 INFO 127.0.0.1 - - [22/Nov/2025 15:23:49] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-11-22 15:23:49,789 INFO 127.0.0.1 - - [22/Nov/2025 15:23:49] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
