@@ -13,7 +13,7 @@
         <link rel="manifest" href="{{ url_for('static', filename='favicon_io/site.webmanifest') }}">
         
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/flip.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/overlaystyles.css') }}">
     </head>
     <body>
         <header>
@@ -28,6 +28,7 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="/">Home</a>
             <a href="/profile">Profile</a>
+            <a href="/admin">Admin</a>
         </div>
         <main>
             <div id ="banner">
@@ -85,6 +86,10 @@
     Upcoming Matches
   </button>
   <button role="tab" class="nav-links"
+          onclick="toggleNav(event, 'past-matches-container')">
+    Past Matches
+  </button>
+  <button role="tab" class="nav-links"
           onclick="toggleNav(event, 'most-likely-to-win-container')">
     Most Likely to Win
   </button>
@@ -134,6 +139,15 @@
   </div>
 </div>
 
+<div id="past-matches-container" class="nav-content" aria-labelledby="tab-past">
+  <h2>Past Matches</h2>
+  <p>View completed matches and their results.</p>
+
+  <div class="matches-grid" id="past-matches-grid">
+    <div class="loading">Loading matches...</div>
+  </div>
+</div>
+
 <div id="most-likely-to-win-container" class="nav-content" aria-labelledby="tab-most-likely">
   <h2>Most Likely to Win</h2>
   <p>Discover the teams with the highest chances of winning their upcoming matches.</p>
@@ -160,11 +174,88 @@
   </div>
 </div>
 
+            <!-- Match Details Overlay -->
+            <div id="overlay">
+                <div id="overlay-content">
+                    <div class="overlay-header">
+                        <h2 id="overlay-header-title">Match Details</h2>
+                        <button class="overlay-close" onclick="closeOverlay()" aria-label="Close overlay">&times;</button>
+                    </div>
+                    <div class="overlay-body">
+                        <div class="match-overview">
+                            <div class="team-section">
+                                <img id="team1-logo" src="" alt="" class="team-logo-large">
+                                <div id="team1-fallback" class="crest" style="display:none; width:120px; height:120px; margin:0 auto 1rem; font-size:3rem;"></div>
+                                <h3 id="team1-name" class="team-name"></h3>
+                                <div id="team1-win-pct" class="win-percentage"></div>
+                            </div>
+                            <div class="vs-section">
+                                <div>VS</div>
+                                <div class="probability-scale">
+                                    <div id="probability-bar" class="probability-bar"></div>
+                                </div>
+                                <div style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">
+                                    <span id="detail-draw">0%</span> Draw
+                                </div>
+                            </div>
+                            <div class="team-section">
+                                <img id="team2-logo" src="" alt="" class="team-logo-large">
+                                <div id="team2-fallback" class="crest" style="display:none; width:120px; height:120px; margin:0 auto 1rem; font-size:3rem;"></div>
+                                <h3 id="team2-name" class="team-name"></h3>
+                                <div id="team2-win-pct" class="win-percentage"></div>
+                            </div>
+                        </div>
+
+                        <div class="match-details">
+                            <div class="detail-card">
+                                <h4>League</h4>
+                                <p id="detail-league">-</p>
+                            </div>
+                            <div class="detail-card">
+                                <h4>Round</h4>
+                                <p id="detail-round">-</p>
+                            </div>
+                            <div class="detail-card">
+                                <h4>Venue</h4>
+                                <p id="detail-venue">-</p>
+                            </div>
+                            <div class="detail-card">
+                                <h4>Referee</h4>
+                                <p id="detail-referee">-</p>
+                            </div>
+                            <div class="detail-card">
+                                <h4>Date</h4>
+                                <p id="detail-date">-</p>
+                            </div>
+                            <div class="detail-card">
+                                <h4>Status</h4>
+                                <p id="detail-status">-</p>
+                            </div>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stats-section">
+                                <h4 id="team1-stats-title">Team Stats</h4>
+                                <ul class="stats-list">
+                                    <li class="empty-stats">Stats coming soon</li>
+                                </ul>
+                            </div>
+                            <div class="stats-section">
+                                <h4 id="team2-stats-title">Team Stats</h4>
+                                <ul class="stats-list">
+                                    <li class="empty-stats">Stats coming soon</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer>
             <p>&copy; 2025 Draft Ministers</p>
         </footer>
         <script src="{{ url_for('static', filename='js/nav.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/overlay.js') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
             // Initialize banner slider
@@ -205,6 +296,7 @@
                     if (data) {
                         const allLists = [
                             ...(data.upcoming || []), 
+                            ...(data.past || []),
                             ...(data.most_likely_to_win || []), 
                             ...(data.most_likely_to_lose || [])
                         ];
@@ -223,68 +315,37 @@
                 const homeCode = match.home_team.code || match.home_team.name.substring(0, 3).toUpperCase();
                 const awayCode = match.away_team.code || match.away_team.name.substring(0, 3).toUpperCase();
                 
-                // Prepare details for the back of the card
-                const venue = match.venue_name || 'Unknown Venue';
-                const city = match.venue_city || '';
-                const referee = match.referee || 'TBD';
-                const round = match.round || 'Regular Season';
-                const league = match.league_name || 'League';
-                const season = match.season || 'Current';
-                
                 return `
-                    <article class="match-card" data-match-id="${match.id}" onclick="this.classList.toggle('flipped')">
-                        <div class="match-card-inner">
-                            <div class="match-card-front">
-                                <header>
-                                    <div>${homeCode} vs ${awayCode}</div>
-                                    <span class="badge ${badgeClass}">${badgeText}</span>
-                                </header>
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="team">
-                                            <img src="${match.home_team.logo}" alt="${match.home_team.name}" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                                            <div class="crest" style="display:none;">${homeCode[0]}</div>
-                                            <div>${match.home_team.name}</div>
-                                        </div>
-                                        <div>${match.home_team.win_percentage}%</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="team">
-                                            <img src="${match.away_team.logo}" alt="${match.away_team.name}" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                                            <div class="crest" style="display:none;">${awayCode[0]}</div>
-                                            <div>${match.away_team.name}</div>
-                                        </div>
-                                        <div>${match.away_team.win_percentage}%</div>
-                                    </div>
-                                    <div class="row note">
-                                        <div>Draw</div>
-                                        <div>${match.draw_percentage}%</div>
-                                    </div>
+                    <article class="match-card" data-match-id="${match.id}" data-match-data='${JSON.stringify(match).replace(/'/g, "&#39;")}' onclick="handleMatchCardClick(this)">
+                        <header>
+                            <div>${homeCode} vs ${awayCode}</div>
+                            <span class="badge ${badgeClass}">${badgeText}</span>
+                        </header>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="team">
+                                    <img src="${match.home_team.logo}" alt="${match.home_team.name}" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                    <div class="crest" style="display:none;">${homeCode[0]}</div>
+                                    <div>${match.home_team.name}</div>
                                 </div>
-                                <div class="meta">
-                                    <div>${match.date || 'TBD'}</div>
-                                    <button class="star-btn" data-id="${matchId}" aria-label="Star match" onclick="event.stopPropagation()">☆</button>
-                                </div>
+                                <div>${match.home_team.win_percentage}%</div>
                             </div>
-                            <div class="match-card-back">
-                                <div class="card-back-header">
-                                    <span>Match Details</span>
-                                    <span style="font-size: 1.2em; cursor: pointer;" onclick="event.stopPropagation(); this.closest('.match-card').classList.remove('flipped')">&times;</span>
+                            <div class="row">
+                                <div class="team">
+                                    <img src="${match.away_team.logo}" alt="${match.away_team.name}" class="team-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                    <div class="crest" style="display:none;">${awayCode[0]}</div>
+                                    <div>${match.away_team.name}</div>
                                 </div>
-                                <div class="card-back-content">
-                                    <p><strong>League:</strong> ${league} (${season})</p>
-                                    <p><strong>Round:</strong> ${round}</p>
-                                    <p><strong>Venue:</strong> ${venue}${city ? ', ' + city : ''}</p>
-                                    <p><strong>Referee:</strong> ${referee}</p>
-                                    <p><strong>Status:</strong> ${match.status_long || 'Scheduled'}</p>
-                                    <hr style="border: 0; border-top: 1px solid #ddd; margin: 8px 0;">
-                                    <p><strong>Home Form:</strong> ${match.home_team.name}</p>
-                                    <p><strong>Away Form:</strong> ${match.away_team.name}</p>
-                                </div>
-                                <div class="meta" style="margin-top: auto;">
-                                    <div>ID: ${match.id}</div>
-                                </div>
+                                <div>${match.away_team.win_percentage}%</div>
                             </div>
+                            <div class="row note">
+                                <div>Draw</div>
+                                <div>${match.draw_percentage}%</div>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <div>${match.date || 'TBD'}</div>
+                            <button class="star-btn" data-id="${matchId}" aria-label="Star match" onclick="event.stopPropagation()">☆</button>
                         </div>
                     </article>
                 `;
@@ -509,10 +570,23 @@
                     
                     // Update listener
                     btn.onclick = (e) => {
-                        e.stopPropagation(); // Prevent card flip
+                        e.stopPropagation(); // Prevent overlay opening
                         toggleStar(btn.dataset.id);
                     };
                 });
+            }
+
+            // Handle match card click to show overlay
+            function handleMatchCardClick(cardElement) {
+                const matchData = cardElement.getAttribute('data-match-data');
+                if (matchData) {
+                    try {
+                        const match = JSON.parse(matchData);
+                        showMatchDetails(match);
+                    } catch (e) {
+                        console.error('Error parsing match data:', e);
+                    }
+                }
             }
 
 
@@ -521,13 +595,14 @@
                 const data = await fetchMatches();
                 if (data) {
                     renderMatches('upcoming-matches-grid', data.upcoming, '', 'Upcoming');
+                    renderMatches('past-matches-grid', data.past || [], 'past', 'Past');
                     renderMatches('most-likely-to-win-grid', data.most_likely_to_win, 'win', 'Likely win');
                     renderMatches('most-likely-to-lose-grid', data.most_likely_to_lose, 'lose', 'Likely lose');
                     
                     // Initial load of starred matches
                     updateStarredGrid();
                 } else {
-                    ['upcoming-matches-grid', 'most-likely-to-win-grid', 'most-likely-to-lose-grid', 'starred-grid'].forEach(id => {
+                    ['upcoming-matches-grid', 'past-matches-grid', 'most-likely-to-win-grid', 'most-likely-to-lose-grid', 'starred-grid'].forEach(id => {
                          const el = document.getElementById(id);
                          if(el) el.innerHTML = '<div class="empty-note">Failed to load matches. Please try again later.</div>';
                     });
@@ -561,6 +636,7 @@
                         const matchesDataRes = await fetchMatches();
                         if (matchesDataRes) {
                             renderMatches('upcoming-matches-grid', matchesDataRes.upcoming, '', 'Upcoming');
+                            renderMatches('past-matches-grid', matchesDataRes.past || [], 'past', 'Past');
                             renderMatches('most-likely-to-win-grid', matchesDataRes.most_likely_to_win, 'win', 'Likely win');
                             renderMatches('most-likely-to-lose-grid', matchesDataRes.most_likely_to_lose, 'lose', 'Likely lose');
                             updateStarredGrid();

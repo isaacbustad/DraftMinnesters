@@ -1,5 +1,3 @@
-/* Should relocate this file to another folder. */
-
 :root {
   --bg-main: #0f172a;
   --bg-card: #1e2537;
@@ -356,3 +354,4 @@ tbody tr:hover {
   color: #475569;
   font-size: .7rem;
 }
+
