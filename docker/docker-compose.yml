@@ -3,18 +3,18 @@ version: '3.8'
 services:
   web:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: ..
+      dockerfile: docker/Dockerfile
     container_name: draft-ministers-app
     ports:
       - "5000:5000"
     volumes:
       # Mount database for persistence
-      - ./draft_ministers.db:/app/draft_ministers.db
+      - ../draft_ministers.db:/app/draft_ministers.db
       # Mount logs directory
-      - ./logs:/app/logs
+      - ../logs:/app/logs
       # Mount ML database if needed
-      - ./machine_learning/football_database.sqlite:/app/machine_learning/football_database.sqlite
+      - ../machine_learning/football_database.sqlite:/app/machine_learning/football_database.sqlite
     environment:
       - FLASK_ENV=production
       - FLASK_APP=app.py

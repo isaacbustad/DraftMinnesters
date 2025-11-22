@@ -1,6 +1,7 @@
 @echo off
 REM Run script for Docker container (Windows)
-REM Usage: run-docker.bat [tag] [port]
+REM Usage: docker\run-docker.bat [tag] [port]
+REM Run from project root directory
 
 setlocal enabledelayedexpansion
 
@@ -10,6 +11,10 @@ if "%TAG%"=="" set TAG=draft-ministers:latest
 
 set PORT=%2
 if "%PORT%"=="" set PORT=5000
+
+REM Get script directory and project root
+set "SCRIPT_DIR=%~dp0"
+set "PROJECT_ROOT=%SCRIPT_DIR%.."
 
 echo Running Draft Ministers Flask App in Docker...
 
@@ -24,8 +29,11 @@ REM Check if image exists
 docker images | findstr "draft-ministers" >nul 2>nul
 if %ERRORLEVEL% NEQ 0 (
     echo Image not found. Building first...
-    call build-docker.bat %TAG%
+    call "%SCRIPT_DIR%build-docker.bat" %TAG%
 )
+
+REM Change to project root
+cd /d "%PROJECT_ROOT%"
 
 REM Create necessary directories if they don't exist
 if not exist "logs" mkdir logs
@@ -40,9 +48,9 @@ echo Starting container on port %PORT%...
 docker run -d ^
     --name draft-ministers-app ^
     -p %PORT%:5000 ^
-    -v "%CD%\draft_ministers.db:/app/draft_ministers.db" ^
-    -v "%CD%\logs:/app/logs" ^
-    -v "%CD%\machine_learning\football_database.sqlite:/app/machine_learning/football_database.sqlite" ^
+    -v "%PROJECT_ROOT%\draft_ministers.db:/app/draft_ministers.db" ^
+    -v "%PROJECT_ROOT%\logs:/app/logs" ^
+    -v "%PROJECT_ROOT%\machine_learning\football_database.sqlite:/app/machine_learning/football_database.sqlite" ^
     --restart unless-stopped ^
     %TAG%
 

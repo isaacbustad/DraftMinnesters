@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Run script for Docker container
-# Usage: ./run-docker.sh [tag] [port]
+# Usage: ./docker/run-docker.sh [tag] [port]
+# Run from project root directory
 
 set -e
 
@@ -15,6 +16,10 @@ NC='\033[0m' # No Color
 TAG=${1:-draft-ministers:latest}
 PORT=${2:-5000}
 
+# Get script directory and project root
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+PROJECT_ROOT="$( cd "$SCRIPT_DIR/.." && pwd )"
+
 echo -e "${GREEN}Running Draft Ministers Flask App in Docker...${NC}"
 
 # Check if Docker is installed
@@ -26,8 +31,11 @@ fi
 # Check if image exists
 if ! docker images | grep -q "draft-ministers"; then
     echo -e "${YELLOW}Image not found. Building first...${NC}"
-    ./build-docker.sh ${TAG}
+    "$SCRIPT_DIR/build-docker.sh" ${TAG}
 fi
+
+# Change to project root
+cd "$PROJECT_ROOT"
 
 # Create necessary directories if they don't exist
 mkdir -p logs
@@ -38,9 +46,9 @@ echo -e "${YELLOW}Starting container on port ${PORT}...${NC}"
 docker run -d \
     --name draft-ministers-app \
     -p ${PORT}:5000 \
-    -v "$(pwd)/draft_ministers.db:/app/draft_ministers.db" \
-    -v "$(pwd)/logs:/app/logs" \
-    -v "$(pwd)/machine_learning/football_database.sqlite:/app/machine_learning/football_database.sqlite" \
+    -v "$PROJECT_ROOT/draft_ministers.db:/app/draft_ministers.db" \
+    -v "$PROJECT_ROOT/logs:/app/logs" \
+    -v "$PROJECT_ROOT/machine_learning/football_database.sqlite:/app/machine_learning/football_database.sqlite" \
     --restart unless-stopped \
     ${TAG}
 

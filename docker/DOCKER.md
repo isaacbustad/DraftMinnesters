@@ -17,15 +17,17 @@ This guide explains how to build and run the Draft Ministers Flask application u
 
 ### Option 1: Using Docker Compose (Recommended)
 
+From the **project root directory**:
+
 ```bash
 # Build and start the container
-docker-compose up -d
+docker-compose -f docker/docker-compose.yml up -d
 
 # View logs
-docker-compose logs -f
+docker-compose -f docker/docker-compose.yml logs -f
 
 # Stop the container
-docker-compose down
+docker-compose -f docker/docker-compose.yml down
 ```
 
 The application will be available at `http://localhost:5000`
@@ -34,33 +36,33 @@ The application will be available at `http://localhost:5000`
 
 **Linux/Mac:**
 ```bash
-# Make scripts executable
-chmod +x build-docker.sh run-docker.sh
+# Make scripts executable (first time only)
+chmod +x docker/build-docker.sh docker/run-docker.sh
 
-# Build the image
-./build-docker.sh
+# Build the image (from project root)
+./docker/build-docker.sh
 
-# Run the container
-./run-docker.sh
+# Run the container (from project root)
+./docker/run-docker.sh
 ```
 
 **Windows:**
 ```cmd
-# Build the image
-build-docker.bat
+REM Build the image (from project root)
+docker\build-docker.bat
 
-# Run the container
-run-docker.bat
+REM Run the container (from project root)
+docker\run-docker.bat
 ```
 
 ### Option 3: Manual Docker Commands
 
-**Build the image:**
+**Build the image** (from project root):
 ```bash
-docker build -t draft-ministers:latest .
+docker build -f docker/Dockerfile -t draft-ministers:latest .
 ```
 
-**Run the container:**
+**Run the container** (from project root):
 ```bash
 docker run -d \
   --name draft-ministers-app \
@@ -133,14 +135,14 @@ This ensures data persists even if the container is removed.
 
 ### Change Port
 
-Edit `docker-compose.yml` or use:
+Edit `docker/docker-compose.yml` or use:
 ```bash
 docker run -p 8080:5000 draft-ministers:latest
 ```
 
 ### Environment Variables
 
-Add to `docker-compose.yml`:
+Add to `docker/docker-compose.yml`:
 ```yaml
 environment:
   - FLASK_ENV=production
@@ -154,7 +156,7 @@ docker run -e FLASK_ENV=production draft-ministers:latest
 
 ### Build with Custom Tag
 ```bash
-docker build -t draft-ministers:v1.0.0 .
+docker build -f docker/Dockerfile -t draft-ministers:v1.0.0 .
 ```
 
 ## Troubleshooting
@@ -175,7 +177,7 @@ docker build -t draft-ministers:v1.0.0 .
 
 - Check Dockerfile syntax
 - Verify all files are present
-- Review build logs: `docker build -t draft-ministers:latest . 2>&1 | tee build.log`
+- Review build logs: `docker build -f docker/Dockerfile -t draft-ministers:latest . 2>&1 | tee build.log`
 
 ### Permission Issues (Linux)
 
