@@ -5,5 +5,8 @@ requests
 numpy
 scikit-learn
 matplotlib
-jsonify
 Flask-Bootstrap
+pandas
+cassandra-driver
+hdfs
+gunicorn
