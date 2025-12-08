@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, jsonify, request
-import sqlite3
+from database import get_db_connection
 import logging
 import threading
 import time
@@ -17,7 +17,7 @@ get_all_team_dmrs = ml_module.get_all_team_dmrs
 
 admin_bp = Blueprint('admin', __name__)
 
-DB_FILE = 'draft_ministers.db'
+
 
 def calculate_win_percentages(home_dmr: float, away_dmr: float) -> tuple:
     """
@@ -84,7 +84,7 @@ ml_run_state = {
 def get_last_ml_run_time():
     """Get the last ML run time from database."""
     try:
-        conn = sqlite3.connect(DB_FILE)
+        conn = get_db_connection()
         cursor = conn.cursor()
         cursor.execute("SELECT run_time FROM ml_run_history ORDER BY id DESC LIMIT 1")
         result = cursor.fetchone()
@@ -99,9 +99,8 @@ def get_last_ml_run_time():
 def admin():
     """Display admin page for administrators with teams from database."""
     try:
-        conn = sqlite3.connect(DB_FILE)
-        conn.row_factory = sqlite3.Row
-        cursor = conn.cursor()
+        conn = get_db_connection()
+        cursor = conn.cursor(dictionary=True)
         
         cursor.execute("SELECT * FROM soccer_teams ORDER BY name")
         rows = cursor.fetchall()
@@ -198,7 +197,7 @@ def run_ml_process():
         add_log(f"Updating database with DMR ratings for {len(team_dmrs)} teams...")
         
         # Update database with DMR values
-        conn = sqlite3.connect(DB_FILE)
+        conn = get_db_connection()
         cursor = conn.cursor()
         
         teams_updated = 0
@@ -209,8 +208,8 @@ def run_ml_process():
             # Try to match team by name (case-insensitive)
             cursor.execute("""
                 UPDATE soccer_teams 
-                SET dmr = ? 
-                WHERE LOWER(TRIM(name)) = LOWER(TRIM(?))
+                SET dmr = %s 
+                WHERE LOWER(TRIM(name)) = LOWER(TRIM(%s))
             """, (dmr_value, team_name))
             
             if cursor.rowcount > 0:
@@ -229,7 +228,7 @@ def run_ml_process():
         add_log("Calculating win percentages for fixtures based on DMR ratings...")
         
         # Open new connection for fixtures update
-        conn = sqlite3.connect(DB_FILE)
+        conn = get_db_connection()
         cursor = conn.cursor()
         
         # Get all fixtures
@@ -244,11 +243,11 @@ def run_ml_process():
             fixture_id, home_team_id, away_team_id = fixture
             
             # Get DMR for home and away teams
-            cursor.execute("SELECT dmr FROM soccer_teams WHERE id = ?", (home_team_id,))
+            cursor.execute("SELECT dmr FROM soccer_teams WHERE id = %s", (home_team_id,))
             home_dmr_row = cursor.fetchone()
             home_dmr = home_dmr_row[0] if home_dmr_row else None
             
-            cursor.execute("SELECT dmr FROM soccer_teams WHERE id = ?", (away_team_id,))
+            cursor.execute("SELECT dmr FROM soccer_teams WHERE id = %s", (away_team_id,))
             away_dmr_row = cursor.fetchone()
             away_dmr = away_dmr_row[0] if away_dmr_row else None
             
@@ -258,8 +257,8 @@ def run_ml_process():
             # Update fixture with win percentages
             cursor.execute("""
                 UPDATE soccer_fixtures 
-                SET home_win_percentage = ?, away_win_percentage = ?, draw_percentage = ?
-                WHERE fixture_id = ?
+                SET home_win_percentage = %s, away_win_percentage = %s, draw_percentage = %s
+                WHERE fixture_id = %s
             """, (home_win, away_win, draw, fixture_id))
             
             fixtures_updated += 1
@@ -272,11 +271,11 @@ def run_ml_process():
         
         # Record run time
         run_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        conn = sqlite3.connect(DB_FILE)
+        conn = get_db_connection()
         cursor = conn.cursor()
         cursor.execute("""
             INSERT INTO ml_run_history (run_time, status, teams_updated)
-            VALUES (?, ?, ?)
+            VALUES (%s, %s, %s)
         """, (run_time, 'completed', teams_updated))
         conn.commit()
         cursor.close()
@@ -295,11 +294,11 @@ def run_ml_process():
         # Record failed run
         run_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         try:
-            conn = sqlite3.connect(DB_FILE)
+            conn = get_db_connection()
             cursor = conn.cursor()
             cursor.execute("""
                 INSERT INTO ml_run_history (run_time, status, teams_updated)
-                VALUES (?, ?, ?)
+                VALUES (%s, %s, %s)
             """, (run_time, 'failed', 0))
             conn.commit()
             cursor.close()
@@ -338,9 +337,9 @@ def ml_status():
 def get_cutoff_date():
     """Get the current cutoff date for upcoming matches."""
     try:
-        conn = sqlite3.connect(DB_FILE)
+        conn = get_db_connection()
         cursor = conn.cursor()
-        cursor.execute("SELECT value FROM app_config WHERE key = 'upcoming_match_cutoff_date'")
+        cursor.execute("SELECT value FROM app_config WHERE `key` = 'upcoming_match_cutoff_date'")
         result = cursor.fetchone()
         cursor.close()
         conn.close()
@@ -361,11 +360,11 @@ def set_cutoff_date():
         if not cutoff_date:
             return jsonify({'error': 'Cutoff date is required'}), 400
         
-        conn = sqlite3.connect(DB_FILE)
+        conn = get_db_connection()
         cursor = conn.cursor()
         cursor.execute("""
-            INSERT OR REPLACE INTO app_config (key, value) 
-            VALUES ('upcoming_match_cutoff_date', ?)
+            REPLACE INTO app_config (`key`, value) 
+            VALUES ('upcoming_match_cutoff_date', %s)
         """, (cutoff_date,))
         conn.commit()
         cursor.close()

@@ -14,10 +14,30 @@ services:
       - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
       - CASSANDRA_HOSTS=cassandra
       - HADOOP_NAMENODE=namenode:9000
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+      - MYSQL_DB=draft_ministers
     depends_on:
       - kafka
       - cassandra
       - namenode
+      - mysql
+    networks:
+      - app-network
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: draft_ministers
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
     networks:
       - app-network
 
@@ -93,6 +113,7 @@ volumes:
   cassandra_data:
   hadoop_namenode:
   hadoop_datanode:
+  mysql_data:
 
 networks:
   app-network:

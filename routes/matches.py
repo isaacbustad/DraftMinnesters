@@ -3,7 +3,7 @@ import requests
 import random
 from datetime import datetime
 import logging
-import sqlite3
+from database import get_db_connection
 import json
 import os
 from routes.admin import calculate_win_percentages
@@ -17,7 +17,7 @@ HEADERS = {
     "x-rapidapi-host": "v3.football.api-sports.io"
 }
 
-DB_FILE = 'draft_ministers.db'
+
 
 def fetch_teams() -> dict:
     """Load teams from local JSON file for MVP demo."""
@@ -56,7 +56,7 @@ def generate_win_percentages():
 def clear_database():
     """Clear all teams and fixtures from the database."""
     try:
-        conn = sqlite3.connect(DB_FILE)
+        conn = get_db_connection()
         cursor = conn.cursor()
         cursor.execute("DELETE FROM soccer_fixtures")
         cursor.execute("DELETE FROM soccer_teams")
@@ -75,7 +75,7 @@ def save_teams_to_db(teams_data: dict) -> bool:
         return False
     
     try:
-        conn = sqlite3.connect(DB_FILE)
+        conn = get_db_connection()
         cursor = conn.cursor()
         
         for item in teams_data.get("response", []):
@@ -83,10 +83,10 @@ def save_teams_to_db(teams_data: dict) -> bool:
             venue = item.get("venue", {})
             
             cursor.execute("""
-                INSERT OR REPLACE INTO soccer_teams 
+                REPLACE INTO soccer_teams 
                 (id, name, code, country, founded, national, logo, venue_id, venue_name, 
                  venue_address, venue_city, venue_capacity, venue_surface, venue_image, league, dmr)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             """, (
                 team.get("id"),
                 team.get("name", ""),
@@ -121,7 +121,7 @@ def save_fixtures_to_db(fixtures_data: dict) -> bool:
         return False
     
     try:
-        conn = sqlite3.connect(DB_FILE)
+        conn = get_db_connection()
         cursor = conn.cursor()
         
         for item in fixtures_data.get("response", []):
@@ -133,11 +133,11 @@ def save_fixtures_to_db(fixtures_data: dict) -> bool:
             status = fixture.get("status", {})
             
             cursor.execute("""
-                INSERT OR REPLACE INTO soccer_fixtures 
+                REPLACE INTO soccer_fixtures 
                 (fixture_id, date, timestamp, status_long, status_short, home_team_id, away_team_id,
                  league_id, league_name, season, round, venue_id, venue_name, venue_city, referee,
                  home_goals, away_goals, home_winner, away_winner, raw_data)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             """, (
                 fixture.get("id"),
                 fixture.get("date", ""),
@@ -173,9 +173,8 @@ def save_fixtures_to_db(fixtures_data: dict) -> bool:
 def load_teams_from_db() -> dict:
     """Load teams from the database and return in API format."""
     try:
-        conn = sqlite3.connect(DB_FILE)
-        conn.row_factory = sqlite3.Row
-        cursor = conn.cursor()
+        conn = get_db_connection()
+        cursor = conn.cursor(dictionary=True)
         
         cursor.execute("SELECT * FROM soccer_teams")
         rows = cursor.fetchall()
@@ -219,9 +218,8 @@ def load_teams_from_db() -> dict:
 def load_fixtures_from_db() -> dict:
     """Load fixtures from the database and return in API format."""
     try:
-        conn = sqlite3.connect(DB_FILE)
-        conn.row_factory = sqlite3.Row
-        cursor = conn.cursor()
+        conn = get_db_connection()
+        cursor = conn.cursor(dictionary=True)
         
         cursor.execute("SELECT * FROM soccer_fixtures")
         rows = cursor.fetchall()
@@ -233,7 +231,14 @@ def load_fixtures_from_db() -> dict:
         
         response = []
         for row in rows:
-            raw_data = json.loads(row["raw_data"]) if row["raw_data"] else {}
+            # Handle JSON decoding for raw_data
+            raw_data = row["raw_data"]
+            if isinstance(raw_data, str):
+                raw_data = json.loads(raw_data)
+            elif raw_data is None:
+                raw_data = {}
+            # If it's already a dict (MySQL JSON type), use it directly
+            
             response.append((raw_data if raw_data else {
                 "fixture": {
                     "id": row["fixture_id"],
@@ -437,9 +442,9 @@ def get_match_data_internal():
     # Get cutoff date from database
     cutoff_date = None
     try:
-        conn = sqlite3.connect(DB_FILE)
+        conn = get_db_connection()
         cursor = conn.cursor()
-        cursor.execute("SELECT value FROM app_config WHERE key = 'upcoming_match_cutoff_date'")
+        cursor.execute("SELECT value FROM app_config WHERE `key` = 'upcoming_match_cutoff_date'")
         result = cursor.fetchone()
         if result and result[0]:
             cutoff_date = result[0].strip()
@@ -459,14 +464,17 @@ def get_match_data_internal():
     # Create teams map for quick lookup with DMR values
     teams_map = {}
     # Load DMR values from database
-    conn = sqlite3.connect(DB_FILE)
-    conn.row_factory = sqlite3.Row
-    cursor = conn.cursor()
-    cursor.execute("SELECT id, dmr FROM soccer_teams")
-    dmr_rows = cursor.fetchall()
-    dmr_map = {row["id"]: row["dmr"] for row in dmr_rows}
-    cursor.close()
-    conn.close()
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor(dictionary=True)
+        cursor.execute("SELECT id, dmr FROM soccer_teams")
+        dmr_rows = cursor.fetchall()
+        dmr_map = {row["id"]: row["dmr"] for row in dmr_rows}
+        cursor.close()
+        conn.close()
+    except Exception as e:
+        logging.error(f"Error loading DMR map: {e}")
+        dmr_map = {}
     
     for team_item in teams_data.get("response", []):
         team = team_item.get("team", {})
@@ -542,7 +550,7 @@ def refresh_data():
         
         # Clear DMR history (ml_run_history table)
         try:
-            conn = sqlite3.connect(DB_FILE)
+            conn = get_db_connection()
             cursor = conn.cursor()
             cursor.execute("DELETE FROM ml_run_history")
             conn.commit()
