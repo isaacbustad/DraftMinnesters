@@ -36,6 +36,9 @@ def _load_data_and_models():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     db_path = os.path.join(current_dir, "football_database.sqlite")
     
+    if not os.path.exists(db_path) or os.path.getsize(db_path) < 100:
+        raise FileNotFoundError(f"The SQLite database '{db_path}' is missing or empty. Please manually upload 'football_database.sqlite' to the 'machine_learning' directory.")
+    
     # Connect to databases
     connection = sqlite3.connect(db_path)
     
