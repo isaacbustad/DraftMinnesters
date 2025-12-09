@@ -35,16 +35,27 @@ def _load_data_and_models():
     # Get paths relative to this file
     current_dir = os.path.dirname(os.path.abspath(__file__))
     db_path = os.path.join(current_dir, "football_database.sqlite")
-    draft_db_path = os.path.join(current_dir, "..", "draft_ministers.db")
     
     # Connect to databases
     connection = sqlite3.connect(db_path)
-    conn_draft = sqlite3.connect(draft_db_path)
+    
+    # Connect to MySQL for production team data
+    try:
+        from database import get_db_connection
+        conn_draft = get_db_connection()
+    except Exception as e:
+        # Fallback for local testing if database module not found
+        import sys
+        sys.path.append(os.path.join(current_dir, ".."))
+        from database import get_db_connection
+        conn_draft = get_db_connection()
     
     # Load dataframes
     df_match = pd.read_sql_query("SELECT * FROM Match", connection)
     df_team = pd.read_sql_query("SELECT * FROM Team", connection)
     df_draft_teams = pd.read_sql_query("SELECT * FROM soccer_teams", conn_draft)
+    
+    conn_draft.close()
     
     # Filter matches to draft teams
     df_team['team_name_normalized'] = df_team['team_long_name'].str.lower().str.strip()
@@ -314,7 +325,6 @@ def _load_data_and_models():
     _models_loaded = True
     
     connection.close()
-    conn_draft.close()
 
 
 def get_team_dmrs(team_names):
