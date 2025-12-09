@@ -60,11 +60,20 @@ def _load_data_and_models():
     
     conn_draft.close()
     
-    # Filter matches to draft teams
-    df_team['team_name_normalized'] = df_team['team_long_name'].str.lower().str.strip()
-    df_draft_teams['name_normalized'] = df_draft_teams['name'].str.lower().str.strip()
+    # Filter matches to draft teams using external_id
+    # Match external_id from soccer_teams with Team.id to get team_api_id
+    df_draft_teams = df_draft_teams[df_draft_teams['external_id'].notna()].copy()
     
-    draft_team_ids = df_team[df_team['team_name_normalized'].isin(df_draft_teams['name_normalized'])]['team_api_id'].unique()
+    if len(df_draft_teams) == 0:
+        raise ValueError("No teams found with external_id in soccer_teams table")
+    
+    # Match external_id with Team.id
+    df_team_matched = df_team[df_team['id'].isin(df_draft_teams['external_id'])].copy()
+    
+    if len(df_team_matched) == 0:
+        raise ValueError("No matching teams found in Team table using external_id")
+    
+    draft_team_ids = df_team_matched['team_api_id'].unique()
     
     df_match_filtered = df_match[
         (df_match['home_team_api_id'].isin(draft_team_ids)) & 

@@ -35289,3 +35289,28 @@
 2025-12-08 17:55:42,962 ERROR Error loading teams from database: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
 2025-12-08 17:55:47,018 WARNING Database connection failed (attempt 1/5): 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
 2025-12-08 17:55:53,100 WARNING Database connection failed (attempt 2/5): 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-12-09 16:32:56,605 WARNING Database connection failed (attempt 1/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:32:59,625 WARNING Database connection failed (attempt 2/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:02,635 WARNING Database connection failed (attempt 3/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:05,645 WARNING Database connection failed (attempt 4/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:08,663 WARNING Database connection failed (attempt 5/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:11,696 WARNING Database connection failed (attempt 6/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:14,726 WARNING Database connection failed (attempt 7/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:17,748 WARNING Database connection failed (attempt 8/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:20,765 WARNING Database connection failed (attempt 9/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:23,782 WARNING Database connection failed (attempt 10/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:26,799 WARNING Database connection failed (attempt 11/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:29,840 WARNING Database connection failed (attempt 12/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:32,861 WARNING Database connection failed (attempt 13/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:35,872 WARNING Database connection failed (attempt 14/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:38,884 WARNING Database connection failed (attempt 15/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:41,907 WARNING Database connection failed (attempt 16/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:44,945 WARNING Database connection failed (attempt 17/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:47,986 WARNING Database connection failed (attempt 18/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:51,007 WARNING Database connection failed (attempt 19/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:54,032 WARNING Database connection failed (attempt 20/20): 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:33:54,032 ERROR Could not connect to database after multiple attempts.
+2025-12-09 16:33:54,033 ERROR Database initialization error: 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025-12-09 16:34:08,132 ERROR MySQL authentication failed (attempt 1/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 16:34:11,142 ERROR MySQL authentication failed (attempt 2/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 16:34:14,155 ERROR MySQL authentication failed (attempt 3/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.

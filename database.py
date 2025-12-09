@@ -26,7 +26,17 @@ def get_db_connection(retries=20, delay=3):
             )
             return conn
         except mysql.connector.Error as err:
-            logging.warning(f"Database connection failed (attempt {i+1}/{retries}): {err}")
+            error_msg = str(err)
+            if "Access denied" in error_msg:
+                logging.error(
+                    f"MySQL authentication failed (attempt {i+1}/{retries}). "
+                    f"Check credentials: user='{user}', host='{host}', database='{database}'. "
+                    f"To use Docker MySQL: 'docker-compose up -d mysql'. "
+                    f"Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables."
+                )
+            else:
+                logging.warning(f"Database connection failed (attempt {i+1}/{retries}): {err}")
+            
             if i < retries - 1:
                 time.sleep(delay)
             else:
