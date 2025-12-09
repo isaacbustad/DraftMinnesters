@@ -1,5 +1,19 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
 .venv
-logs/app.log
-secret_tunnel
-logs/app.log
-machine_learning/football_database (3).sqlite
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+mysql_data/
+logs/
+.idea/
+.vscode/
+*.log
+debug_output.txt
+debug_logs.bat
+machine_learning/football_database.sqlite
