@@ -3,7 +3,7 @@ import os
 import time
 import logging
 
-def get_db_connection(retries=5, delay=2):
+def get_db_connection(retries=20, delay=3):
     """
     Establish a connection to the MySQL database.
     Retries if the connection fails (useful for container startup).
