@@ -16,4 +16,3 @@ logs/
 *.log
 debug_output.txt
 debug_logs.bat
-machine_learning/football_database.sqlite
