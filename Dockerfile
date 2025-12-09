@@ -27,4 +27,10 @@ COPY . /app/
 EXPOSE 5000
 
 # Run the application
-CMD ["python", "app.py"]
+# Copy entrypoint script and make it executable
+COPY entrypoint.sh /app/
+RUN chmod +x /app/entrypoint.sh
+
+# Run the application via entrypoint
+ENTRYPOINT ["/app/entrypoint.sh"]
+

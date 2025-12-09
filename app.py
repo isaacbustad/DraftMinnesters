@@ -1,10 +1,10 @@
 from flask import Flask, jsonify, request, render_template
-import sqlite3
 import subprocess
 import json
 import requests
 import logging
 import os
+from database import get_db_connection
 from routes.matches import matches_bp, get_match_data_internal
 from routes.user import user_bp
 from routes.admin import admin_bp
@@ -24,107 +24,110 @@ if not os.path.exists(log_dir):
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s', handlers=[logging.FileHandler(os.path.join(log_dir, 'app.log')), logging.StreamHandler()])
 
 def init_db():
-    db_file = 'draft_ministers.db'
-    
     try:
-        conn = sqlite3.connect(db_file)
+        conn = get_db_connection()
         logging.info("Database connected successfully.")
-        # Create tables if they don't exist
         cursor = conn.cursor()
+        
+        # Create tables
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS soccer_teams (
-                id INTEGER PRIMARY KEY,
-                name TEXT UNIQUE,
-                code TEXT,
-                country TEXT,
-                founded INTEGER,
-                national INTEGER,
+                id INT PRIMARY KEY,
+                name VARCHAR(255) UNIQUE,
+                code VARCHAR(10),
+                country VARCHAR(255),
+                founded INT,
+                national BOOLEAN,
                 logo TEXT,
-                venue_id INTEGER,
-                venue_name TEXT,
+                venue_id INT,
+                venue_name VARCHAR(255),
                 venue_address TEXT,
-                venue_city TEXT,
-                venue_capacity INTEGER,
-                venue_surface TEXT,
+                venue_city VARCHAR(255),
+                venue_capacity INT,
+                venue_surface VARCHAR(255),
                 venue_image TEXT,
-                league TEXT,
-                dmr REAL
+                league VARCHAR(255),
+                dmr FLOAT
             )
         """)
-        # Add dmr column to existing tables if it doesn't exist
-        try:
-            cursor.execute("ALTER TABLE soccer_teams ADD COLUMN dmr REAL")
-        except sqlite3.OperationalError:
-            # Column already exists, ignore
-            pass
+        
+        # Check if dmr column exists (MySQL specific check)
+        cursor.execute("SHOW COLUMNS FROM soccer_teams LIKE 'dmr'")
+        if not cursor.fetchone():
+            cursor.execute("ALTER TABLE soccer_teams ADD COLUMN dmr FLOAT")
+
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS soccer_players (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                name TEXT,
-                position TEXT,
-                team_id INTEGER,
-                age INTEGER,
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                name VARCHAR(255),
+                position VARCHAR(50),
+                team_id INT,
+                age INT,
                 FOREIGN KEY (team_id) REFERENCES soccer_teams(id)
             )
         """)
+        
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS soccer_fixtures (
-                fixture_id INTEGER PRIMARY KEY,
-                date TEXT,
-                timestamp INTEGER,
-                status_long TEXT,
-                status_short TEXT,
-                home_team_id INTEGER,
-                away_team_id INTEGER,
-                league_id INTEGER,
-                league_name TEXT,
-                season INTEGER,
-                round TEXT,
-                venue_id INTEGER,
-                venue_name TEXT,
-                venue_city TEXT,
-                referee TEXT,
-                home_goals INTEGER,
-                away_goals INTEGER,
-                home_winner INTEGER,
-                away_winner INTEGER,
-                raw_data TEXT,
-                home_win_percentage REAL,
-                away_win_percentage REAL,
-                draw_percentage REAL
+                fixture_id INT PRIMARY KEY,
+                date VARCHAR(50),
+                timestamp INT,
+                status_long VARCHAR(50),
+                status_short VARCHAR(10),
+                home_team_id INT,
+                away_team_id INT,
+                league_id INT,
+                league_name VARCHAR(255),
+                season INT,
+                round VARCHAR(50),
+                venue_id INT,
+                venue_name VARCHAR(255),
+                venue_city VARCHAR(255),
+                referee VARCHAR(255),
+                home_goals INT,
+                away_goals INT,
+                home_winner BOOLEAN,
+                away_winner BOOLEAN,
+                raw_data JSON,
+                home_win_percentage FLOAT,
+                away_win_percentage FLOAT,
+                draw_percentage FLOAT
             )
         """)
-        # Add win percentage columns to existing tables if they don't exist
+        
+        # Check for win percentage columns
         for col in ['home_win_percentage', 'away_win_percentage', 'draw_percentage']:
-            try:
-                cursor.execute(f"ALTER TABLE soccer_fixtures ADD COLUMN {col} REAL")
-            except sqlite3.OperationalError:
-                # Column already exists, ignore
-                pass
+            cursor.execute(f"SHOW COLUMNS FROM soccer_fixtures LIKE '{col}'")
+            if not cursor.fetchone():
+                cursor.execute(f"ALTER TABLE soccer_fixtures ADD COLUMN {col} FLOAT")
+
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS ml_run_history (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                run_time TEXT NOT NULL,
-                status TEXT,
-                teams_updated INTEGER DEFAULT 0
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                run_time VARCHAR(50) NOT NULL,
+                status VARCHAR(50),
+                teams_updated INT DEFAULT 0
             )
         """)
+        
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS app_config (
-                key TEXT PRIMARY KEY,
+                `key` VARCHAR(255) PRIMARY KEY,
                 value TEXT NOT NULL
             )
         """)
-        # Set default cutoff date to 2023-12-31 if not exists
+        
+        # Insert default config
         cursor.execute("""
-            INSERT OR IGNORE INTO app_config (key, value) 
+            INSERT IGNORE INTO app_config (`key`, value) 
             VALUES ('upcoming_match_cutoff_date', '2023-12-31')
         """)
+        
         conn.commit()
         cursor.close()
         conn.close()
     except Exception as e:
-        logging.error(f"Database connection error: {e}")
+        logging.error(f"Database initialization error: {e}")
         raise e
 
 @app.route('/')
