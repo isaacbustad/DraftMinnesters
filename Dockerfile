@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y \
     gcc \
     default-libmysqlclient-dev \
     pkg-config \
+    dos2unix \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies
@@ -23,13 +24,11 @@ RUN pip install -r requirements.txt
 # Copy project
 COPY . /app/
 
+# Convert entrypoint.sh line endings (CRLF to LF) and make it executable
+RUN dos2unix /app/entrypoint.sh && chmod +x /app/entrypoint.sh
+
 # Expose port
 EXPOSE 5000
-
-# Run the application
-# Copy entrypoint script and make it executable
-COPY entrypoint.sh /app/
-RUN chmod +x /app/entrypoint.sh
 
 # Run the application via entrypoint
 ENTRYPOINT ["/bin/bash", "/app/entrypoint.sh"]

@@ -1,6 +1,7 @@
 services:
   flask-app:
     build: .
+    entrypoint: ["/bin/bash", "-c", "dos2unix -q /app/entrypoint.sh && exec /app/entrypoint.sh"]
     container_name: draft_ministers_app
     ports:
       - "5000:5000"
@@ -33,7 +34,7 @@ services:
       MYSQL_USER: user
       MYSQL_PASSWORD: password
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - mysql_data:/var/lib/mysql
       - my_shared_volume:/shared_data

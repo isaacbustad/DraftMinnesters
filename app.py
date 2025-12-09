@@ -4,7 +4,11 @@ import json
 import requests
 import logging
 import os
+from dotenv import load_dotenv
 from database import get_db_connection
+
+# Load environment variables from .env file
+load_dotenv()
 from routes.matches import matches_bp, get_match_data_internal
 from routes.user import user_bp
 from routes.admin import admin_bp
