@@ -1,0 +1,14 @@
+.git
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+venv
+.env
+.DS_Store
+logs
+debug_output.txt
+debug_logs.bat
+# Do NOT ignore machine_learning/football_database.sqlite
