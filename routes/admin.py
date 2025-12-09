@@ -14,6 +14,7 @@ spec = importlib.util.spec_from_file_location("machine_learning", ml_file_path)
 ml_module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(ml_module)
 get_all_team_dmrs = ml_module.get_all_team_dmrs
+get_hadoop_stats = ml_module.get_hadoop_stats
 
 admin_bp = Blueprint('admin', __name__)
 
@@ -372,7 +373,15 @@ def set_cutoff_date():
         
         logging.info(f"Cutoff date updated to: {cutoff_date}")
         return jsonify({'message': 'Cutoff date updated successfully', 'cutoff_date': cutoff_date})
-    except Exception as e:
         logging.error(f"Error setting cutoff date: {e}")
+        return jsonify({'error': str(e)}), 500
+
+@admin_bp.route('/api/admin/hadoop-stats', methods=['GET'])
+def hadoop_stats():
+    """Get stats processed by Hadoop MapReduce."""
+    try:
+        stats = get_hadoop_stats()
+        return jsonify({'count': len(stats), 'stats': stats})
+    except Exception as e:
         return jsonify({'error': str(e)}), 500
 

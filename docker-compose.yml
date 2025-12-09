@@ -110,6 +110,20 @@ services:
     networks:
       - app-network
 
+  hadoop-loader:
+    build:
+      context: ./docker/hadoop-loader
+    container_name: hadoop-loader
+    volumes:
+      - ./machine_learning/football_database.sqlite:/data/football_database.sqlite
+    env_file:
+      - ./hadoop.env
+    depends_on:
+      - namenode
+      - datanode
+    networks:
+      - app-network
+
 volumes:
   my_shared_volume:
   cassandra_data:
