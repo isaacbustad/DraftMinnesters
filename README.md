@@ -1,4 +1,5 @@
 # Draft Ministers - Soccer Match Prediction Platform
+
 <img width="2958" height="1616" alt="image" src="https://github.com/user-attachments/assets/692f3182-b5eb-4eb6-89c3-ab0672183275" />
 
 <img width="2896" height="1498" alt="image" src="https://github.com/user-attachments/assets/875098ac-bce5-4bef-bb11-cb04e3b4f88c" />
@@ -10,6 +11,7 @@
 Draft Ministers is a Flask-based web application that provides accurate match win probability predictions for soccer fans and analysts. The platform uses machine learning models to calculate team ratings (DMR - Draft Minister Rating) and predict match outcomes, helping users make informed betting decisions.
 
 **Key Technologies:**
+
 - **Backend**: Python 3.x, Flask
 - **Database**: MySQL (Containerized)
 - **Big Data & Streaming**: Kafka, Cassandra, Hadoop (HDFS)
@@ -23,6 +25,7 @@ Draft Ministers is a Flask-based web application that provides accurate match wi
 ## Features
 
 ### Core Functionality
+
 - **Match Predictions**: Real-time win probability calculations for upcoming matches
 - **Team Ratings**: DMR (Draft Minister Rating) system for team strength assessment
 - **Match Browsing**: Browse upcoming, past, and filtered matches
@@ -31,6 +34,7 @@ Draft Ministers is a Flask-based web application that provides accurate match wi
 - **Admin Dashboard**: Manage ML model runs and view team DMR ratings
 
 ### User Interface
+
 - **Modern Design**: Clean, responsive interface with glassmorphism effects
 - **Match Cards**: Visual cards displaying team logos, win percentages, and match details
 - **Tabbed Navigation**: Organized views for Upcoming, Past, Most Likely to Win/Lose, and Starred matches
@@ -49,7 +53,6 @@ DraftMinnesters/
 ├── docker-compose.yml          # Service orchestration (Flask, MySQL, Kafka, etc.)
 ├── entrypoint.sh               # Container startup script (auto-init DB)
 ├── requirements.txt            # Python dependencies
-├── migrate_db.py               # Script to migrate data from SQLite to MySQL
 │
 ├── routes/                     # Flask blueprints (modular routes)
 │   ├── __init__.py
@@ -92,22 +95,24 @@ DraftMinnesters/
 ## Installation & Setup
 
 ### Prerequisites
+
 - **Docker Desktop** (or Docker Engine + Docker Compose)
 - **Git**
 
 ### Step 1: Clone the Repository
+
 ```bash
 git clone <repository-url>
 cd DraftMinnesters
 ```
 
 ### Step 2: Build and Run with Docker
+
 The entire application stack (Flask, MySQL, Kafka, Cassandra, Hadoop) is containerized.
 
 ```bash
 docker-compose up -d --build
 ```
-
 
 ---
 
@@ -118,8 +123,8 @@ The platform has been modernized with a robust data architecture:
 1.  **Flask App**: Serves the frontend. Reads "live" banner/match data from the **Shared Volume** and historical data from **MySQL**.
 2.  **MySQL**: Primary relational database for user data and historical fixtures.
 3.  **Kafka**:
-    -   **Producer**: Simulates live events from `draft_ministers.db`.
-    -   **Consumer**: Downloads content to **Shared Volume** and **Cassandra**.
+    - **Producer**: Simulates live events from `draft_ministers.db`.
+    - **Consumer**: Downloads content to **Shared Volume** and **Cassandra**.
 4.  **Cassandra**: Stores high-velocity team banner associations.
 5.  **Hadoop (HDFS)**: Distributed file system for large-scale historical data.
 
@@ -130,27 +135,30 @@ The platform has been modernized with a robust data architecture:
 ### Common Issues
 
 **Database Connection Errors**:
--   The application waits for MySQL to be ready on startup. If it fails, check logs: `docker-compose logs flask-app`.
--   Ensure the `mysql` container is running: `docker-compose ps`.
+
+- The application waits for MySQL to be ready on startup. If it fails, check logs: `docker-compose logs flask-app`.
+- Ensure the `mysql` container is running: `docker-compose ps`.
 
 **Permission Denied (entrypoint.sh)**:
--   If you see "permission denied" for `entrypoint.sh`, ensure your `Dockerfile` uses `ENTRYPOINT ["/bin/bash", "/app/entrypoint.sh"]`.
+
+- If you see "permission denied" for `entrypoint.sh`, ensure your `Dockerfile` uses `ENTRYPOINT ["/bin/bash", "/app/entrypoint.sh"]`.
 
 **Port Conflicts**:
--   Ensure ports 5000 (Flask), 3306 (MySQL), 9092 (Kafka), 9042 (Cassandra), and 9870 (Hadoop) are free on your host machine.
+
+- Ensure ports 5000 (Flask), 3306 (MySQL), 9092 (Kafka), 9042 (Cassandra), and 9870 (Hadoop) are free on your host machine.
 
 ---
 
 ## Future Enhancements
 
--   User authentication and accounts
--   Real-time match updates via WebSockets
--   Advanced statistics and analytics
--   Betting integration
--   Mobile app version
--   CI/CD pipeline
--   API rate limiting
--   Caching layer (Redis)
+- User authentication and accounts
+- Real-time match updates via WebSockets
+- Advanced statistics and analytics
+- Betting integration
+- Mobile app version
+- CI/CD pipeline
+- API rate limiting
+- Caching layer (Redis)
 
 ---
 
