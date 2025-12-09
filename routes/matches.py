@@ -501,6 +501,62 @@ def get_match_data_internal():
         match_data = format_match_data(fixture, teams_map, fixture_row, cutoff_date)
         matches.append(match_data)
     
+    # MERGE SHARED VOLUME DATA
+    shared_data_dir = '/shared_data/data'
+    if os.path.exists(shared_data_dir):
+        try:
+            for filename in os.listdir(shared_data_dir):
+                if filename.endswith('.json'):
+                    try:
+                        with open(os.path.join(shared_data_dir, filename), 'r') as f:
+                            shared_match = json.load(f)
+                            
+                        # Convert shared match format to frontend format
+                        # Shared format: {'match_id': ..., 'home_team': {'id':..., 'name':..., 'banner_url':...}, ...}
+                        
+                        # Find existing match to update or create new
+                        existing_match = next((m for m in matches if m['id'] == shared_match['match_id']), None)
+                        
+                        if existing_match:
+                            # Update existing
+                            existing_match['home_team']['name'] = shared_match['home_team']['name']
+                            existing_match['home_team']['logo'] = f"/shared/banners/{shared_match['home_team']['id']}.png"
+                            existing_match['home_team']['goals'] = shared_match['home_team'].get('goals')
+                            
+                            existing_match['away_team']['name'] = shared_match['away_team']['name']
+                            existing_match['away_team']['logo'] = f"/shared/banners/{shared_match['away_team']['id']}.png"
+                            existing_match['away_team']['goals'] = shared_match['away_team'].get('goals')
+                            
+                            # Update status/date if needed
+                            # existing_match['status'] = "LIVE" # Example
+                        else:
+                            # Create new match entry (simplified)
+                            new_match = {
+                                "id": shared_match['match_id'],
+                                "home_team": {
+                                    "id": shared_match['home_team']['id'],
+                                    "name": shared_match['home_team']['name'],
+                                    "logo": f"/shared/banners/{shared_match['home_team']['id']}.png",
+                                    "win_percentage": 50.0 # Default
+                                },
+                                "away_team": {
+                                    "id": shared_match['away_team']['id'],
+                                    "name": shared_match['away_team']['name'],
+                                    "logo": f"/shared/banners/{shared_match['away_team']['id']}.png",
+                                    "win_percentage": 50.0 # Default
+                                },
+                                "date": shared_match['date'],
+                                "status": "Simulated",
+                                "is_upcoming": True, # Assume simulated are upcoming/live
+                                "match_status": "upcoming"
+                            }
+                            matches.append(new_match)
+                            
+                    except Exception as e:
+                        logging.error(f"Error reading shared match file {filename}: {e}")
+        except Exception as e:
+            logging.error(f"Error accessing shared data directory: {e}")
+    
     # Filter matches based on cutoff date - only include matches marked as upcoming
     upcoming_matches = [m for m in matches if m.get("is_upcoming", True)]
     past_matches = [m for m in matches if not m.get("is_upcoming", True)]

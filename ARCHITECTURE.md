@@ -23,8 +23,8 @@ The platform is containerized using Docker, orchestrating the following componen
 
 ### 2. Event Streaming (Kafka)
 -   **Role**: Real-time data ingestion pipeline.
--   **Function**: Decouples data producers (external APIs) from consumers (storage and analytics).
--   **Flow**: External API -> Kafka Producer -> Kafka Broker -> Consumers (Hadoop/Cassandra).
+-   **Function**: Simulates live match feeds and processes team assets.
+-   **Flow**: `draft_ministers.db` -> Kafka Producer -> Kafka Broker -> Kafka Consumer -> Shared Volume & Cassandra.
 
 ### 3. Heterogeneous Database System
 The platform employs a polyglot persistence strategy:
@@ -44,13 +44,16 @@ graph TD
     User[User] -->|HTTP Request| Flask[Flask Web App]
     
     subgraph "Data Ingestion"
-        API[Football API] -->|JSON| Kafka[Kafka Cluster]
+        DB[draft_ministers.db] -->|Read| Producer[Kafka Producer]
+        Producer -->|Events| Kafka[Kafka Cluster]
     end
     
     subgraph "Storage Layer"
-        Kafka -->|Stream| Cassandra[Cassandra (Real-time DB)]
-        Kafka -->|Batch| Hadoop[Hadoop HDFS (Data Lake)]
-        Flask <-->|Read/Write| SQL[SQLite/MySQL (Relational DB)]
+        Kafka -->|Stream| Consumer[Kafka Consumer]
+        Consumer -->|Download & Save| SharedVol[Shared Volume]
+        Consumer -->|Insert| Cassandra[Cassandra]
+        Flask <-->|Read Static/JSON| SharedVol
+        Flask <-->|Read/Write| SQL[MySQL (Relational DB)]
     end
     
     subgraph "Analytics"

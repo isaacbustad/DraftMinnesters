@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request, render_template, send_from_directory
 import subprocess
 import json
 import requests
@@ -13,7 +13,12 @@ import random
 app = Flask(__name__)
 app.register_blueprint(matches_bp)
 app.register_blueprint(user_bp)
+app.register_blueprint(user_bp)
 app.register_blueprint(admin_bp)
+
+@app.route('/shared/banners/<path:filename>')
+def shared_banners(filename):
+    return send_from_directory('/shared_data/banners', filename)
 
 # Create logs directory if it doesn't exist
 log_dir = 'logs'
