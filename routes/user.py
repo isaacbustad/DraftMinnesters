@@ -4,6 +4,7 @@ user_bp = Blueprint('user', __name__)
 
 @user_bp.route('/profile')
 def profile():
+    logging.info("Accessing profile page")
     # User data
     user_details = {
         "username": "Bustad, Isaac",

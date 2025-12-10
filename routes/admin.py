@@ -112,8 +112,13 @@ def get_last_ml_run_time():
 @admin_bp.route('/admin')
 def admin():
     """Display admin page for administrators with teams from database."""
+    logging.info("Accessing admin page")
     try:
         conn = get_db_connection()
+        if not conn:
+            logging.error("Failed to connect to database for admin page")
+            return render_template('admin.html', teams=[], error="Database connection failed", last_run_time=None)
+
         cursor = conn.cursor(dictionary=True)
         
         cursor.execute("SELECT * FROM soccer_teams ORDER BY name")

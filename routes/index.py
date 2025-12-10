@@ -1,4 +1,8 @@
-# Placeholder currently.
+from flask import Blueprint, jsonify, render_template_string
+import sqlite3
+import logging
+
+index_bp = Blueprint('index', __name__)
 
 def GenerateIndex(team_id):
     logging.info(f"Fetching details for team ID {team_id}")
