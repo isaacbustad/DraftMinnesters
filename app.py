@@ -144,6 +144,10 @@ def init_db():
         logging.error(f"Database initialization error: {e}")
         raise e
 
+@app.route('/health')
+def health():
+    return jsonify({"status": "healthy"}), 200
+
 @app.route('/')
 def home():
     logging.info("Accessing home endpoint")
@@ -178,5 +182,5 @@ def home():
     return render_template('index.html', matches=upcoming, winner=winner_team, underdog=underdog_team)
 
 if __name__ == '__main__':
-    init_db()
+    # init_db() # Handled by entrypoint.sh
     app.run(host='0.0.0.0', port=5000)

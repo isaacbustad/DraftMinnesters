@@ -10,11 +10,24 @@ import os
 # Import machine learning module
 import importlib.util
 ml_file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'machine_learning', 'machine_learning.py')
-spec = importlib.util.spec_from_file_location("machine_learning", ml_file_path)
-ml_module = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(ml_module)
-get_all_team_dmrs = ml_module.get_all_team_dmrs
-get_hadoop_stats = ml_module.get_hadoop_stats
+
+try:
+    spec = importlib.util.spec_from_file_location("machine_learning", ml_file_path)
+    ml_module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(ml_module)
+    get_all_team_dmrs = ml_module.get_all_team_dmrs
+    get_hadoop_stats = ml_module.get_hadoop_stats
+    logging.info("Machine learning module loaded successfully")
+except Exception as e:
+    logging.error(f"Failed to load machine learning module: {e}")
+    # Define fallback functions so the app doesn't crash
+    def get_all_team_dmrs():
+        logging.warning("ML module not loaded, returning empty DMRs")
+        return {}
+    
+    def get_hadoop_stats():
+        logging.warning("ML module not loaded, returning empty stats")
+        return []
 
 admin_bp = Blueprint('admin', __name__)
 
