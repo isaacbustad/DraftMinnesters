@@ -11,6 +11,39 @@ import sqlite3
 import os
 from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.preprocessing import StandardScaler, LabelEncoder
+from hdfs import InsecureClient
+import json
+
+def get_hadoop_stats():
+    """Reads processed match stats from HDFS."""
+    try:
+        # Connect to HDFS (Namenode)
+        client = InsecureClient('http://namenode:9870', user='root')
+        
+        # Check if output exists
+        data_path = '/output/match_stats/part-00000'
+        if not client.status(data_path, strict=False):
+            return []
+            
+        stats = []
+        with client.read(data_path, encoding='utf-8') as reader:
+            for line in reader:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    parts = line.split('\t', 1)
+                    if len(parts) == 2:
+                        team_id = parts[0]
+                        team_stats = json.loads(parts[1])
+                        stats.append(team_stats)
+                except Exception as e:
+                    print(f"Error parsing line: {e}")
+                    continue
+        return stats
+    except Exception as e:
+        print(f"HDFS connection/read error: {e}")
+        return []
 
 # Global variables to store models and data
 _models_loaded = False
