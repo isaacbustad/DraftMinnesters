@@ -55,6 +55,7 @@ def init_db():
                 venue_surface VARCHAR(255),
                 venue_image TEXT,
                 league VARCHAR(255),
+                external_id INT,
                 dmr FLOAT
             )
         """)
@@ -63,6 +64,11 @@ def init_db():
         cursor.execute("SHOW COLUMNS FROM soccer_teams LIKE 'dmr'")
         if not cursor.fetchone():
             cursor.execute("ALTER TABLE soccer_teams ADD COLUMN dmr FLOAT")
+
+        # Check if external_id column exists
+        cursor.execute("SHOW COLUMNS FROM soccer_teams LIKE 'external_id'")
+        if not cursor.fetchone():
+            cursor.execute("ALTER TABLE soccer_teams ADD COLUMN external_id INT")
 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS soccer_players (

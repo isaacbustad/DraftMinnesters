@@ -38,6 +38,7 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
       - my_shared_volume:/shared_data
+      - ./draft_ministers.db:/app/draft_ministers.db:ro
     networks:
       - app-network
 

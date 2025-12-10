@@ -36996,3 +36996,1979 @@
 2025-12-09 23:47:10,869 INFO 172.18.0.1 - - [09/Dec/2025 23:47:10] "GET /api/ml/status HTTP/1.1" 200 -
 2025-12-09 23:47:11,369 INFO 172.18.0.1 - - [09/Dec/2025 23:47:11] "GET /api/ml/status HTTP/1.1" 200 -
 2025-12-09 23:47:11,890 INFO 172.18.0.1 - - [09/Dec/2025 23:47:11] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:12,383 INFO 172.18.0.1 - - [09/Dec/2025 23:47:12] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:12,877 INFO 172.18.0.1 - - [09/Dec/2025 23:47:12] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:13,376 INFO 172.18.0.1 - - [09/Dec/2025 23:47:13] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:13,886 INFO 172.18.0.1 - - [09/Dec/2025 23:47:13] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:14,387 INFO 172.18.0.1 - - [09/Dec/2025 23:47:14] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:14,882 INFO 172.18.0.1 - - [09/Dec/2025 23:47:14] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:15,378 INFO 172.18.0.1 - - [09/Dec/2025 23:47:15] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:15,892 INFO 172.18.0.1 - - [09/Dec/2025 23:47:15] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:16,392 INFO 172.18.0.1 - - [09/Dec/2025 23:47:16] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:16,881 INFO 172.18.0.1 - - [09/Dec/2025 23:47:16] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:17,374 INFO 172.18.0.1 - - [09/Dec/2025 23:47:17] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:17,873 INFO 172.18.0.1 - - [09/Dec/2025 23:47:17] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:18,369 INFO 172.18.0.1 - - [09/Dec/2025 23:47:18] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:18,884 INFO 172.18.0.1 - - [09/Dec/2025 23:47:18] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:19,382 INFO 172.18.0.1 - - [09/Dec/2025 23:47:19] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:19,881 INFO 172.18.0.1 - - [09/Dec/2025 23:47:19] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:20,378 INFO 172.18.0.1 - - [09/Dec/2025 23:47:20] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:20,883 INFO 172.18.0.1 - - [09/Dec/2025 23:47:20] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:21,370 INFO 172.18.0.1 - - [09/Dec/2025 23:47:21] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:21,883 INFO 172.18.0.1 - - [09/Dec/2025 23:47:21] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:22,378 INFO 172.18.0.1 - - [09/Dec/2025 23:47:22] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:22,872 INFO 172.18.0.1 - - [09/Dec/2025 23:47:22] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:23,371 INFO 172.18.0.1 - - [09/Dec/2025 23:47:23] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:23,871 INFO 172.18.0.1 - - [09/Dec/2025 23:47:23] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:24,375 INFO 172.18.0.1 - - [09/Dec/2025 23:47:24] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:24,870 INFO 172.18.0.1 - - [09/Dec/2025 23:47:24] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:25,381 INFO 172.18.0.1 - - [09/Dec/2025 23:47:25] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:25,875 INFO 172.18.0.1 - - [09/Dec/2025 23:47:25] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:26,375 INFO 172.18.0.1 - - [09/Dec/2025 23:47:26] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:26,883 INFO 172.18.0.1 - - [09/Dec/2025 23:47:26] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:27,379 INFO 172.18.0.1 - - [09/Dec/2025 23:47:27] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:27,875 INFO 172.18.0.1 - - [09/Dec/2025 23:47:27] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:28,374 INFO 172.18.0.1 - - [09/Dec/2025 23:47:28] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:28,874 INFO 172.18.0.1 - - [09/Dec/2025 23:47:28] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:29,384 INFO 172.18.0.1 - - [09/Dec/2025 23:47:29] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:29,878 INFO 172.18.0.1 - - [09/Dec/2025 23:47:29] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:30,376 INFO 172.18.0.1 - - [09/Dec/2025 23:47:30] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:30,873 INFO 172.18.0.1 - - [09/Dec/2025 23:47:30] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:31,372 INFO 172.18.0.1 - - [09/Dec/2025 23:47:31] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:31,875 INFO 172.18.0.1 - - [09/Dec/2025 23:47:31] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:32,382 INFO 172.18.0.1 - - [09/Dec/2025 23:47:32] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:32,884 INFO 172.18.0.1 - - [09/Dec/2025 23:47:32] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:33,376 INFO 172.18.0.1 - - [09/Dec/2025 23:47:33] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:33,876 INFO 172.18.0.1 - - [09/Dec/2025 23:47:33] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:34,375 INFO 172.18.0.1 - - [09/Dec/2025 23:47:34] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:34,874 INFO 172.18.0.1 - - [09/Dec/2025 23:47:34] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:35,371 INFO 172.18.0.1 - - [09/Dec/2025 23:47:35] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:35,870 INFO 172.18.0.1 - - [09/Dec/2025 23:47:35] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:36,374 INFO 172.18.0.1 - - [09/Dec/2025 23:47:36] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:36,884 INFO 172.18.0.1 - - [09/Dec/2025 23:47:36] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:37,380 INFO 172.18.0.1 - - [09/Dec/2025 23:47:37] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:37,878 INFO 172.18.0.1 - - [09/Dec/2025 23:47:37] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:38,377 INFO 172.18.0.1 - - [09/Dec/2025 23:47:38] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:38,871 INFO 172.18.0.1 - - [09/Dec/2025 23:47:38] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:39,369 INFO 172.18.0.1 - - [09/Dec/2025 23:47:39] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:39,879 INFO 172.18.0.1 - - [09/Dec/2025 23:47:39] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:40,374 INFO 172.18.0.1 - - [09/Dec/2025 23:47:40] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:40,885 INFO 172.18.0.1 - - [09/Dec/2025 23:47:40] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:41,379 INFO 172.18.0.1 - - [09/Dec/2025 23:47:41] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:41,882 INFO 172.18.0.1 - - [09/Dec/2025 23:47:41] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:42,375 INFO 172.18.0.1 - - [09/Dec/2025 23:47:42] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:42,869 INFO 172.18.0.1 - - [09/Dec/2025 23:47:42] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:43,383 INFO 172.18.0.1 - - [09/Dec/2025 23:47:43] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:43,879 INFO 172.18.0.1 - - [09/Dec/2025 23:47:43] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:44,375 INFO 172.18.0.1 - - [09/Dec/2025 23:47:44] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:44,875 INFO 172.18.0.1 - - [09/Dec/2025 23:47:44] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:45,375 INFO 172.18.0.1 - - [09/Dec/2025 23:47:45] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:45,871 INFO 172.18.0.1 - - [09/Dec/2025 23:47:45] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:46,384 INFO 172.18.0.1 - - [09/Dec/2025 23:47:46] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 23:47:46,751 ERROR Error during ML process: 'external_id'
+2025-12-09 23:47:46,882 INFO 172.18.0.1 - - [09/Dec/2025 23:47:46] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 18:13:15,672 INFO Starting manual database initialization...
+2025-12-09 18:13:15,702 ERROR MySQL authentication failed (attempt 1/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:18,713 ERROR MySQL authentication failed (attempt 2/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:21,727 ERROR MySQL authentication failed (attempt 3/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:24,741 ERROR MySQL authentication failed (attempt 4/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:27,762 ERROR MySQL authentication failed (attempt 5/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:30,782 ERROR MySQL authentication failed (attempt 6/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:33,800 ERROR MySQL authentication failed (attempt 7/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:36,820 ERROR MySQL authentication failed (attempt 8/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:39,839 ERROR MySQL authentication failed (attempt 9/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:42,850 ERROR MySQL authentication failed (attempt 10/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:45,861 ERROR MySQL authentication failed (attempt 11/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:48,871 ERROR MySQL authentication failed (attempt 12/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:51,883 ERROR MySQL authentication failed (attempt 13/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:54,894 ERROR MySQL authentication failed (attempt 14/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:13:57,907 ERROR MySQL authentication failed (attempt 15/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:14:00,919 ERROR MySQL authentication failed (attempt 16/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-10 00:17:05,909 INFO Starting manual database initialization...
+2025-12-10 00:17:06,197 INFO Database connected successfully.
+2025-12-10 00:17:07,820 INFO Database initialization completed.
+2025-12-10 00:17:37,751 INFO Database connected successfully.
+2025-12-10 00:17:37,983 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.8:5000
+2025-12-10 00:17:37,985 INFO [33mPress CTRL+C to quit[0m
+2025-12-10 00:17:51,070 INFO Loaded 0 teams for admin page
+2025-12-10 00:17:51,304 INFO 172.18.0.1 - - [10/Dec/2025 00:17:51] "GET /admin HTTP/1.1" 200 -
+2025-12-10 00:17:51,731 INFO 172.18.0.1 - - [10/Dec/2025 00:17:51] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-12-10 00:17:51,735 INFO 172.18.0.1 - - [10/Dec/2025 00:17:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-10 00:17:51,737 INFO 172.18.0.1 - - [10/Dec/2025 00:17:51] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-12-10 00:17:54,758 INFO 172.18.0.1 - - [10/Dec/2025 00:17:54] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-12-10 00:17:54,764 INFO 172.18.0.1 - - [10/Dec/2025 00:17:54] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-12-10 00:17:54,840 INFO 172.18.0.1 - - [10/Dec/2025 00:17:54] "GET /api/admin/cutoff-date HTTP/1.1" 200 -
+2025-12-10 00:17:57,309 INFO 172.18.0.1 - - [10/Dec/2025 00:17:57] "POST /api/ml/run HTTP/1.1" 200 -
+2025-12-10 00:17:57,912 INFO 172.18.0.1 - - [10/Dec/2025 00:17:57] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:17:58,367 INFO 172.18.0.1 - - [10/Dec/2025 00:17:58] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:17:58,882 INFO 172.18.0.1 - - [10/Dec/2025 00:17:58] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:17:59,404 INFO 172.18.0.1 - - [10/Dec/2025 00:17:59] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:17:59,894 INFO 172.18.0.1 - - [10/Dec/2025 00:17:59] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:00,430 INFO 172.18.0.1 - - [10/Dec/2025 00:18:00] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:00,864 INFO 172.18.0.1 - - [10/Dec/2025 00:18:00] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:01,347 INFO 172.18.0.1 - - [10/Dec/2025 00:18:01] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:01,849 INFO 172.18.0.1 - - [10/Dec/2025 00:18:01] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:02,361 INFO 172.18.0.1 - - [10/Dec/2025 00:18:02] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:02,851 INFO 172.18.0.1 - - [10/Dec/2025 00:18:02] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:03,354 INFO 172.18.0.1 - - [10/Dec/2025 00:18:03] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:03,851 INFO 172.18.0.1 - - [10/Dec/2025 00:18:03] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:04,345 INFO 172.18.0.1 - - [10/Dec/2025 00:18:04] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:04,847 INFO 172.18.0.1 - - [10/Dec/2025 00:18:04] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:05,373 INFO 172.18.0.1 - - [10/Dec/2025 00:18:05] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:05,850 INFO 172.18.0.1 - - [10/Dec/2025 00:18:05] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:06,354 INFO 172.18.0.1 - - [10/Dec/2025 00:18:06] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:06,847 INFO 172.18.0.1 - - [10/Dec/2025 00:18:06] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:07,354 INFO 172.18.0.1 - - [10/Dec/2025 00:18:07] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:07,848 INFO 172.18.0.1 - - [10/Dec/2025 00:18:07] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:08,367 INFO 172.18.0.1 - - [10/Dec/2025 00:18:08] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:08,856 INFO 172.18.0.1 - - [10/Dec/2025 00:18:08] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:09,361 INFO 172.18.0.1 - - [10/Dec/2025 00:18:09] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:09,876 INFO 172.18.0.1 - - [10/Dec/2025 00:18:09] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:10,367 INFO 172.18.0.1 - - [10/Dec/2025 00:18:10] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:10,859 INFO 172.18.0.1 - - [10/Dec/2025 00:18:10] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:11,385 INFO 172.18.0.1 - - [10/Dec/2025 00:18:11] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:11,854 INFO 172.18.0.1 - - [10/Dec/2025 00:18:11] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:12,363 INFO 172.18.0.1 - - [10/Dec/2025 00:18:12] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:12,854 INFO 172.18.0.1 - - [10/Dec/2025 00:18:12] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:13,363 INFO 172.18.0.1 - - [10/Dec/2025 00:18:13] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:13,872 INFO 172.18.0.1 - - [10/Dec/2025 00:18:13] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:14,372 INFO 172.18.0.1 - - [10/Dec/2025 00:18:14] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:14,858 INFO 172.18.0.1 - - [10/Dec/2025 00:18:14] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:15,352 INFO 172.18.0.1 - - [10/Dec/2025 00:18:15] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:15,854 INFO 172.18.0.1 - - [10/Dec/2025 00:18:15] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:16,351 INFO 172.18.0.1 - - [10/Dec/2025 00:18:16] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:16,866 INFO 172.18.0.1 - - [10/Dec/2025 00:18:16] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:17,346 INFO 172.18.0.1 - - [10/Dec/2025 00:18:17] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:17,853 INFO 172.18.0.1 - - [10/Dec/2025 00:18:17] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:18,349 INFO 172.18.0.1 - - [10/Dec/2025 00:18:18] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:18,845 INFO 172.18.0.1 - - [10/Dec/2025 00:18:18] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:19,355 INFO 172.18.0.1 - - [10/Dec/2025 00:18:19] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:19,853 INFO 172.18.0.1 - - [10/Dec/2025 00:18:19] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:20,362 INFO 172.18.0.1 - - [10/Dec/2025 00:18:20] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:20,917 INFO 172.18.0.1 - - [10/Dec/2025 00:18:20] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:22,222 INFO 172.18.0.1 - - [10/Dec/2025 00:18:22] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:23,223 INFO 172.18.0.1 - - [10/Dec/2025 00:18:23] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:24,217 INFO 172.18.0.1 - - [10/Dec/2025 00:18:24] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:25,214 INFO 172.18.0.1 - - [10/Dec/2025 00:18:25] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:26,239 INFO 172.18.0.1 - - [10/Dec/2025 00:18:26] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:26,463 INFO 172.18.0.1 - - [10/Dec/2025 00:18:26] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:26,867 INFO 172.18.0.1 - - [10/Dec/2025 00:18:26] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:27,362 INFO 172.18.0.1 - - [10/Dec/2025 00:18:27] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:27,850 INFO 172.18.0.1 - - [10/Dec/2025 00:18:27] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:28,355 INFO 172.18.0.1 - - [10/Dec/2025 00:18:28] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:28,852 INFO 172.18.0.1 - - [10/Dec/2025 00:18:28] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:29,343 INFO 172.18.0.1 - - [10/Dec/2025 00:18:29] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:29,851 INFO 172.18.0.1 - - [10/Dec/2025 00:18:29] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:30,334 INFO 172.18.0.1 - - [10/Dec/2025 00:18:30] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:30,833 INFO 172.18.0.1 - - [10/Dec/2025 00:18:30] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:31,331 INFO 172.18.0.1 - - [10/Dec/2025 00:18:31] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:31,848 INFO 172.18.0.1 - - [10/Dec/2025 00:18:31] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:32,341 INFO 172.18.0.1 - - [10/Dec/2025 00:18:32] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:32,836 INFO 172.18.0.1 - - [10/Dec/2025 00:18:32] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:33,335 INFO 172.18.0.1 - - [10/Dec/2025 00:18:33] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:33,831 INFO 172.18.0.1 - - [10/Dec/2025 00:18:33] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:34,329 INFO 172.18.0.1 - - [10/Dec/2025 00:18:34] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:34,847 INFO 172.18.0.1 - - [10/Dec/2025 00:18:34] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:35,341 INFO 172.18.0.1 - - [10/Dec/2025 00:18:35] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:35,841 INFO 172.18.0.1 - - [10/Dec/2025 00:18:35] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:36,335 INFO 172.18.0.1 - - [10/Dec/2025 00:18:36] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:36,831 INFO 172.18.0.1 - - [10/Dec/2025 00:18:36] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:37,331 INFO 172.18.0.1 - - [10/Dec/2025 00:18:37] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:37,831 INFO 172.18.0.1 - - [10/Dec/2025 00:18:37] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:38,344 INFO 172.18.0.1 - - [10/Dec/2025 00:18:38] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:38,844 INFO 172.18.0.1 - - [10/Dec/2025 00:18:38] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:39,341 INFO 172.18.0.1 - - [10/Dec/2025 00:18:39] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:39,840 INFO 172.18.0.1 - - [10/Dec/2025 00:18:39] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:40,335 INFO 172.18.0.1 - - [10/Dec/2025 00:18:40] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:40,833 INFO 172.18.0.1 - - [10/Dec/2025 00:18:40] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:41,330 INFO 172.18.0.1 - - [10/Dec/2025 00:18:41] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:41,845 INFO 172.18.0.1 - - [10/Dec/2025 00:18:41] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:42,339 INFO 172.18.0.1 - - [10/Dec/2025 00:18:42] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:42,837 INFO 172.18.0.1 - - [10/Dec/2025 00:18:42] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:43,331 INFO 172.18.0.1 - - [10/Dec/2025 00:18:43] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:43,844 INFO 172.18.0.1 - - [10/Dec/2025 00:18:43] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:44,340 INFO 172.18.0.1 - - [10/Dec/2025 00:18:44] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:44,839 INFO 172.18.0.1 - - [10/Dec/2025 00:18:44] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:45,343 INFO 172.18.0.1 - - [10/Dec/2025 00:18:45] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:45,838 INFO 172.18.0.1 - - [10/Dec/2025 00:18:45] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:46,330 INFO 172.18.0.1 - - [10/Dec/2025 00:18:46] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:47,225 INFO 172.18.0.1 - - [10/Dec/2025 00:18:47] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:48,221 INFO 172.18.0.1 - - [10/Dec/2025 00:18:48] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:49,210 INFO 172.18.0.1 - - [10/Dec/2025 00:18:49] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:50,216 INFO 172.18.0.1 - - [10/Dec/2025 00:18:50] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:51,217 INFO 172.18.0.1 - - [10/Dec/2025 00:18:51] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:52,213 INFO 172.18.0.1 - - [10/Dec/2025 00:18:52] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:53,221 INFO 172.18.0.1 - - [10/Dec/2025 00:18:53] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:54,227 INFO 172.18.0.1 - - [10/Dec/2025 00:18:54] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:55,210 INFO 172.18.0.1 - - [10/Dec/2025 00:18:55] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:56,213 INFO 172.18.0.1 - - [10/Dec/2025 00:18:56] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:57,207 INFO 172.18.0.1 - - [10/Dec/2025 00:18:57] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:58,205 INFO 172.18.0.1 - - [10/Dec/2025 00:18:58] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:18:59,206 INFO 172.18.0.1 - - [10/Dec/2025 00:18:59] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:00,218 INFO 172.18.0.1 - - [10/Dec/2025 00:19:00] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:01,213 INFO 172.18.0.1 - - [10/Dec/2025 00:19:01] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:02,224 INFO 172.18.0.1 - - [10/Dec/2025 00:19:02] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:03,220 INFO 172.18.0.1 - - [10/Dec/2025 00:19:03] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:03,941 INFO 172.18.0.1 - - [10/Dec/2025 00:19:03] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:04,351 INFO 172.18.0.1 - - [10/Dec/2025 00:19:04] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:04,846 INFO 172.18.0.1 - - [10/Dec/2025 00:19:04] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:06,212 INFO 172.18.0.1 - - [10/Dec/2025 00:19:06] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:07,223 INFO 172.18.0.1 - - [10/Dec/2025 00:19:07] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:08,397 INFO 172.18.0.1 - - [10/Dec/2025 00:19:08] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:08,421 INFO 172.18.0.1 - - [10/Dec/2025 00:19:08] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:08,839 INFO 172.18.0.1 - - [10/Dec/2025 00:19:08] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:09,337 INFO 172.18.0.1 - - [10/Dec/2025 00:19:09] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:09,841 INFO 172.18.0.1 - - [10/Dec/2025 00:19:09] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:11,224 INFO 172.18.0.1 - - [10/Dec/2025 00:19:11] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:12,223 INFO 172.18.0.1 - - [10/Dec/2025 00:19:12] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:13,220 INFO 172.18.0.1 - - [10/Dec/2025 00:19:13] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:14,220 INFO 172.18.0.1 - - [10/Dec/2025 00:19:14] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:15,212 INFO 172.18.0.1 - - [10/Dec/2025 00:19:15] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:16,222 INFO 172.18.0.1 - - [10/Dec/2025 00:19:16] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:17,220 INFO 172.18.0.1 - - [10/Dec/2025 00:19:17] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:18,214 INFO 172.18.0.1 - - [10/Dec/2025 00:19:18] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:19,224 INFO 172.18.0.1 - - [10/Dec/2025 00:19:19] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:20,216 INFO 172.18.0.1 - - [10/Dec/2025 00:19:20] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:21,213 INFO 172.18.0.1 - - [10/Dec/2025 00:19:21] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:22,214 INFO 172.18.0.1 - - [10/Dec/2025 00:19:22] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:23,227 INFO 172.18.0.1 - - [10/Dec/2025 00:19:23] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:24,217 INFO 172.18.0.1 - - [10/Dec/2025 00:19:24] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:25,211 INFO 172.18.0.1 - - [10/Dec/2025 00:19:25] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:26,220 INFO 172.18.0.1 - - [10/Dec/2025 00:19:26] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:27,216 INFO 172.18.0.1 - - [10/Dec/2025 00:19:27] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:28,223 INFO 172.18.0.1 - - [10/Dec/2025 00:19:28] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:29,214 INFO 172.18.0.1 - - [10/Dec/2025 00:19:29] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:19:29,974 ERROR Error during ML process: No teams found with external_id in soccer_teams table
+2025-12-10 00:19:30,216 INFO 172.18.0.1 - - [10/Dec/2025 00:19:30] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-09 18:24:14,863 INFO Starting manual database initialization...
+2025-12-09 18:24:14,941 ERROR MySQL authentication failed (attempt 1/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:24:17,973 ERROR MySQL authentication failed (attempt 2/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:24:20,985 ERROR MySQL authentication failed (attempt 3/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:24:23,994 ERROR MySQL authentication failed (attempt 4/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:24:27,006 ERROR MySQL authentication failed (attempt 5/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-09 18:24:30,017 ERROR MySQL authentication failed (attempt 6/20). Check credentials: user='user', host='localhost', database='draft_ministers'. To use Docker MySQL: 'docker-compose up -d mysql'. Or set MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST environment variables.
+2025-12-10 00:27:03,641 INFO Starting manual database initialization...
+2025-12-10 00:27:04,353 INFO Database connected successfully.
+2025-12-10 00:27:05,911 INFO Database initialization completed.
+2025-12-10 00:27:43,914 INFO Database connected successfully.
+2025-12-10 00:27:44,034 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.8:5000
+2025-12-10 00:27:44,036 INFO [33mPress CTRL+C to quit[0m
+2025-12-10 00:27:50,912 INFO Loaded 20 teams for admin page
+2025-12-10 00:27:51,128 INFO 172.18.0.1 - - [10/Dec/2025 00:27:51] "GET /admin HTTP/1.1" 200 -
+2025-12-10 00:27:51,461 INFO 172.18.0.1 - - [10/Dec/2025 00:27:51] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-12-10 00:27:51,482 INFO 172.18.0.1 - - [10/Dec/2025 00:27:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-10 00:27:54,296 INFO 172.18.0.1 - - [10/Dec/2025 00:27:54] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-12-10 00:27:54,664 INFO 172.18.0.1 - - [10/Dec/2025 00:27:54] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-12-10 00:27:54,667 INFO 172.18.0.1 - - [10/Dec/2025 00:27:54] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-12-10 00:27:54,850 INFO 172.18.0.1 - - [10/Dec/2025 00:27:54] "GET /api/admin/cutoff-date HTTP/1.1" 200 -
+2025-12-10 00:27:57,807 INFO 172.18.0.1 - - [10/Dec/2025 00:27:57] "POST /api/ml/run HTTP/1.1" 200 -
+2025-12-10 00:27:58,378 INFO 172.18.0.1 - - [10/Dec/2025 00:27:58] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:27:58,882 INFO 172.18.0.1 - - [10/Dec/2025 00:27:58] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:27:59,391 INFO 172.18.0.1 - - [10/Dec/2025 00:27:59] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:27:59,886 INFO 172.18.0.1 - - [10/Dec/2025 00:27:59] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:00,436 INFO 172.18.0.1 - - [10/Dec/2025 00:28:00] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:00,869 INFO 172.18.0.1 - - [10/Dec/2025 00:28:00] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:01,367 INFO 172.18.0.1 - - [10/Dec/2025 00:28:01] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:01,876 INFO 172.18.0.1 - - [10/Dec/2025 00:28:01] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:02,385 INFO 172.18.0.1 - - [10/Dec/2025 00:28:02] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:02,876 INFO 172.18.0.1 - - [10/Dec/2025 00:28:02] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:03,381 INFO 172.18.0.1 - - [10/Dec/2025 00:28:03] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:03,868 INFO 172.18.0.1 - - [10/Dec/2025 00:28:03] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:04,362 INFO 172.18.0.1 - - [10/Dec/2025 00:28:04] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:04,875 INFO 172.18.0.1 - - [10/Dec/2025 00:28:04] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:05,373 INFO 172.18.0.1 - - [10/Dec/2025 00:28:05] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:05,872 INFO 172.18.0.1 - - [10/Dec/2025 00:28:05] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:06,367 INFO 172.18.0.1 - - [10/Dec/2025 00:28:06] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:06,864 INFO 172.18.0.1 - - [10/Dec/2025 00:28:06] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:07,374 INFO 172.18.0.1 - - [10/Dec/2025 00:28:07] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:07,871 INFO 172.18.0.1 - - [10/Dec/2025 00:28:07] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:08,366 INFO 172.18.0.1 - - [10/Dec/2025 00:28:08] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:08,878 INFO 172.18.0.1 - - [10/Dec/2025 00:28:08] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:09,372 INFO 172.18.0.1 - - [10/Dec/2025 00:28:09] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:09,908 INFO 172.18.0.1 - - [10/Dec/2025 00:28:09] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:10,451 INFO 172.18.0.1 - - [10/Dec/2025 00:28:10] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:11,237 INFO 172.18.0.1 - - [10/Dec/2025 00:28:11] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:12,233 INFO 172.18.0.1 - - [10/Dec/2025 00:28:12] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:12,483 INFO 172.18.0.1 - - [10/Dec/2025 00:28:12] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:12,877 INFO 172.18.0.1 - - [10/Dec/2025 00:28:12] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:13,371 INFO 172.18.0.1 - - [10/Dec/2025 00:28:13] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:13,874 INFO 172.18.0.1 - - [10/Dec/2025 00:28:13] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:14,377 INFO 172.18.0.1 - - [10/Dec/2025 00:28:14] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:14,874 INFO 172.18.0.1 - - [10/Dec/2025 00:28:14] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:16,229 INFO 172.18.0.1 - - [10/Dec/2025 00:28:16] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:17,216 INFO 172.18.0.1 - - [10/Dec/2025 00:28:17] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:18,224 INFO 172.18.0.1 - - [10/Dec/2025 00:28:18] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:19,221 INFO 172.18.0.1 - - [10/Dec/2025 00:28:19] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:20,292 INFO 172.18.0.1 - - [10/Dec/2025 00:28:20] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:21,242 INFO 172.18.0.1 - - [10/Dec/2025 00:28:21] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:22,215 INFO 172.18.0.1 - - [10/Dec/2025 00:28:22] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:23,222 INFO 172.18.0.1 - - [10/Dec/2025 00:28:23] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:24,212 INFO 172.18.0.1 - - [10/Dec/2025 00:28:24] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:25,221 INFO 172.18.0.1 - - [10/Dec/2025 00:28:25] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:26,214 INFO 172.18.0.1 - - [10/Dec/2025 00:28:26] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:27,222 INFO 172.18.0.1 - - [10/Dec/2025 00:28:27] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:28,223 INFO 172.18.0.1 - - [10/Dec/2025 00:28:28] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:29,211 INFO 172.18.0.1 - - [10/Dec/2025 00:28:29] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:30,222 INFO 172.18.0.1 - - [10/Dec/2025 00:28:30] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:31,213 INFO 172.18.0.1 - - [10/Dec/2025 00:28:31] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:32,213 INFO 172.18.0.1 - - [10/Dec/2025 00:28:32] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:33,223 INFO 172.18.0.1 - - [10/Dec/2025 00:28:33] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:34,218 INFO 172.18.0.1 - - [10/Dec/2025 00:28:34] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:35,212 INFO 172.18.0.1 - - [10/Dec/2025 00:28:35] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:36,222 INFO 172.18.0.1 - - [10/Dec/2025 00:28:36] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:37,219 INFO 172.18.0.1 - - [10/Dec/2025 00:28:37] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:38,212 INFO 172.18.0.1 - - [10/Dec/2025 00:28:38] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:39,224 INFO 172.18.0.1 - - [10/Dec/2025 00:28:39] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:40,222 INFO 172.18.0.1 - - [10/Dec/2025 00:28:40] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:41,218 INFO 172.18.0.1 - - [10/Dec/2025 00:28:41] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:42,211 INFO 172.18.0.1 - - [10/Dec/2025 00:28:42] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:43,211 INFO 172.18.0.1 - - [10/Dec/2025 00:28:43] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:44,223 INFO 172.18.0.1 - - [10/Dec/2025 00:28:44] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:45,219 INFO 172.18.0.1 - - [10/Dec/2025 00:28:45] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:46,219 INFO 172.18.0.1 - - [10/Dec/2025 00:28:46] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:47,214 INFO 172.18.0.1 - - [10/Dec/2025 00:28:47] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:48,212 INFO 172.18.0.1 - - [10/Dec/2025 00:28:48] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:49,223 INFO 172.18.0.1 - - [10/Dec/2025 00:28:49] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:50,219 INFO 172.18.0.1 - - [10/Dec/2025 00:28:50] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:51,212 INFO 172.18.0.1 - - [10/Dec/2025 00:28:51] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:52,222 INFO 172.18.0.1 - - [10/Dec/2025 00:28:52] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:53,219 INFO 172.18.0.1 - - [10/Dec/2025 00:28:53] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:54,212 INFO 172.18.0.1 - - [10/Dec/2025 00:28:54] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:55,211 INFO 172.18.0.1 - - [10/Dec/2025 00:28:55] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:56,221 INFO 172.18.0.1 - - [10/Dec/2025 00:28:56] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:57,217 INFO 172.18.0.1 - - [10/Dec/2025 00:28:57] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:58,212 INFO 172.18.0.1 - - [10/Dec/2025 00:28:58] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:28:59,222 INFO 172.18.0.1 - - [10/Dec/2025 00:28:59] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:00,215 INFO 172.18.0.1 - - [10/Dec/2025 00:29:00] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:01,220 INFO 172.18.0.1 - - [10/Dec/2025 00:29:01] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:02,215 INFO 172.18.0.1 - - [10/Dec/2025 00:29:02] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:03,212 INFO 172.18.0.1 - - [10/Dec/2025 00:29:03] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:04,222 INFO 172.18.0.1 - - [10/Dec/2025 00:29:04] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:05,221 INFO 172.18.0.1 - - [10/Dec/2025 00:29:05] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:06,217 INFO 172.18.0.1 - - [10/Dec/2025 00:29:06] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:07,211 INFO 172.18.0.1 - - [10/Dec/2025 00:29:07] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:08,219 INFO 172.18.0.1 - - [10/Dec/2025 00:29:08] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:09,239 INFO 172.18.0.1 - - [10/Dec/2025 00:29:09] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:10,233 INFO 172.18.0.1 - - [10/Dec/2025 00:29:10] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:11,233 INFO 172.18.0.1 - - [10/Dec/2025 00:29:11] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:12,234 INFO 172.18.0.1 - - [10/Dec/2025 00:29:12] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:13,217 INFO 172.18.0.1 - - [10/Dec/2025 00:29:13] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:14,252 INFO 172.18.0.1 - - [10/Dec/2025 00:29:14] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:15,225 INFO 172.18.0.1 - - [10/Dec/2025 00:29:15] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:15,644 INFO 172.18.0.1 - - [10/Dec/2025 00:29:15] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:15,901 INFO 172.18.0.1 - - [10/Dec/2025 00:29:15] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:16,374 INFO 172.18.0.1 - - [10/Dec/2025 00:29:16] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:16,898 INFO 172.18.0.1 - - [10/Dec/2025 00:29:16] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:17,397 INFO 172.18.0.1 - - [10/Dec/2025 00:29:17] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:17,867 INFO 172.18.0.1 - - [10/Dec/2025 00:29:17] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:18,389 INFO 172.18.0.1 - - [10/Dec/2025 00:29:18] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:18,877 INFO 172.18.0.1 - - [10/Dec/2025 00:29:18] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:19,377 INFO 172.18.0.1 - - [10/Dec/2025 00:29:19] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:19,875 INFO 172.18.0.1 - - [10/Dec/2025 00:29:19] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:20,371 INFO 172.18.0.1 - - [10/Dec/2025 00:29:20] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:20,892 INFO 172.18.0.1 - - [10/Dec/2025 00:29:20] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:22,218 INFO 172.18.0.1 - - [10/Dec/2025 00:29:22] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:23,231 INFO 172.18.0.1 - - [10/Dec/2025 00:29:23] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:24,215 INFO 172.18.0.1 - - [10/Dec/2025 00:29:24] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:25,234 INFO 172.18.0.1 - - [10/Dec/2025 00:29:25] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:26,220 INFO 172.18.0.1 - - [10/Dec/2025 00:29:26] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:27,216 INFO 172.18.0.1 - - [10/Dec/2025 00:29:27] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:28,219 INFO 172.18.0.1 - - [10/Dec/2025 00:29:28] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:29,220 INFO 172.18.0.1 - - [10/Dec/2025 00:29:29] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:30,234 INFO 172.18.0.1 - - [10/Dec/2025 00:29:30] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:31,183 INFO 172.18.0.1 - - [10/Dec/2025 00:29:31] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:31,393 INFO 172.18.0.1 - - [10/Dec/2025 00:29:31] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:31,875 INFO 172.18.0.1 - - [10/Dec/2025 00:29:31] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:32,377 INFO 172.18.0.1 - - [10/Dec/2025 00:29:32] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:32,875 INFO 172.18.0.1 - - [10/Dec/2025 00:29:32] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:33,381 INFO 172.18.0.1 - - [10/Dec/2025 00:29:33] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:33,877 INFO 172.18.0.1 - - [10/Dec/2025 00:29:33] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:34,385 INFO 172.18.0.1 - - [10/Dec/2025 00:29:34] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:34,863 INFO 172.18.0.1 - - [10/Dec/2025 00:29:34] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:35,377 INFO 172.18.0.1 - - [10/Dec/2025 00:29:35] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:35,872 INFO 172.18.0.1 - - [10/Dec/2025 00:29:35] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:36,375 INFO 172.18.0.1 - - [10/Dec/2025 00:29:36] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:36,891 INFO 172.18.0.1 - - [10/Dec/2025 00:29:36] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:37,370 INFO 172.18.0.1 - - [10/Dec/2025 00:29:37] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:37,942 INFO 172.18.0.1 - - [10/Dec/2025 00:29:37] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:39,246 INFO 172.18.0.1 - - [10/Dec/2025 00:29:39] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:40,242 INFO 172.18.0.1 - - [10/Dec/2025 00:29:40] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:41,216 INFO 172.18.0.1 - - [10/Dec/2025 00:29:41] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:42,231 INFO 172.18.0.1 - - [10/Dec/2025 00:29:42] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:43,236 INFO 172.18.0.1 - - [10/Dec/2025 00:29:43] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:44,218 INFO 172.18.0.1 - - [10/Dec/2025 00:29:44] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:45,242 INFO 172.18.0.1 - - [10/Dec/2025 00:29:45] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:46,223 INFO 172.18.0.1 - - [10/Dec/2025 00:29:46] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:47,229 INFO 172.18.0.1 - - [10/Dec/2025 00:29:47] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:48,222 INFO 172.18.0.1 - - [10/Dec/2025 00:29:48] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:49,225 INFO 172.18.0.1 - - [10/Dec/2025 00:29:49] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:50,218 INFO 172.18.0.1 - - [10/Dec/2025 00:29:50] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:51,221 INFO 172.18.0.1 - - [10/Dec/2025 00:29:51] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:52,229 INFO 172.18.0.1 - - [10/Dec/2025 00:29:52] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:53,235 INFO 172.18.0.1 - - [10/Dec/2025 00:29:53] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:53,564 INFO 172.18.0.1 - - [10/Dec/2025 00:29:53] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:53,886 INFO 172.18.0.1 - - [10/Dec/2025 00:29:53] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:54,382 INFO 172.18.0.1 - - [10/Dec/2025 00:29:54] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:54,871 INFO 172.18.0.1 - - [10/Dec/2025 00:29:54] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:55,367 INFO 172.18.0.1 - - [10/Dec/2025 00:29:55] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:55,876 INFO 172.18.0.1 - - [10/Dec/2025 00:29:55] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:56,367 INFO 172.18.0.1 - - [10/Dec/2025 00:29:56] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:56,870 INFO 172.18.0.1 - - [10/Dec/2025 00:29:56] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:57,365 INFO 172.18.0.1 - - [10/Dec/2025 00:29:57] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:57,866 INFO 172.18.0.1 - - [10/Dec/2025 00:29:57] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:29:58,366 INFO 172.18.0.1 - - [10/Dec/2025 00:29:58] "GET /api/ml/status HTTP/1.1" 200 -
+2025-12-10 00:30:00,444 INFO Loaded 20 teams for admin page
+2025-12-10 00:30:00,447 INFO 172.18.0.1 - - [10/Dec/2025 00:30:00] "GET /admin HTTP/1.1" 200 -
+2025-12-10 00:30:00,519 INFO 172.18.0.1 - - [10/Dec/2025 00:30:00] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-12-10 00:30:00,521 INFO 172.18.0.1 - - [10/Dec/2025 00:30:00] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-12-10 00:30:00,522 INFO 172.18.0.1 - - [10/Dec/2025 00:30:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-10 00:30:01,109 INFO 172.18.0.1 - - [10/Dec/2025 00:30:01] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-12-10 00:30:01,116 INFO 172.18.0.1 - - [10/Dec/2025 00:30:01] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-12-10 00:30:01,236 INFO 172.18.0.1 - - [10/Dec/2025 00:30:01] "GET /api/admin/cutoff-date HTTP/1.1" 200 -
+2025-12-10 00:30:07,495 INFO Accessing home endpoint
+2025-12-10 00:30:07,519 INFO Loaded 20 teams from database
+2025-12-10 00:30:07,568 INFO Loaded 380 fixtures from database
+2025-12-10 00:30:07,589 INFO Retrieved cutoff date from DB: 2023-09-20
+2025-12-10 00:30:07,614 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,616 DEBUG Match 1035037 on 2023-08-11 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,617 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,618 DEBUG Match 1035038 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,618 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,619 DEBUG Match 1035039 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,620 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,621 DEBUG Match 1035040 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,622 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,623 DEBUG Match 1035041 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,624 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,625 DEBUG Match 1035042 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,628 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,631 DEBUG Match 1035043 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,633 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,634 DEBUG Match 1035044 on 2023-08-13 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,637 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,638 DEBUG Match 1035045 on 2023-08-13 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,639 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,640 DEBUG Match 1035046 on 2023-08-14 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,640 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,641 DEBUG Match 1035047 on 2023-08-20 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,642 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,645 DEBUG Match 1035048 on 2023-08-21 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,648 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,649 DEBUG Match 1035049 on 2023-08-19 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,650 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,651 DEBUG Match 1035050 on 2023-08-19 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,652 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,653 DEBUG Match 1035051 on 2023-10-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,654 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,655 DEBUG Match 1035052 on 2023-08-19 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,656 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,657 DEBUG Match 1035053 on 2023-08-18 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,659 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,661 DEBUG Match 1035054 on 2023-08-19 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,663 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,665 DEBUG Match 1035055 on 2023-08-20 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,667 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,667 DEBUG Match 1035056 on 2023-08-19 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,669 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,669 DEBUG Match 1035057 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,670 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,672 DEBUG Match 1035058 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,673 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,673 DEBUG Match 1035059 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,674 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,675 DEBUG Match 1035060 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,676 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,678 DEBUG Match 1035061 on 2023-08-27 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,680 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,682 DEBUG Match 1035062 on 2023-08-25 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,683 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,683 DEBUG Match 1035063 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,684 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,685 DEBUG Match 1035064 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,686 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,687 DEBUG Match 1035065 on 2023-08-27 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,688 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,688 DEBUG Match 1035066 on 2023-08-27 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,689 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,690 DEBUG Match 1035067 on 2023-09-03 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,691 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,692 DEBUG Match 1035068 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,695 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,697 DEBUG Match 1035069 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,698 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,699 DEBUG Match 1035070 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,700 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,701 DEBUG Match 1035071 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,702 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,702 DEBUG Match 1035072 on 2023-09-03 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,703 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,704 DEBUG Match 1035073 on 2023-09-03 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,705 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,706 DEBUG Match 1035074 on 2023-09-01 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,707 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,707 DEBUG Match 1035075 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,708 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,709 DEBUG Match 1035076 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,711 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,713 DEBUG Match 1035077 on 2023-09-17 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,714 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,715 DEBUG Match 1035078 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,717 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,718 DEBUG Match 1035079 on 2023-09-17 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,719 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,720 DEBUG Match 1035080 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,721 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,722 DEBUG Match 1035081 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,723 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,723 DEBUG Match 1035082 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,724 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,725 DEBUG Match 1035083 on 2023-09-18 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,726 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,727 DEBUG Match 1035084 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,729 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,731 DEBUG Match 1035085 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,733 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,735 DEBUG Match 1035086 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:07,736 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,737 DEBUG Match 1035087 on 2023-09-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,738 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,739 DEBUG Match 1035088 on 2023-09-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,740 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,740 DEBUG Match 1035089 on 2023-09-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,742 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,743 DEBUG Match 1035090 on 2023-09-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,745 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,748 DEBUG Match 1035091 on 2023-09-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,751 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,752 DEBUG Match 1035092 on 2023-09-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,753 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,753 DEBUG Match 1035093 on 2023-09-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,754 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,755 DEBUG Match 1035094 on 2023-09-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,756 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,757 DEBUG Match 1035095 on 2023-09-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,758 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,759 DEBUG Match 1035096 on 2023-09-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,763 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,764 DEBUG Match 1035097 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,765 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,766 DEBUG Match 1035098 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,768 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,768 DEBUG Match 1035099 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,769 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,770 DEBUG Match 1035100 on 2023-10-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,771 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,771 DEBUG Match 1035101 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,773 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,774 DEBUG Match 1035102 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,775 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,775 DEBUG Match 1035103 on 2023-10-01 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,776 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,777 DEBUG Match 1035104 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,779 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,781 DEBUG Match 1035105 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,782 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,783 DEBUG Match 1035106 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,784 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,785 DEBUG Match 1035107 on 2023-10-08 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,787 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,788 DEBUG Match 1035108 on 2023-10-08 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,789 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,789 DEBUG Match 1035109 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,790 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,791 DEBUG Match 1035110 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,792 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,792 DEBUG Match 1035111 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,794 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,795 DEBUG Match 1035112 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,798 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,799 DEBUG Match 1035113 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,800 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,801 DEBUG Match 1035114 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,802 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,804 DEBUG Match 1035115 on 2023-10-08 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,805 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,806 DEBUG Match 1035116 on 2023-10-08 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,807 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,808 DEBUG Match 1035117 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,808 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,809 DEBUG Match 1035118 on 2023-10-22 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,810 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,811 DEBUG Match 1035119 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,813 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,814 DEBUG Match 1035120 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,815 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,817 DEBUG Match 1035121 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,817 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,818 DEBUG Match 1035122 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,819 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,820 DEBUG Match 1035123 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,821 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,821 DEBUG Match 1035124 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,822 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,822 DEBUG Match 1035125 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,823 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,824 DEBUG Match 1035126 on 2023-10-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,825 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,825 DEBUG Match 1035127 on 2023-10-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,826 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,827 DEBUG Match 1035128 on 2023-10-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,830 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,832 DEBUG Match 1035129 on 2023-10-29 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,833 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,834 DEBUG Match 1035130 on 2023-10-29 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,836 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,836 DEBUG Match 1035131 on 2023-10-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,837 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,838 DEBUG Match 1035132 on 2023-10-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,839 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,840 DEBUG Match 1035133 on 2023-10-29 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,840 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,841 DEBUG Match 1035134 on 2023-10-29 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,843 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,846 DEBUG Match 1035135 on 2023-10-29 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,849 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,850 DEBUG Match 1035136 on 2023-10-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,851 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,852 DEBUG Match 1035137 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,853 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,853 DEBUG Match 1035138 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,854 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,856 DEBUG Match 1035139 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,857 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,857 DEBUG Match 1035140 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,858 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,859 DEBUG Match 1035141 on 2023-11-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,859 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,860 DEBUG Match 1035142 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,862 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,863 DEBUG Match 1035143 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,865 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,866 DEBUG Match 1035144 on 2023-11-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,867 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,868 DEBUG Match 1035145 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,870 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,871 DEBUG Match 1035146 on 2023-11-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,872 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,872 DEBUG Match 1035147 on 2023-11-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,873 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,874 DEBUG Match 1035148 on 2023-11-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,875 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,877 DEBUG Match 1035149 on 2023-11-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,877 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,878 DEBUG Match 1035150 on 2023-11-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,881 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,883 DEBUG Match 1035151 on 2023-11-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,884 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,885 DEBUG Match 1035152 on 2023-11-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,886 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,887 DEBUG Match 1035153 on 2023-11-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,888 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,889 DEBUG Match 1035154 on 2023-11-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,890 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,891 DEBUG Match 1035155 on 2023-11-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,892 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,894 DEBUG Match 1035156 on 2023-11-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,896 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,898 DEBUG Match 1035294 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,899 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,900 DEBUG Match 1035295 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,901 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,902 DEBUG Match 1035296 on 2023-11-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,903 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,903 DEBUG Match 1035297 on 2023-11-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,905 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,906 DEBUG Match 1035298 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,907 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,907 DEBUG Match 1035299 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,908 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,909 DEBUG Match 1035300 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,909 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,910 DEBUG Match 1035301 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,914 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,915 DEBUG Match 1035302 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,917 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,918 DEBUG Match 1035303 on 2023-11-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,919 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,920 DEBUG Match 1035304 on 2023-12-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,921 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,921 DEBUG Match 1035305 on 2023-12-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,922 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,923 DEBUG Match 1035306 on 2023-12-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,924 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,925 DEBUG Match 1035307 on 2023-12-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,926 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,928 DEBUG Match 1035308 on 2023-12-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,930 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,932 DEBUG Match 1035309 on 2023-12-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,934 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,936 DEBUG Match 1035310 on 2023-12-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,938 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,939 DEBUG Match 1035311 on 2023-12-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,940 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,941 DEBUG Match 1035312 on 2023-12-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,942 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,943 DEBUG Match 1035313 on 2023-12-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,945 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,946 DEBUG Match 1035314 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,948 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,949 DEBUG Match 1035315 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,952 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,953 DEBUG Match 1035316 on 2023-12-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,954 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,954 DEBUG Match 1035317 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,955 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,956 DEBUG Match 1035318 on 2023-12-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,958 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,958 DEBUG Match 1035319 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,959 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,961 DEBUG Match 1035320 on 2023-12-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,963 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,965 DEBUG Match 1035321 on 2023-12-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,966 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,966 DEBUG Match 1035322 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,968 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,968 DEBUG Match 1035323 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,969 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,970 DEBUG Match 1035324 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,971 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,971 DEBUG Match 1035325 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,972 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,973 DEBUG Match 1035326 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,974 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,974 DEBUG Match 1035327 on 2023-12-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,975 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,976 DEBUG Match 1035328 on 2023-12-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,980 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,982 DEBUG Match 1035329 on 2023-12-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,983 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,984 DEBUG Match 1035330 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,985 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,985 DEBUG Match 1035331 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,987 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,987 DEBUG Match 1035332 on 2023-12-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,988 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,989 DEBUG Match 1035333 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,990 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,991 DEBUG Match 1035334 on 2024-03-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,991 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,992 DEBUG Match 1035335 on 2023-12-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,993 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:07,994 DEBUG Match 1035336 on 2023-12-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:07,997 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,000 DEBUG Match 1035337 on 2023-12-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,001 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,002 DEBUG Match 1035338 on 2023-12-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,003 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,003 DEBUG Match 1035339 on 2023-12-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,004 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,005 DEBUG Match 1035340 on 2023-12-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,006 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,006 DEBUG Match 1035341 on 2023-12-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,007 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,008 DEBUG Match 1035342 on 2023-12-15 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,009 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,009 DEBUG Match 1035343 on 2023-12-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,010 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,012 DEBUG Match 1035344 on 2023-12-22 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,014 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,016 DEBUG Match 1035345 on 2023-12-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,017 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,018 DEBUG Match 1035346 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,019 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,020 DEBUG Match 1035347 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,021 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,021 DEBUG Match 1035348 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,022 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,023 DEBUG Match 1035349 on 2024-02-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,023 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,024 DEBUG Match 1035350 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,025 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,026 DEBUG Match 1035351 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,028 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,031 DEBUG Match 1035352 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,032 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,033 DEBUG Match 1035353 on 2023-12-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,034 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,035 DEBUG Match 1035354 on 2023-12-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,037 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,037 DEBUG Match 1035355 on 2023-12-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,038 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,039 DEBUG Match 1035356 on 2023-12-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,040 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,040 DEBUG Match 1035357 on 2023-12-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,041 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,042 DEBUG Match 1035358 on 2023-12-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,042 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,045 DEBUG Match 1035359 on 2023-12-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,048 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,050 DEBUG Match 1035360 on 2023-12-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,051 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,052 DEBUG Match 1035361 on 2023-12-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,053 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,054 DEBUG Match 1035362 on 2023-12-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,054 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,055 DEBUG Match 1035363 on 2023-12-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,056 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,057 DEBUG Match 1035364 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,058 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,058 DEBUG Match 1035365 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,060 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,061 DEBUG Match 1035366 on 2023-12-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,062 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,064 DEBUG Match 1035367 on 2024-01-01 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,066 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,068 DEBUG Match 1035368 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,069 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,069 DEBUG Match 1035369 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,070 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,071 DEBUG Match 1035370 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,072 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,072 DEBUG Match 1035371 on 2023-12-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,073 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,074 DEBUG Match 1035372 on 2024-01-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,074 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,075 DEBUG Match 1035373 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,077 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,078 DEBUG Match 1035374 on 2024-01-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,080 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,082 DEBUG Match 1035375 on 2024-01-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,083 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,084 DEBUG Match 1035376 on 2024-01-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,085 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,085 DEBUG Match 1035377 on 2024-01-22 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,086 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,087 DEBUG Match 1035378 on 2024-01-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,088 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,088 DEBUG Match 1035379 on 2024-01-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,089 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,090 DEBUG Match 1035380 on 2024-01-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,090 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,091 DEBUG Match 1035381 on 2024-01-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,092 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,093 DEBUG Match 1035382 on 2024-01-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,095 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,098 DEBUG Match 1035383 on 2024-01-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,100 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,101 DEBUG Match 1035384 on 2024-01-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,102 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,103 DEBUG Match 1035385 on 2024-01-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,104 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,104 DEBUG Match 1035386 on 2024-01-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,105 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,106 DEBUG Match 1035387 on 2024-01-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,106 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,107 DEBUG Match 1035388 on 2024-01-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,108 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,109 DEBUG Match 1035389 on 2024-02-01 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,110 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,114 DEBUG Match 1035390 on 2024-02-01 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,116 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,117 DEBUG Match 1035391 on 2024-01-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,118 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,119 DEBUG Match 1035392 on 2024-01-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,120 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,120 DEBUG Match 1035393 on 2024-01-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,121 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,122 DEBUG Match 1035394 on 2024-02-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,123 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,123 DEBUG Match 1035395 on 2024-02-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,124 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,125 DEBUG Match 1035396 on 2024-02-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,126 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,127 DEBUG Match 1035397 on 2024-02-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,132 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,133 DEBUG Match 1035398 on 2024-02-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,134 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,135 DEBUG Match 1035399 on 2024-02-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,136 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,137 DEBUG Match 1035400 on 2024-02-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,138 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,139 DEBUG Match 1035401 on 2024-02-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,140 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,141 DEBUG Match 1035402 on 2024-02-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,142 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,144 DEBUG Match 1035403 on 2024-02-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,145 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,148 DEBUG Match 1035404 on 2024-02-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,150 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,152 DEBUG Match 1035405 on 2024-02-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,152 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,153 DEBUG Match 1035406 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,154 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,155 DEBUG Match 1035407 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,156 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,157 DEBUG Match 1035408 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,158 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,159 DEBUG Match 1035409 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,159 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,160 DEBUG Match 1035410 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,162 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,165 DEBUG Match 1035411 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,166 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,167 DEBUG Match 1035412 on 2024-02-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,168 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,169 DEBUG Match 1035413 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,170 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,170 DEBUG Match 1035414 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,171 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,172 DEBUG Match 1035415 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,173 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,174 DEBUG Match 1035416 on 2024-02-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,175 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,177 DEBUG Match 1035417 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,181 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,183 DEBUG Match 1035418 on 2024-02-18 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,183 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,184 DEBUG Match 1035419 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,185 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,186 DEBUG Match 1035420 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,187 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,187 DEBUG Match 1035421 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,189 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,190 DEBUG Match 1035422 on 2024-02-18 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,191 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,191 DEBUG Match 1035423 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,192 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,193 DEBUG Match 1035424 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,194 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,197 DEBUG Match 1035425 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,198 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,200 DEBUG Match 1035426 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,201 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,201 DEBUG Match 1035427 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,202 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,202 DEBUG Match 1035428 on 2024-05-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,204 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,204 DEBUG Match 1035429 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,205 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,206 DEBUG Match 1035430 on 2024-02-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,207 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,208 DEBUG Match 1035431 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,208 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,209 DEBUG Match 1035432 on 2024-02-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,211 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,212 DEBUG Match 1035433 on 2024-02-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,214 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,215 DEBUG Match 1035434 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,216 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,217 DEBUG Match 1035435 on 2024-03-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,218 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,219 DEBUG Match 1035436 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,219 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,220 DEBUG Match 1035437 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,221 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,222 DEBUG Match 1035438 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,223 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,223 DEBUG Match 1035439 on 2024-03-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,224 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,225 DEBUG Match 1035440 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,225 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,226 DEBUG Match 1035441 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,229 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,230 DEBUG Match 1035442 on 2024-03-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,231 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,232 DEBUG Match 1035443 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,234 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,235 DEBUG Match 1035444 on 2024-03-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,236 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,237 DEBUG Match 1035445 on 2024-03-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,237 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,238 DEBUG Match 1035446 on 2024-03-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,239 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,240 DEBUG Match 1035447 on 2024-03-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,241 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,241 DEBUG Match 1035448 on 2024-03-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,242 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,243 DEBUG Match 1035449 on 2024-03-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,246 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,249 DEBUG Match 1035450 on 2024-03-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,251 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,252 DEBUG Match 1035451 on 2024-03-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,253 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,254 DEBUG Match 1035452 on 2024-03-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,255 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,255 DEBUG Match 1035453 on 2024-03-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,256 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,257 DEBUG Match 1035454 on 2024-04-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,258 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,258 DEBUG Match 1035455 on 2024-04-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,259 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,260 DEBUG Match 1035456 on 2024-03-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,261 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,263 DEBUG Match 1035457 on 2024-04-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,265 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,267 DEBUG Match 1035458 on 2024-04-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,268 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,269 DEBUG Match 1035459 on 2024-03-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,270 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,270 DEBUG Match 1035460 on 2024-03-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,271 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,272 DEBUG Match 1035461 on 2024-04-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,273 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,274 DEBUG Match 1035462 on 2024-03-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,274 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,275 DEBUG Match 1035463 on 2024-04-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,276 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,277 DEBUG Match 1035464 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,278 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,280 DEBUG Match 1035465 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,282 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,283 DEBUG Match 1035466 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,284 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,285 DEBUG Match 1035467 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,285 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,286 DEBUG Match 1035468 on 2024-03-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,287 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,287 DEBUG Match 1035469 on 2024-03-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,288 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,289 DEBUG Match 1035470 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,290 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,290 DEBUG Match 1035471 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,291 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,292 DEBUG Match 1035472 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,293 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,294 DEBUG Match 1035473 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,296 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,298 DEBUG Match 1035474 on 2024-04-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,300 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,300 DEBUG Match 1035475 on 2024-04-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,302 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,302 DEBUG Match 1035476 on 2024-04-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,303 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,304 DEBUG Match 1035477 on 2024-04-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,305 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,306 DEBUG Match 1035478 on 2024-04-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,306 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,307 DEBUG Match 1035479 on 2024-04-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,308 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,309 DEBUG Match 1035480 on 2024-04-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,309 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,310 DEBUG Match 1035481 on 2024-04-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,314 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,316 DEBUG Match 1035482 on 2024-04-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,317 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,318 DEBUG Match 1035483 on 2024-04-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,319 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,320 DEBUG Match 1035484 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,321 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,321 DEBUG Match 1035485 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,322 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,323 DEBUG Match 1035486 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,324 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,324 DEBUG Match 1035487 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,326 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,327 DEBUG Match 1035488 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,329 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,332 DEBUG Match 1035489 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,333 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,334 DEBUG Match 1035490 on 2024-04-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,335 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,335 DEBUG Match 1035491 on 2024-04-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,336 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,336 DEBUG Match 1035492 on 2024-04-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,337 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,338 DEBUG Match 1035493 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,340 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,340 DEBUG Match 1035494 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,342 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,343 DEBUG Match 1035495 on 2024-04-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,344 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,345 DEBUG Match 1035496 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,345 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,346 DEBUG Match 1035497 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,347 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,348 DEBUG Match 1035498 on 2024-04-15 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,349 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,350 DEBUG Match 1035499 on 2024-04-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,350 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,351 DEBUG Match 1035500 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,352 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,354 DEBUG Match 1035501 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,355 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,358 DEBUG Match 1035502 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,359 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,361 DEBUG Match 1035503 on 2024-04-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,363 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,364 DEBUG Match 1035504 on 2024-04-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,365 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,366 DEBUG Match 1035505 on 2024-05-15 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,366 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,368 DEBUG Match 1035506 on 2024-04-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,369 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,370 DEBUG Match 1035507 on 2024-04-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,371 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,372 DEBUG Match 1035508 on 2024-04-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,374 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,374 DEBUG Match 1035509 on 2024-04-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,375 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,376 DEBUG Match 1035510 on 2024-05-15 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,379 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,380 DEBUG Match 1035511 on 2024-04-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,383 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,384 DEBUG Match 1035512 on 2024-05-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,385 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,385 DEBUG Match 1035513 on 2024-04-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,386 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,387 DEBUG Match 1035514 on 2024-04-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,388 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,388 DEBUG Match 1035515 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,389 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,390 DEBUG Match 1035516 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,391 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,392 DEBUG Match 1035517 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,392 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,393 DEBUG Match 1035518 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,396 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,397 DEBUG Match 1035519 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,399 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,400 DEBUG Match 1035520 on 2024-04-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,402 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,402 DEBUG Match 1035521 on 2024-04-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,404 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,404 DEBUG Match 1035522 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,405 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,406 DEBUG Match 1035523 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,407 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,407 DEBUG Match 1035524 on 2024-05-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,408 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,409 DEBUG Match 1035525 on 2024-05-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,409 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,411 DEBUG Match 1035526 on 2024-05-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,413 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,414 DEBUG Match 1035527 on 2024-05-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,415 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,416 DEBUG Match 1035528 on 2024-05-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,417 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,418 DEBUG Match 1035529 on 2024-05-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,419 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,419 DEBUG Match 1035530 on 2024-05-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,420 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,421 DEBUG Match 1035531 on 2024-05-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,421 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,422 DEBUG Match 1035532 on 2024-05-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,423 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,423 DEBUG Match 1035533 on 2024-05-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,424 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,425 DEBUG Match 1035534 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,426 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,427 DEBUG Match 1035535 on 2024-05-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,429 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,431 DEBUG Match 1035536 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,433 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,434 DEBUG Match 1035537 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,435 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,436 DEBUG Match 1035538 on 2024-05-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,437 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,437 DEBUG Match 1035539 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,438 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,439 DEBUG Match 1035540 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,440 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,440 DEBUG Match 1035541 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,441 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,442 DEBUG Match 1035542 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,443 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,445 DEBUG Match 1035543 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,448 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,449 DEBUG Match 1035544 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,450 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,451 DEBUG Match 1035545 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,452 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,453 DEBUG Match 1035546 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,454 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,456 DEBUG Match 1035547 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,457 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,457 DEBUG Match 1035548 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,458 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,459 DEBUG Match 1035549 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,459 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,460 DEBUG Match 1035550 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,461 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,463 DEBUG Match 1035551 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,466 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,468 DEBUG Match 1035552 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,469 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:08,470 DEBUG Match 1035553 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:08,471 INFO Total matches: 380, Upcoming: 331, Past: 49, Cutoff date used: 2023-09-20
+2025-12-10 00:30:08,503 INFO 172.18.0.1 - - [10/Dec/2025 00:30:08] "GET / HTTP/1.1" 200 -
+2025-12-10 00:30:08,602 INFO 172.18.0.1 - - [10/Dec/2025 00:30:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-10 00:30:08,609 INFO 172.18.0.1 - - [10/Dec/2025 00:30:08] "[36mGET /static/css/overlaystyles.css HTTP/1.1[0m" 304 -
+2025-12-10 00:30:08,611 INFO 172.18.0.1 - - [10/Dec/2025 00:30:08] "[36mGET /static/js/nav.js HTTP/1.1[0m" 304 -
+2025-12-10 00:30:08,613 INFO 172.18.0.1 - - [10/Dec/2025 00:30:08] "[36mGET /static/images/DM_Logo_W.png HTTP/1.1[0m" 304 -
+2025-12-10 00:30:09,504 INFO 172.18.0.1 - - [10/Dec/2025 00:30:09] "[36mGET /static/js/overlay.js HTTP/1.1[0m" 304 -
+2025-12-10 00:30:09,512 INFO 172.18.0.1 - - [10/Dec/2025 00:30:09] "[36mGET /static/fonts/LibreBaskerville-Bold.ttf HTTP/1.1[0m" 304 -
+2025-12-10 00:30:09,515 INFO 172.18.0.1 - - [10/Dec/2025 00:30:09] "[36mGET /static/fonts/LibreBaskerville-Regular.ttf HTTP/1.1[0m" 304 -
+2025-12-10 00:30:09,518 INFO 172.18.0.1 - - [10/Dec/2025 00:30:09] "[36mGET /static/images/ClearField.png HTTP/1.1[0m" 304 -
+2025-12-10 00:30:09,888 INFO 172.18.0.1 - - [10/Dec/2025 00:30:09] "[36mGET /static/favicon_io/site.webmanifest HTTP/1.1[0m" 304 -
+2025-12-10 00:30:10,040 INFO Loaded 20 teams from database
+2025-12-10 00:30:10,512 INFO Loaded 380 fixtures from database
+2025-12-10 00:30:10,752 INFO Retrieved cutoff date from DB: 2023-09-20
+2025-12-10 00:30:11,067 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,080 DEBUG Match 1035037 on 2023-08-11 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,093 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,104 DEBUG Match 1035038 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,113 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,117 DEBUG Match 1035039 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,132 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,143 DEBUG Match 1035040 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,158 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,168 DEBUG Match 1035041 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,175 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,185 DEBUG Match 1035042 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,190 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,198 DEBUG Match 1035043 on 2023-08-12 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,206 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,217 DEBUG Match 1035044 on 2023-08-13 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,225 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,231 DEBUG Match 1035045 on 2023-08-13 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,234 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,237 DEBUG Match 1035046 on 2023-08-14 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,239 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,243 DEBUG Match 1035047 on 2023-08-20 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,247 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,249 DEBUG Match 1035048 on 2023-08-21 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,251 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,254 DEBUG Match 1035049 on 2023-08-19 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,257 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,261 DEBUG Match 1035050 on 2023-08-19 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,264 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,265 DEBUG Match 1035051 on 2023-10-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,271 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,287 DEBUG Match 1035052 on 2023-08-19 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,303 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,307 DEBUG Match 1035053 on 2023-08-18 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,312 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,314 DEBUG Match 1035054 on 2023-08-19 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,318 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,333 DEBUG Match 1035055 on 2023-08-20 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,349 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,358 DEBUG Match 1035056 on 2023-08-19 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,364 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,370 DEBUG Match 1035057 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,380 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,385 DEBUG Match 1035058 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,387 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,392 DEBUG Match 1035059 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,402 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,414 DEBUG Match 1035060 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,420 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,425 DEBUG Match 1035061 on 2023-08-27 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,430 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,436 DEBUG Match 1035062 on 2023-08-25 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,438 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,441 DEBUG Match 1035063 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,444 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,447 DEBUG Match 1035064 on 2023-08-26 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,449 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,453 DEBUG Match 1035065 on 2023-08-27 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,456 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,460 DEBUG Match 1035066 on 2023-08-27 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,464 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,466 DEBUG Match 1035067 on 2023-09-03 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,470 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,480 DEBUG Match 1035068 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,493 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,496 DEBUG Match 1035069 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,508 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,510 DEBUG Match 1035070 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,517 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,522 DEBUG Match 1035071 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,526 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,533 DEBUG Match 1035072 on 2023-09-03 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,538 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,540 DEBUG Match 1035073 on 2023-09-03 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,543 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,554 DEBUG Match 1035074 on 2023-09-01 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,556 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,558 DEBUG Match 1035075 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,561 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,570 DEBUG Match 1035076 on 2023-09-02 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,573 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,576 DEBUG Match 1035077 on 2023-09-17 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,588 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,591 DEBUG Match 1035078 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,593 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,608 DEBUG Match 1035079 on 2023-09-17 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,610 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,614 DEBUG Match 1035080 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,616 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,620 DEBUG Match 1035081 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,625 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,641 DEBUG Match 1035082 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,654 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,658 DEBUG Match 1035083 on 2023-09-18 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,663 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,666 DEBUG Match 1035084 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,669 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,672 DEBUG Match 1035085 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,682 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,685 DEBUG Match 1035086 on 2023-09-16 is PAST (cutoff: 2023-09-20)
+2025-12-10 00:30:11,688 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,693 DEBUG Match 1035087 on 2023-09-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,702 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,705 DEBUG Match 1035088 on 2023-09-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,708 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,713 DEBUG Match 1035089 on 2023-09-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,718 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,724 DEBUG Match 1035090 on 2023-09-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,727 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,731 DEBUG Match 1035091 on 2023-09-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,734 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,737 DEBUG Match 1035092 on 2023-09-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,742 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,746 DEBUG Match 1035093 on 2023-09-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,750 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,753 DEBUG Match 1035094 on 2023-09-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,757 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,759 DEBUG Match 1035095 on 2023-09-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,765 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,767 DEBUG Match 1035096 on 2023-09-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,770 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,775 DEBUG Match 1035097 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,779 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,781 DEBUG Match 1035098 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,783 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,785 DEBUG Match 1035099 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,788 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,793 DEBUG Match 1035100 on 2023-10-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,803 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,808 DEBUG Match 1035101 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,809 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,820 DEBUG Match 1035102 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,823 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,825 DEBUG Match 1035103 on 2023-10-01 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,830 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,833 DEBUG Match 1035104 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,842 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,846 DEBUG Match 1035105 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,848 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,852 DEBUG Match 1035106 on 2023-09-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,857 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,859 DEBUG Match 1035107 on 2023-10-08 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,864 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,869 DEBUG Match 1035108 on 2023-10-08 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,871 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,873 DEBUG Match 1035109 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,877 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,880 DEBUG Match 1035110 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,884 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,887 DEBUG Match 1035111 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,896 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,899 DEBUG Match 1035112 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,901 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,903 DEBUG Match 1035113 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,908 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,910 DEBUG Match 1035114 on 2023-10-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,916 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,920 DEBUG Match 1035115 on 2023-10-08 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,927 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,929 DEBUG Match 1035116 on 2023-10-08 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,933 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,937 DEBUG Match 1035117 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,947 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,949 DEBUG Match 1035118 on 2023-10-22 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,952 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,957 DEBUG Match 1035119 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,966 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,969 DEBUG Match 1035120 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,973 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:11,982 DEBUG Match 1035121 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:11,993 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,003 DEBUG Match 1035122 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,005 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,008 DEBUG Match 1035123 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,010 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,029 DEBUG Match 1035124 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,042 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,055 DEBUG Match 1035125 on 2023-10-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,058 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,069 DEBUG Match 1035126 on 2023-10-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,071 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,073 DEBUG Match 1035127 on 2023-10-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,081 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,086 DEBUG Match 1035128 on 2023-10-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,099 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,107 DEBUG Match 1035129 on 2023-10-29 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,125 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,126 DEBUG Match 1035130 on 2023-10-29 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,132 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,136 DEBUG Match 1035131 on 2023-10-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,146 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,150 DEBUG Match 1035132 on 2023-10-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,156 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,160 DEBUG Match 1035133 on 2023-10-29 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,166 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,174 DEBUG Match 1035134 on 2023-10-29 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,178 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,184 DEBUG Match 1035135 on 2023-10-29 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,190 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,192 DEBUG Match 1035136 on 2023-10-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,198 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,201 DEBUG Match 1035137 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,205 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,207 DEBUG Match 1035138 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,214 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,218 DEBUG Match 1035139 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,220 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,222 DEBUG Match 1035140 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,224 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,227 DEBUG Match 1035141 on 2023-11-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,233 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,236 DEBUG Match 1035142 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,241 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,244 DEBUG Match 1035143 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,251 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,253 DEBUG Match 1035144 on 2023-11-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,256 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,259 DEBUG Match 1035145 on 2023-11-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,270 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,271 DEBUG Match 1035146 on 2023-11-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,275 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,283 DEBUG Match 1035147 on 2023-11-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,286 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,289 DEBUG Match 1035148 on 2023-11-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,294 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,301 DEBUG Match 1035149 on 2023-11-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,320 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,324 DEBUG Match 1035150 on 2023-11-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,329 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,332 DEBUG Match 1035151 on 2023-11-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,336 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,338 DEBUG Match 1035152 on 2023-11-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,341 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,343 DEBUG Match 1035153 on 2023-11-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,349 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,354 DEBUG Match 1035154 on 2023-11-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,357 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,360 DEBUG Match 1035155 on 2023-11-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,364 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,366 DEBUG Match 1035156 on 2023-11-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,374 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,376 DEBUG Match 1035294 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,380 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,383 DEBUG Match 1035295 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,388 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,390 DEBUG Match 1035296 on 2023-11-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,393 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,397 DEBUG Match 1035297 on 2023-11-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,403 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,405 DEBUG Match 1035298 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,406 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,408 DEBUG Match 1035299 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,410 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,416 DEBUG Match 1035300 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,421 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,425 DEBUG Match 1035301 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,433 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,437 DEBUG Match 1035302 on 2023-11-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,446 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,451 DEBUG Match 1035303 on 2023-11-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,461 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,468 DEBUG Match 1035304 on 2023-12-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,474 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,480 DEBUG Match 1035305 on 2023-12-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,485 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,491 DEBUG Match 1035306 on 2023-12-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,495 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,498 DEBUG Match 1035307 on 2023-12-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,504 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,510 DEBUG Match 1035308 on 2023-12-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,513 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,515 DEBUG Match 1035309 on 2023-12-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,518 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,525 DEBUG Match 1035310 on 2023-12-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,529 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,532 DEBUG Match 1035311 on 2023-12-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,534 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,540 DEBUG Match 1035312 on 2023-12-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,542 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,546 DEBUG Match 1035313 on 2023-12-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,555 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,558 DEBUG Match 1035314 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,560 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,562 DEBUG Match 1035315 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,565 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,567 DEBUG Match 1035316 on 2023-12-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,576 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,578 DEBUG Match 1035317 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,581 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,587 DEBUG Match 1035318 on 2023-12-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,589 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,591 DEBUG Match 1035319 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,593 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,595 DEBUG Match 1035320 on 2023-12-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,599 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,606 DEBUG Match 1035321 on 2023-12-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,608 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,610 DEBUG Match 1035322 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,613 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,617 DEBUG Match 1035323 on 2023-12-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,620 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,622 DEBUG Match 1035324 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,626 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,628 DEBUG Match 1035325 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,635 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,639 DEBUG Match 1035326 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,649 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,650 DEBUG Match 1035327 on 2023-12-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,661 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,664 DEBUG Match 1035328 on 2023-12-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,667 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,669 DEBUG Match 1035329 on 2023-12-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,672 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,675 DEBUG Match 1035330 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,678 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,680 DEBUG Match 1035331 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,683 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,685 DEBUG Match 1035332 on 2023-12-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,687 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,690 DEBUG Match 1035333 on 2023-12-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,693 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,699 DEBUG Match 1035334 on 2024-03-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,702 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,705 DEBUG Match 1035335 on 2023-12-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,709 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,711 DEBUG Match 1035336 on 2023-12-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,715 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,719 DEBUG Match 1035337 on 2023-12-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,724 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,725 DEBUG Match 1035338 on 2023-12-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,727 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,729 DEBUG Match 1035339 on 2023-12-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,732 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,737 DEBUG Match 1035340 on 2023-12-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,742 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,743 DEBUG Match 1035341 on 2023-12-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,748 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,751 DEBUG Match 1035342 on 2023-12-15 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,757 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,758 DEBUG Match 1035343 on 2023-12-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,760 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,770 DEBUG Match 1035344 on 2023-12-22 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,772 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,773 DEBUG Match 1035345 on 2023-12-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,775 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,777 DEBUG Match 1035346 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,787 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,789 DEBUG Match 1035347 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,791 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,793 DEBUG Match 1035348 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,797 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,804 DEBUG Match 1035349 on 2024-02-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,809 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,811 DEBUG Match 1035350 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,813 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,814 DEBUG Match 1035351 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,815 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,818 DEBUG Match 1035352 on 2023-12-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,823 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,829 DEBUG Match 1035353 on 2023-12-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,832 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,833 DEBUG Match 1035354 on 2023-12-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,835 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,837 DEBUG Match 1035355 on 2023-12-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,842 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,849 DEBUG Match 1035356 on 2023-12-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,854 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,859 DEBUG Match 1035357 on 2023-12-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,865 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,869 DEBUG Match 1035358 on 2023-12-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,872 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,873 DEBUG Match 1035359 on 2023-12-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,880 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,883 DEBUG Match 1035360 on 2023-12-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,885 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,888 DEBUG Match 1035361 on 2023-12-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,891 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,896 DEBUG Match 1035362 on 2023-12-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,900 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,908 DEBUG Match 1035363 on 2023-12-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,909 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,912 DEBUG Match 1035364 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,915 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,920 DEBUG Match 1035365 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,926 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,929 DEBUG Match 1035366 on 2023-12-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,931 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,933 DEBUG Match 1035367 on 2024-01-01 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,939 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,943 DEBUG Match 1035368 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,947 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,949 DEBUG Match 1035369 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,957 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,959 DEBUG Match 1035370 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,962 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,964 DEBUG Match 1035371 on 2023-12-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,973 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,975 DEBUG Match 1035372 on 2024-01-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,977 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,980 DEBUG Match 1035373 on 2023-12-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,982 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:12,985 DEBUG Match 1035374 on 2024-01-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:12,996 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,000 DEBUG Match 1035375 on 2024-01-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,005 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,007 DEBUG Match 1035376 on 2024-01-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,012 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,015 DEBUG Match 1035377 on 2024-01-22 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,022 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,024 DEBUG Match 1035378 on 2024-01-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,027 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,028 DEBUG Match 1035379 on 2024-01-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,031 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,033 DEBUG Match 1035380 on 2024-01-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,037 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,039 DEBUG Match 1035381 on 2024-01-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,045 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,047 DEBUG Match 1035382 on 2024-01-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,054 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,056 DEBUG Match 1035383 on 2024-01-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,066 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,071 DEBUG Match 1035384 on 2024-01-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,084 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,086 DEBUG Match 1035385 on 2024-01-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,089 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,091 DEBUG Match 1035386 on 2024-01-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,097 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,102 DEBUG Match 1035387 on 2024-01-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,104 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,107 DEBUG Match 1035388 on 2024-01-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,109 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,118 DEBUG Match 1035389 on 2024-02-01 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,120 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,124 DEBUG Match 1035390 on 2024-02-01 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,125 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,130 DEBUG Match 1035391 on 2024-01-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,134 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,141 DEBUG Match 1035392 on 2024-01-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,150 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,154 DEBUG Match 1035393 on 2024-01-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,156 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,158 DEBUG Match 1035394 on 2024-02-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,164 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,171 DEBUG Match 1035395 on 2024-02-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,177 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,192 DEBUG Match 1035396 on 2024-02-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,204 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,221 DEBUG Match 1035397 on 2024-02-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,233 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,237 DEBUG Match 1035398 on 2024-02-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,240 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,251 DEBUG Match 1035399 on 2024-02-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,254 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,256 DEBUG Match 1035400 on 2024-02-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,264 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,268 DEBUG Match 1035401 on 2024-02-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,277 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,279 DEBUG Match 1035402 on 2024-02-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,284 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,287 DEBUG Match 1035403 on 2024-02-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,290 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,291 DEBUG Match 1035404 on 2024-02-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,296 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,324 DEBUG Match 1035405 on 2024-02-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,326 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,356 DEBUG Match 1035406 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,358 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,363 DEBUG Match 1035407 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,375 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,380 DEBUG Match 1035408 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,384 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,388 DEBUG Match 1035409 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,392 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,394 DEBUG Match 1035410 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,395 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,399 DEBUG Match 1035411 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,404 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,406 DEBUG Match 1035412 on 2024-02-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,409 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,413 DEBUG Match 1035413 on 2024-02-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,420 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,422 DEBUG Match 1035414 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,424 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,427 DEBUG Match 1035415 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,432 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,435 DEBUG Match 1035416 on 2024-02-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,437 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,439 DEBUG Match 1035417 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,441 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,445 DEBUG Match 1035418 on 2024-02-18 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,448 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,451 DEBUG Match 1035419 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,458 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,460 DEBUG Match 1035420 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,463 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,465 DEBUG Match 1035421 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,469 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,471 DEBUG Match 1035422 on 2024-02-18 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,475 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,476 DEBUG Match 1035423 on 2024-02-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,480 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,481 DEBUG Match 1035424 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,484 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,486 DEBUG Match 1035425 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,494 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,496 DEBUG Match 1035426 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,500 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,503 DEBUG Match 1035427 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,508 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,510 DEBUG Match 1035428 on 2024-05-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,518 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,520 DEBUG Match 1035429 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,522 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,524 DEBUG Match 1035430 on 2024-02-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,527 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,530 DEBUG Match 1035431 on 2024-02-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,532 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,539 DEBUG Match 1035432 on 2024-02-26 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,541 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,543 DEBUG Match 1035433 on 2024-02-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,549 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,556 DEBUG Match 1035434 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,559 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,565 DEBUG Match 1035435 on 2024-03-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,569 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,572 DEBUG Match 1035436 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,575 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,577 DEBUG Match 1035437 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,579 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,582 DEBUG Match 1035438 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,588 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,592 DEBUG Match 1035439 on 2024-03-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,595 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,599 DEBUG Match 1035440 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,604 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,608 DEBUG Match 1035441 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,614 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,617 DEBUG Match 1035442 on 2024-03-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,621 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,624 DEBUG Match 1035443 on 2024-03-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,628 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,637 DEBUG Match 1035444 on 2024-03-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,639 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,641 DEBUG Match 1035445 on 2024-03-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,645 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,646 DEBUG Match 1035446 on 2024-03-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,650 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,664 DEBUG Match 1035447 on 2024-03-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,667 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,669 DEBUG Match 1035448 on 2024-03-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,676 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,679 DEBUG Match 1035449 on 2024-03-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,681 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,685 DEBUG Match 1035450 on 2024-03-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,692 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,694 DEBUG Match 1035451 on 2024-03-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,697 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,699 DEBUG Match 1035452 on 2024-03-10 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,702 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,709 DEBUG Match 1035453 on 2024-03-09 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,713 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,714 DEBUG Match 1035454 on 2024-04-23 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,717 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,719 DEBUG Match 1035455 on 2024-04-25 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,723 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,726 DEBUG Match 1035456 on 2024-03-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,729 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,731 DEBUG Match 1035457 on 2024-04-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,734 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,738 DEBUG Match 1035458 on 2024-04-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,740 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,743 DEBUG Match 1035459 on 2024-03-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,746 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,749 DEBUG Match 1035460 on 2024-03-16 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,754 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,757 DEBUG Match 1035461 on 2024-04-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,760 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,762 DEBUG Match 1035462 on 2024-03-17 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,766 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,771 DEBUG Match 1035463 on 2024-04-24 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,773 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,776 DEBUG Match 1035464 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,779 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,785 DEBUG Match 1035465 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,789 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,791 DEBUG Match 1035466 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,794 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,798 DEBUG Match 1035467 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,801 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,805 DEBUG Match 1035468 on 2024-03-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,808 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,813 DEBUG Match 1035469 on 2024-03-31 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,815 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,818 DEBUG Match 1035470 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,821 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,823 DEBUG Match 1035471 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,825 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,829 DEBUG Match 1035472 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,833 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,838 DEBUG Match 1035473 on 2024-03-30 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,842 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,845 DEBUG Match 1035474 on 2024-04-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,847 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,850 DEBUG Match 1035475 on 2024-04-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,855 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,858 DEBUG Match 1035476 on 2024-04-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,861 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,862 DEBUG Match 1035477 on 2024-04-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,865 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,869 DEBUG Match 1035478 on 2024-04-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,874 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,879 DEBUG Match 1035479 on 2024-04-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,881 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,884 DEBUG Match 1035480 on 2024-04-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,887 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,894 DEBUG Match 1035481 on 2024-04-02 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,904 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,912 DEBUG Match 1035482 on 2024-04-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,924 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,925 DEBUG Match 1035483 on 2024-04-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,930 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,938 DEBUG Match 1035484 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,940 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,942 DEBUG Match 1035485 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,945 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,946 DEBUG Match 1035486 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,948 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,950 DEBUG Match 1035487 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,957 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,960 DEBUG Match 1035488 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,963 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,967 DEBUG Match 1035489 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,969 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,973 DEBUG Match 1035490 on 2024-04-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,980 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,985 DEBUG Match 1035491 on 2024-04-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,990 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:13,992 DEBUG Match 1035492 on 2024-04-07 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:13,997 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,000 DEBUG Match 1035493 on 2024-04-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,006 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,008 DEBUG Match 1035494 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,009 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,012 DEBUG Match 1035495 on 2024-04-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,014 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,016 DEBUG Match 1035496 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,019 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,022 DEBUG Match 1035497 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,024 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,029 DEBUG Match 1035498 on 2024-04-15 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,032 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,035 DEBUG Match 1035499 on 2024-04-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,038 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,040 DEBUG Match 1035500 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,042 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,045 DEBUG Match 1035501 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,050 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,057 DEBUG Match 1035502 on 2024-04-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,062 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,064 DEBUG Match 1035503 on 2024-04-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,068 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,070 DEBUG Match 1035504 on 2024-04-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,075 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,081 DEBUG Match 1035505 on 2024-05-15 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,085 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,088 DEBUG Match 1035506 on 2024-04-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,092 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,093 DEBUG Match 1035507 on 2024-04-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,096 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,099 DEBUG Match 1035508 on 2024-04-21 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,101 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,108 DEBUG Match 1035509 on 2024-04-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,117 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,123 DEBUG Match 1035510 on 2024-05-15 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,127 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,134 DEBUG Match 1035511 on 2024-04-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,139 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,141 DEBUG Match 1035512 on 2024-05-14 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,144 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,153 DEBUG Match 1035513 on 2024-04-20 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,155 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,157 DEBUG Match 1035514 on 2024-04-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,160 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,165 DEBUG Match 1035515 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,172 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,175 DEBUG Match 1035516 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,182 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,186 DEBUG Match 1035517 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,189 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,190 DEBUG Match 1035518 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,197 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,200 DEBUG Match 1035519 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,204 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,207 DEBUG Match 1035520 on 2024-04-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,218 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,221 DEBUG Match 1035521 on 2024-04-28 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,236 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,240 DEBUG Match 1035522 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,248 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,251 DEBUG Match 1035523 on 2024-04-27 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,257 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,272 DEBUG Match 1035524 on 2024-05-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,278 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,283 DEBUG Match 1035525 on 2024-05-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,287 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,293 DEBUG Match 1035526 on 2024-05-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,303 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,312 DEBUG Match 1035527 on 2024-05-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,321 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,327 DEBUG Match 1035528 on 2024-05-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,332 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,343 DEBUG Match 1035529 on 2024-05-06 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,355 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,358 DEBUG Match 1035530 on 2024-05-05 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,368 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,370 DEBUG Match 1035531 on 2024-05-03 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,373 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,376 DEBUG Match 1035532 on 2024-05-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,380 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,385 DEBUG Match 1035533 on 2024-05-04 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,387 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,390 DEBUG Match 1035534 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,395 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,405 DEBUG Match 1035535 on 2024-05-13 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,410 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,413 DEBUG Match 1035536 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,417 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,418 DEBUG Match 1035537 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,421 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,422 DEBUG Match 1035538 on 2024-05-12 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,424 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,426 DEBUG Match 1035539 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,431 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,433 DEBUG Match 1035540 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,435 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,437 DEBUG Match 1035541 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,438 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,443 DEBUG Match 1035542 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,450 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,462 DEBUG Match 1035543 on 2024-05-11 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,466 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,471 DEBUG Match 1035544 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,480 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,482 DEBUG Match 1035545 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,485 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,488 DEBUG Match 1035546 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,491 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,493 DEBUG Match 1035547 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,496 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,506 DEBUG Match 1035548 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,508 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,509 DEBUG Match 1035549 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,517 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,521 DEBUG Match 1035550 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,522 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,524 DEBUG Match 1035551 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,527 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,531 DEBUG Match 1035552 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,538 DEBUG Using cutoff date: 2023-09-20 (from 2023-09-20)
+2025-12-10 00:30:14,540 DEBUG Match 1035553 on 2024-05-19 is UPCOMING (cutoff: 2023-09-20)
+2025-12-10 00:30:14,543 INFO Total matches: 380, Upcoming: 331, Past: 49, Cutoff date used: 2023-09-20
+2025-12-10 00:30:14,589 INFO 172.18.0.1 - - [10/Dec/2025 00:30:14] "GET /api/matches HTTP/1.1" 200 -
+2025-12-10 00:30:16,942 INFO 172.18.0.1 - - [10/Dec/2025 00:30:16] "GET /static/fonts/LibreBaskerville-Italic.ttf HTTP/1.1" 200 -
