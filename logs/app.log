@@ -38972,3 +38972,21 @@
 2025-12-10 00:30:14,543 INFO Total matches: 380, Upcoming: 331, Past: 49, Cutoff date used: 2023-09-20
 2025-12-10 00:30:14,589 INFO 172.18.0.1 - - [10/Dec/2025 00:30:14] "GET /api/matches HTTP/1.1" 200 -
 2025-12-10 00:30:16,942 INFO 172.18.0.1 - - [10/Dec/2025 00:30:16] "GET /static/fonts/LibreBaskerville-Italic.ttf HTTP/1.1" 200 -
+2025-12-10 20:10:48,465 INFO Starting manual database initialization...
+2025-12-10 20:10:48,478 INFO Database connected successfully.
+2025-12-10 20:10:48,687 INFO Database initialization completed.
+2025-12-10 20:15:17,243 INFO Starting manual database initialization...
+2025-12-10 20:15:17,256 INFO Database connected successfully.
+2025-12-10 20:15:17,283 INFO Database initialization completed.
+2025-12-10 20:15:26,272 INFO Starting manual database initialization...
+2025-12-10 20:15:26,282 INFO Database connected successfully.
+2025-12-10 20:15:26,299 INFO Database initialization completed.
+2025-12-10 20:16:15,465 INFO Starting manual database initialization...
+2025-12-10 20:16:15,475 INFO Database connected successfully.
+2025-12-10 20:16:15,494 INFO Database initialization completed.
+2025-12-10 20:16:17,008 INFO Database connected successfully.
+2025-12-10 20:16:17,031 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.8:5000
+2025-12-10 20:16:17,031 INFO [33mPress CTRL+C to quit[0m

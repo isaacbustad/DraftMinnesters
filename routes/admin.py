@@ -373,6 +373,7 @@ def set_cutoff_date():
         
         logging.info(f"Cutoff date updated to: {cutoff_date}")
         return jsonify({'message': 'Cutoff date updated successfully', 'cutoff_date': cutoff_date})
+    except Exception as e:
         logging.error(f"Error setting cutoff date: {e}")
         return jsonify({'error': str(e)}), 500
 
